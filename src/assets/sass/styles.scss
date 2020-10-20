@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'header';
+@import 'home';
+@import 'utils';
+
+
+h1, h2, h3, h4, h5, h6 , p{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.read_more_div {
+    width: 100%;
+    .small {
+        cursor: pointer;
+    }
+}
+.remove-pading-left{
+    padding-left: 0 !important;
+}

@@ -1,0 +1,33 @@
+.btn-white {
+    color: $primaryGreen !important;
+    background: $white 0% 0% no-repeat padding-box !important;
+    border-radius: 35px !important;
+    opacity: 1;
+    padding: 12px 35px 12px 35px !important;
+    font-weight: 600 !important;
+}
+.btn-green {
+    color: $white !important;
+    background: $primaryGreen 0% 0% no-repeat padding-box !important;
+    font-weight: 600 !important;
+}
+.green__text{
+    color: $primaryGreen;
+}
+.bold_text {
+    font-weight: 600;
+}
+.img_thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hundred-percent-height {
+    height: 100%;
+}
+.small_text {
+    font-size: 10px;
+}
+
+
