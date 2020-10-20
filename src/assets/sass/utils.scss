@@ -13,7 +13,6 @@
 }
 .btn-back {
     background: #F3F3F3 0% 0% no-repeat padding-box !important;
-    // border-radius: 16px !important;
     opacity: 1;
     font-weight: 600 !important;
 }
@@ -36,7 +35,9 @@
     font-size: 10px;
 }
 
-
+.grey_text {
+    color: $greyColor;
+}
 .school_btn {
     display: inline-block;
     font-weight: 400;

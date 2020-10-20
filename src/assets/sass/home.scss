@@ -166,9 +166,13 @@
 }
 .ace_curriculum {
     display: flex;
+    .testimonials__text_container {
+        margin: 0 auto;
+        width: 60%;
+    }
     .ace_curriculum_item {
         width: 50%;
-        height: 250px;
+        height: 300px;
         &.first {
             background-image: linear-gradient(rgb(0, 0, 0 , 0.75), rgb(0, 0, 0 , 0.75)), url('~./assets/img/dmhdj336mqcvsz2jhfcm@2x.png');
             background-position: center;

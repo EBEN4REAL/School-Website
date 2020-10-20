@@ -184,17 +184,26 @@
                     </div>
                 </div>
                 <div class="col-md-5 text-right">
-                    <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-3" aria-hidden="true"></i></button>
+                    <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class=" ace_curriculum">
                 <div class="ace_curriculum_item first">
                     <div class="play_button">
-                        <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 40px"></i> 
-                    </div>
+                        <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
+                    </div> 
                 </div>
                 <div class="ace_curriculum_item last">
-
+                    <div class="text-center py-4">
+                        <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2" width="30" />
+                    </div>
+                    <div class="testimonials__text_container">
+                        <p class="para">
+                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
+                        </p>
+                        <h6 class="">Eben</h6>
+                        <small>Software Developer @Fuelmetrics</small>
+                    </div>
                 </div>  
             </div>
         </section>
