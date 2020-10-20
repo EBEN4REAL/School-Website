@@ -100,14 +100,14 @@
             </div>
         </section>
         <section class="important_resources_wrapper ">
-            <h3 class="text-center">Important Resources</h3>
+            <h5 class="text-center bold_text">Important Resources</h5>
             <div class="row mt-5">
                 <div class="col-md-3 ">
                     <div class="important_resources_box ">
                         <div class="circular_div">
                             <img src="@/assets/img/money.svg"  width="40" />
                         </div>
-                        <p class="mt-5 green__text bold_text">Fees Structure</p>
+                        <p class="mt-3 green__text bold_text">Fees Structure</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -115,7 +115,7 @@
                         <div class="circular_div">
                             <img src="@/assets/img/calendar.svg"  width="40" />
                         </div>
-                        <p class="mt-5 green__text bold_text">Calender</p>
+                        <p class="mt-3 green__text bold_text">Calender</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -123,7 +123,7 @@
                         <div class="circular_div">
                             <img src="@/assets/img/information.svg"  width="40" />
                         </div>
-                        <p class="mt-5 green__text bold_text">Application Form</p>
+                        <p class="mt-3 green__text bold_text">Application Form</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -131,8 +131,45 @@
                         <div class="circular_div">
                             <img src="@/assets/img/innovation.svg"  width="40" />
                         </div>
-                        <p class="mt-5 green__text bold_text">Prospectus</p>
+                        <p class="mt-3 green__text bold_text">Prospectus</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="why_choose_us mt-5">
+            <h5 class="text-center bold_text">Why Choose Us</h5>
+            <div class="mt-5 row align-items-center">
+                <div class="col-md-6">
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                </div>
+                <div class="col-md-4">
+                    <h5 class="bold_text">Character</h5>
+                    <p class="charater__para">This article is floated online with an aim to help you find the best 
+                        dvd printing solution. Dvd printing is 
+                        an important feature used by large and small DVD production houses to print information on DVDs.</p>
+                </div>
+            </div>
+            <div class="mt-5 row align-items-center">
+                <div class="col-md-6">
+                    <h5 class="bold_text">Leadership</h5>
+                    <p class="charater__para">While it was just a TV show, that little speech at the beginning of 
+                        the original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings 
+                        that drive our love of astronomy and our desire to learn more and more about it.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                </div>
+            </div>
+             <div class="mt-5 row align-items-center">
+                <div class="col-md-6">
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                </div>
+                <div class="col-md-4">
+                    <h5 class="bold_text">Academics</h5>
+                    <p class="charater__para">While it was just a TV show, that little speech at the beginning of the 
+                        original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings that drive our love of 
+                        astronomy and our desire to learn more and more about it..</p>
                 </div>
             </div>
         </section>

@@ -133,9 +133,27 @@
     margin-top: 160px;
     width: 85%;
     .important_resources_box {
-        height: 270px;
+        height: 250px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+}
+.why_choose_us {
+    margin: 0 auto;
+    width: 85%;
+    .why_choose_us_img {
+        width: 100%;
+    }
+}
+.charater__para{
+    font-style: italic;
+    color:#21384299;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 2;
+    letter-spacing: 1.5;
 }
