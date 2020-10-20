@@ -71,10 +71,10 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="row upce_list pt-2" >
-                                            <div class="col-md-7 remove-pading-left">
+                                            <div class="col-md-7 remove-padding-left">
                                                 <h6 class="blog-title">Blackpool Trip</h6>
                                             </div>
-                                            <div class="col-md-5 remove-pading-left">
+                                            <div class="col-md-5 remove-padding-left remove-padding-right">
                                                 <span>
                                                     <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
                                                     <small class="small_text">20 Oct 2020</small>
