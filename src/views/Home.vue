@@ -4,10 +4,9 @@
             <Header />
             <div class="banner_wrapper">
                 <div class="row">
-                    <div class="col-md-5">
+                     <div class="col-md-5">
                         <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
-                        <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace t
-                            hat many DTP programmes can generate dummy text using the starting sequence
+                        <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                         </p>
                         <div>
                             <button class="btn btn-white mt-3">Learn More</button>
@@ -187,25 +186,38 @@
                     <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div class=" ace_curriculum">
-                <div class="ace_curriculum_item first">
-                    <div class="play_button">
-                        <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
-                    </div> 
-                </div>
-                <div class="ace_curriculum_item last">
-                    <div class="text-center py-4">
-                        <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2" width="30" />
+            <vueper-slides                            
+              class="no-shadow"
+              :visible-slides="1"
+              slide-multiple
+              :gap="0"
+              :slide-ratio="1 / 4"
+              :dragging-distance="200"
+              :breakpoints="{ 800: { visibleSlides: 2, slideMultiple: 2 } }">
+              <vueper-slide  v-for="(x, index) in 4" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
+                  <template v-slot:content>
+                     <div class=" ace_curriculum">
+                        <div class="ace_curriculum_item first">
+                            <div class="play_button">
+                                <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
+                            </div> 
+                        </div>
+                        <div class="ace_curriculum_item last">
+                            <div class="text-center py-4">
+                                <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2" width="30" />
+                            </div>
+                            <div class="testimonials__text_container">
+                                <p class="para">
+                                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
+                                </p>
+                                <h6 class="">Eben</h6>
+                                <small>Software Developer @Fuelmetrics</small>
+                            </div>
+                        </div>  
                     </div>
-                    <div class="testimonials__text_container">
-                        <p class="para">
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
-                        </p>
-                        <h6 class="">Eben</h6>
-                        <small>Software Developer @Fuelmetrics</small>
-                    </div>
-                </div>  
-            </div>
+                  </template>
+              </vueper-slide>
+            </vueper-slides>
         </section>
     <Footer />
    </div>
@@ -213,12 +225,16 @@
 <script>
 import Header from "./Header"
 import Footer from './Footer';
+import { VueperSlides, VueperSlide } from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css'
 
 export default {
     name: 'Home',
     components: {
         Header,
-        Footer
+        Footer,
+        VueperSlides, 
+        VueperSlide,
     }
 }
 </script>
