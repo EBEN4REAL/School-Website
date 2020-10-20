@@ -149,11 +149,44 @@
         width: 100%;
     }
 }
-.charater__para{
-    font-style: italic;
+.para{
     color:#21384299;
     font-size: 12px;
     padding: 10px;
     line-height: 2;
     letter-spacing: 1.5;
+    &.italic {
+        font-style: italic;
+    }
+}
+
+.testimonials {
+    margin: 0 auto;
+    width: 85%;
+}
+.ace_curriculum {
+    display: flex;
+    .ace_curriculum_item {
+        width: 50%;
+        height: 250px;
+        &.first {
+            background-image: linear-gradient(rgb(0, 0, 0 , 0.75), rgb(0, 0, 0 , 0.75)), url('~./assets/img/dmhdj336mqcvsz2jhfcm@2x.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .play_button {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background: transparent;
+                border: 3px solid $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
 }

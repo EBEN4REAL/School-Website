@@ -30,7 +30,7 @@
                     Contact Us
                 </div>
                 <div class="nav_item last">
-                    <button class="btn btn-white">Apply Online</button>
+                    <button class="school_btn btn-white">Apply Online</button>
                 </div>
             </div>
         </div>

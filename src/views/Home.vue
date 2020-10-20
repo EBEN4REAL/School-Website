@@ -137,22 +137,22 @@
             </div>
         </section>
         <section class="why_choose_us mt-5">
-            <h5 class="text-center bold_text">Why Choose Us</h5>
+            <h5 class="text-center bold_text">Why Choose Us ?</h5>
             <div class="mt-5 row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h5 class="bold_text">Character</h5>
-                    <p class="charater__para">This article is floated online with an aim to help you find the best 
+                    <p class="para">This article is floated online with an aim to help you find the best 
                         dvd printing solution. Dvd printing is 
                         an important feature used by large and small DVD production houses to print information on DVDs.</p>
                 </div>
             </div>
             <div class="mt-5 row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <h5 class="bold_text">Leadership</h5>
-                    <p class="charater__para">While it was just a TV show, that little speech at the beginning of 
+                    <p class="para pr-5">While it was just a TV show, that little speech at the beginning of 
                         the original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings 
                         that drive our love of astronomy and our desire to learn more and more about it.
                     </p>
@@ -162,15 +162,40 @@
                 </div>
             </div>
              <div class="mt-5 row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h5 class="bold_text">Academics</h5>
-                    <p class="charater__para">While it was just a TV show, that little speech at the beginning of the 
+                    <p class="para italic">While it was just a TV show, that little speech at the beginning of the 
                         original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings that drive our love of 
                         astronomy and our desire to learn more and more about it..</p>
                 </div>
+            </div>
+        </section>
+        <section class="mt-5 testimonials">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="bold_text">Our Clients Feedback</h4>
+                    <div class="para">
+                        It is a long established fact that a reader will be distracted by the readable content of
+                         a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
+                         normal distribution.
+                    </div>
+                </div>
+                <div class="col-md-5 text-right">
+                    <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-3" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class=" ace_curriculum">
+                <div class="ace_curriculum_item first">
+                    <div class="play_button">
+                        <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 40px"></i> 
+                    </div>
+                </div>
+                <div class="ace_curriculum_item last">
+
+                </div>  
             </div>
         </section>
     <Footer />
