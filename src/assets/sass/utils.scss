@@ -48,6 +48,18 @@
         font-style: italic;
     }
 }
+
+.section_col_header {
+    font-weight: bold;
+    color: $colHeaderText;
+    margin-bottom: 30px;
+}
+
+.section_col_text {
+    color: $colText;
+    text-align: justify;
+}
+
 .school_btn {
     display: inline-block;
     font-weight: 400;
