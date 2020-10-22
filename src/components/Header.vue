@@ -5,7 +5,7 @@
                 <img src="@/assets/img/logo.png" width="40"  />
             </div>
             <div class=nav_items>
-                <router-link :to="{name: 'home'}" class="text-decoration-none">
+                <router-link :to="{name: 'home'}" class="text-decoration-none activeNav">
                     <div class="nav_item">
                         Home 
                     </div>
