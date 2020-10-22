@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout>
+    <MasterLayout :title="title">
         <div class="blog_posts_container content_width">
             <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
@@ -16,8 +16,8 @@
                         </div>
                     </div>
                     <h4>Blackpool Trip</h4>
-                    <p class="value_name">Book unique camping experiences on over 300,000 campsites.</p>
-                    <router-link>Read More</router-link>
+                    <p class="section_col_text">Book unique camping experiences on over 300,000 campsites.</p>
+                    <router-link :to="{ name: '' }" class="text-decoration-none">Read More</router-link>
                 </div>
                 <div class="col-md-4 blog_post">
                     <img src="@/assets/img/blog-posts-first.png">
@@ -32,8 +32,8 @@
                         </div>
                     </div>
                     <h4>Blackpool Trip</h4>
-                    <p class="value_name">Book unique camping experiences on over 300,000 campsites.</p>
-                    <router-link>Read More</router-link>
+                    <p class="section_col_text">Book unique camping experiences on over 300,000 campsites.</p>
+                    <router-link :to="{ name: '' }" class="text-decoration-none">Read More</router-link>
                 </div>
                 <div class="col-md-4 blog_post">
                     <img src="@/assets/img/blog-posts-first.png">
@@ -48,8 +48,8 @@
                         </div>
                     </div>
                     <h4>Blackpool Trip</h4>
-                    <p class="value_name">Book unique camping experiences on over 300,000 campsites.</p>
-                    <router-link>Read More</router-link>
+                    <p class="section_col_text">Book unique camping experiences on over 300,000 campsites.</p>
+                    <router-link :to="{ name: '' }" class="text-decoration-none">Read More</router-link>
                 </div>
             </section>
         </div>
@@ -59,12 +59,13 @@
 import MasterLayout from '@/views/masterlayout.vue';
 
 export default {
-    name: 'Home',
+    name: 'BlogPosts',
     components: {
         MasterLayout
     },
     data() {
         return {
+            title: 'Blog'
         }
     }
 }

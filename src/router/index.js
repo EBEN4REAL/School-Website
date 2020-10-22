@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import Home from "@/views/Home"
 import About from "@/views/About"
 import BlogPosts from "@/views/BlogPosts"
+import Post from "@/views/Post"
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,11 @@ let routes = [
     name: 'blogPosts',
     path: '/blog-posts',
     component: BlogPosts
+  },
+  {
+    name: 'posts',
+    path: '/post',
+    component: Post
   }
 ];
 

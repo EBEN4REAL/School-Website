@@ -1,0 +1,23 @@
+.posts_container {
+    padding-top: 80px;
+    .post_header {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 15px;
+        color: $colHeaderText;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        .post_date {
+            display: flex;
+            align-items: center;
+            p {
+                margin-bottom: 0
+            }
+        }
+    }
+    img {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}

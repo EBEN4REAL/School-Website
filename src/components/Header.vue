@@ -35,7 +35,7 @@
                         Student Life 
                     </div>
                 </router-link>
-                 <router-link :to="{name: 'about'}" class="text-decoration-none">
+                 <router-link :to="{name: 'blogPosts'}" class="text-decoration-none">
                     <div class="nav_item">
                         Blog 
                     </div>
