@@ -1,7 +1,7 @@
 <template>
     <MasterLayout>
         <div class="blog_posts_container">
-            <p class="section_col_header text-center">Latest Posts</p>
+            <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
                 <div class="col-md-3">
                     <img>
