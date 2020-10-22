@@ -1,5 +1,5 @@
 <template>
-    <!-- <MasterLayout> -->
+    <MasterLayout>
         <div class="about_container">
             <section class="row justify-content-between">
                 <div class="col-md-5">
@@ -69,15 +69,15 @@
                 </div>
             </section>
         </div>
-    <!-- </MasterLayout> -->
+    </MasterLayout>
 </template>
 <script>
-// import MasterLayout from '@/views/masterlayout.vue';
+import MasterLayout from '@/views/masterlayout.vue';
 
 export default {
     name: 'Home',
     components: {
-        // MasterLayout
+        MasterLayout
     },
     data() {
         return {
