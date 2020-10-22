@@ -1,9 +1,13 @@
 <template>
-    <div>
-        <Header />
-            <slot>
-                <router-view />
-            </slot>
+    <div class="">
+        <div class="bg_wrapper">
+             <Header />
+
+        </div>
+       
+        <slot>
+            <router-view />
+        </slot>
         <Footer />
     </div>
 </template>
