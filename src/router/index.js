@@ -25,7 +25,7 @@ let routes = [
     component: BlogPosts
   },
   {
-    name: 'posts',
+    name: 'post',
     path: '/post',
     component: Post
   }
