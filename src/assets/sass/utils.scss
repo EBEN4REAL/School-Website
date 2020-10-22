@@ -36,7 +36,17 @@
 }
 
 .grey_text {
-    color: $greyColor;
+    color: $colText;
+}
+.para{
+    color:#21384299;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1.5;
+    font-size: 15px;
+    &.italic {
+        font-style: italic;
+    }
 }
 
 .section_col_header {

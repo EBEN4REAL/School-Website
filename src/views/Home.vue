@@ -99,7 +99,7 @@
             </div>
         </section>
         <section class="important_resources_wrapper ">
-            <h5 class="text-center bold_text">Important Resources</h5>
+            <h4 class="text-center bold_text">Important Resources</h4>
             <div class="row mt-5">
                 <div class="col-md-3 ">
                     <div class="important_resources_box ">
@@ -136,13 +136,13 @@
             </div>
         </section>
         <section class="why_choose_us mt-5">
-            <h5 class="text-center bold_text">Why Choose Us ?</h5>
+            <h4 class="text-center bold_text">Why Choose Us ?</h4>
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
                     <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
                 </div>
                 <div class="col-md-4">
-                    <h5 class="bold_text">Character</h5>
+                    <h4 class="bold_text">Character</h4>
                     <p class="para">This article is floated online with an aim to help you find the best 
                         dvd printing solution. Dvd printing is 
                         an important feature used by large and small DVD production houses to print information on DVDs.</p>
@@ -150,7 +150,7 @@
             </div>
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <h5 class="bold_text">Leadership</h5>
+                    <h4 class="bold_text">Leadership</h4>
                     <p class="para pr-5">While it was just a TV show, that little speech at the beginning of 
                         the original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings 
                         that drive our love of astronomy and our desire to learn more and more about it.
@@ -165,7 +165,7 @@
                     <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
                 </div>
                 <div class="col-md-4">
-                    <h5 class="bold_text">Academics</h5>
+                    <h4 class="bold_text">Academics</h4>
                     <p class="para italic">While it was just a TV show, that little speech at the beginning of the 
                         original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings that drive our love of 
                         astronomy and our desire to learn more and more about it..</p>
@@ -223,8 +223,8 @@
    </div>
 </template>
 <script>
-import Header from "./Header"
-import Footer from './Footer';
+import Header from "@/components/Header"
+import Footer from '@/components/Footer';
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 
