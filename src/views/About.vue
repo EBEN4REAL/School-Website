@@ -1,7 +1,7 @@
 <template>
     <MasterLayout>
         <div class="about_container">
-            <section class="row justify-content-between">
+            <section class="row justify-content-between content_width">
                 <div class="col-md-5">
                     <h3 class="section_col_header">Our Vision</h3>
                     <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
@@ -10,7 +10,7 @@
                     <img src="@/assets/img/about-first.png">
                 </div>
             </section>
-            <section class="row justify-content-between">
+            <section class="row justify-content-between  content_width">
                 <div class="col-md-6 remove_about_padding">
                     <img src="@/assets/img/about-second.png">
                 </div>
@@ -19,7 +19,7 @@
                     <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
                 </div>
             </section>
-            <section>
+            <section class="content_width">
                 <h3 class="section_col_header text-center">Our Values</h3>
                 <div class="row justify-content-around">
                     <div class="col-md-3">
@@ -50,7 +50,7 @@
                     <img src="@/assets/img/about-third.png">
                 </div>
             </section>
-            <section>
+            <section class="content_width">
                 <h3 class="section_col_header text-center">Message from the HeadMaster</h3>
                 <div class="row">
                     <div class="col-md-4 remove_about_padding fourth_about_image">
