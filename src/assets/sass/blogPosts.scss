@@ -1,4 +1,25 @@
 .blog_posts_container {
     padding-top: 80px;
-    padding-bottom: 80px;
+    section {
+        .blog_post {
+            img {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .post_header {
+                font-size: 15px;
+                color: $colHeaderText;
+                margin-bottom: 25px;
+                display: flex;
+                justify-content: space-between;
+                .post_date {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        margin-bottom: 0
+                    }
+                }
+            }
+        }
+    }
 }
