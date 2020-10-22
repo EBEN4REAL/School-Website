@@ -1,9 +1,15 @@
 <template>
-    <div>
-        <Header />
-            <slot>
-                <router-view />
-            </slot>
+    <div class="">
+        <div class="bg_wrapper">
+            <Header />
+            <div class="header__banner">
+                <h3 class="text-white">{{title}}</h3>
+            </div>
+        </div>
+       
+        <slot>
+            <router-view />
+        </slot>
         <Footer />
     </div>
 </template>
@@ -15,6 +21,7 @@ export default {
     components: {
         Header,
         Footer
-    }
+    },
+    props: ['title']
 }
 </script>
