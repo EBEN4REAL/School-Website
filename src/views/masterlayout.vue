@@ -1,8 +1,10 @@
 <template>
     <div class="">
         <div class="bg_wrapper">
-             <Header />
-
+            <Header />
+            <div class="header__banner">
+                <h3 class="text-white">About</h3>
+            </div>
         </div>
        
         <slot>
