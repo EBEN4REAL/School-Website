@@ -22,6 +22,6 @@ export default {
         Header,
         Footer
     },
-    props: ['title', 'activeNav']
+    props: ['title']
 }
 </script>
