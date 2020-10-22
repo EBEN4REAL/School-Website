@@ -35,8 +35,8 @@
                         Student Life 
                     </div>
                 </router-link>
-                 <router-link :to="{name: 'blogPosts'}" class="text-decoration-none" :class="activeTab  === 'blogPosts' ?  'activeNav' : null">
-                    <div class="nav_item">
+                 <router-link :to="{name: 'blogPosts'}" class="text-decoration-none nav_item" :class="activeTab  === 'blogPosts' ?  'activeNav' : null">
+                    <div class="">
                         Blog 
                     </div>
                 </router-link>
