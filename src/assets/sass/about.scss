@@ -16,19 +16,12 @@
                 background-size: cover;
             }
         }
-        .section_col_header {
-            font-size: 40px;
-            font-weight: bold;
-            color: $colHeaderText;
-            margin-bottom: 60px;
-        }
         .section_col_text {
-            font-size: 16px;
             color: $colText;
             text-align: justify;
         }
         .value_name {
-            color: green;
+            color: primaryGreen;
             font-size: 16px;
         }
         .value_text {
@@ -53,9 +46,6 @@
             .section_col_header {
                 text-align: center;
                 margin-bottom: 20px;
-            }
-            .section_col_text {
-                text-align: justify;
             }
             &.curriculum {
                 height: auto;
