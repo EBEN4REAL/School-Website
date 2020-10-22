@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 
 let routes = [
   {
-    name: 'homePage',
+    name: 'home',
     path: '/',
     component: Home
   },
