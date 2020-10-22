@@ -30,13 +30,13 @@
                         Academics 
                     </div>
                 </router-link>
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item">
+                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item" >
                     <div class="">
                         Student Life 
                     </div>
                 </router-link>
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item">
-                    <div class="">
+                 <router-link :to="{name: 'blogPosts'}" class="text-decoration-none" :class="activeTab  === 'blogPosts' ?  'activeNav' : null">
+                    <div class="nav_item">
                         Blog 
                     </div>
                 </router-link>

@@ -66,11 +66,11 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-4">
-                        <div class="grey_text">Phone</div>
+                        <div class="grey_text text-white">Phone</div>
                         <div class="text-white bold_text">+357463844</div>
                     </div>
                     <div class="col-md-8">
-                        <div class="grey_text">Address</div>
+                        <div class="grey_text text-white">Address</div>
                         <div class="text-white bold_text">491 Merlin Crest Suite 963, UK</div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <img src="@/assets/img/logo.png" width="40"  />
                 </div> 
                 <div>
-                    <div class="grey_text">© Copyright 2020 SOL. All Rights Reserved.</div>
+                    <div class="grey_text text-white">© Copyright 2020 SOL. All Rights Reserved.</div>
                 </div>
             </div>
         </div>

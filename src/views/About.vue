@@ -47,7 +47,7 @@
                     <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
                 </div>
                 <div class="col-md-5 remove_about_padding">
-                    <img src="@/assets/img/about-third.png">
+                    <img src="@/assets/img/about-third.png" style="height: 100%;">
                 </div>
             </section>
             <section class="content_width">
