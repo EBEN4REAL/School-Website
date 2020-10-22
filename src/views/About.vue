@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout>
+    <MasterLayout :title="title">
         <div class="about_container">
             <section class="row justify-content-between content_width">
                 <div class="col-md-5">
@@ -81,6 +81,7 @@ export default {
     },
     data() {
         return {
+            title: 'About'
         }
     }
 }
