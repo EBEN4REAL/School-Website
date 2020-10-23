@@ -5,6 +5,8 @@ import Home from "@/views/Home"
 import About from "@/views/About"
 import BlogPosts from "@/views/BlogPosts"
 import Post from "@/views/Post"
+import Pace from "@/views/Pace"
+import Rewards from "@/views/Rewards"
 
 Vue.use(VueRouter);
 
@@ -28,6 +30,16 @@ let routes = [
     name: 'post',
     path: '/post',
     component: Post
+  },
+  {
+    name: 'pace',
+    path: '/pace',
+    component: Pace
+  },
+  {
+    name: 'rewardsAndSanctions',
+    path: '/rewards&sanctions',
+    component: Rewards
   }
 ];
 
