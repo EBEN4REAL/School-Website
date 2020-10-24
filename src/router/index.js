@@ -10,6 +10,7 @@ import Pace from "@/views/Pace"
 import Rewards from "@/views/Rewards"
 import Policies from "@/views/Policies"
 import Uniform from "@/views/Uniform"
+import Development from "@/views/Development"
 
 Vue.use(VueRouter);
 
@@ -58,6 +59,11 @@ let routes = [
     name: 'uniform',
     path: '/uniform',
     component: Uniform
+  },
+  {
+    name: 'development',
+    path: '/development',
+    component: Development
   }
 ];
 

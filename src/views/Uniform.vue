@@ -60,7 +60,7 @@
 import MasterLayout from '@/views/masterlayout.vue';
 
 export default {
-    name: 'Rewards',
+    name: 'Uniform',
     components: {
         MasterLayout
     },

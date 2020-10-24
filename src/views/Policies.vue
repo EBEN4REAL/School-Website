@@ -15,7 +15,7 @@
 import MasterLayout from '@/views/masterlayout.vue';
 
 export default {
-    name: 'Reports',
+    name: 'Policies',
     components: {
         MasterLayout
     },
