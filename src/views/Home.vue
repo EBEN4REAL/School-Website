@@ -47,10 +47,10 @@
                             of school life. We encourage children to give of their best in everything they do
                         </h3>
                         <div class="row">
-                            <div class="col-md-4 text-right">
+                            <div class="col-md-4 card_subcontent text-right">
                                 <img src="@/assets/img/Eben.jpg" class="img_thumbnail" />
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 content_title">
                                 <strong>SQl academy</strong>
                                 <div>
                                     <small>Founder & CEO, SQL</small>
@@ -65,15 +65,15 @@
                         <div class="upcoming_events_section_inner_wrapper">
                             <div class="list_item mb-2" v-for="(a,i) in 3" :key="i">
                                 <div class="row hundred-percent-height">
-                                    <div class="col-md-4 hundred-percent-height">
+                                    <div class="col-4 hundred-percent-height">
                                         <img src="@/assets/img/write-good-blog-article-get-more-traffic1.png" class="card_img" />
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-8">
                                         <div class="row upce_list pt-2" >
-                                            <div class="col-md-7 remove-padding-left">
+                                            <div class="col-7 remove-padding-left">
                                                 <h6 class="blog-title">Blackpool Trip</h6>
                                             </div>
-                                            <div class="col-md-5 remove-padding-left remove-padding-right">
+                                            <div class="col-5 remove-padding-left remove-padding-right">
                                                 <span>
                                                     <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
                                                     <small class="small_text">20 Oct 2020</small>
@@ -99,14 +99,14 @@
             </div>
         </section>
         <section class="important_resources_wrapper ">
-            <h4 class="text-center bold_text">Important Resources</h4>
+            <h4 class="text-center bold_text header_content">Important Resources</h4>
             <div class="row mt-5">
                 <div class="col-md-3 ">
                     <div class="important_resources_box ">
                         <div class="circular_div">
                             <img src="@/assets/img/money.svg"  width="40" />
                         </div>
-                        <p class="mt-3 green__text bold_text">Fees Structure</p>
+                        <p class="mt-3 green__text bold_text resources_content">Fees Structure</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -114,7 +114,7 @@
                         <div class="circular_div">
                             <img src="@/assets/img/calendar.svg"  width="40" />
                         </div>
-                        <p class="mt-3 green__text bold_text">Calender</p>
+                        <p class="mt-3 green__text bold_text resources_content">Calender</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -122,7 +122,7 @@
                         <div class="circular_div">
                             <img src="@/assets/img/information.svg"  width="40" />
                         </div>
-                        <p class="mt-3 green__text bold_text">Application Form</p>
+                        <p class="mt-3 green__text bold_text resources_content">Application Form</p>
                     </div>
                 </div>
                 <div class="col-md-3 ">
@@ -130,16 +130,16 @@
                         <div class="circular_div">
                             <img src="@/assets/img/innovation.svg"  width="40" />
                         </div>
-                        <p class="mt-3 green__text bold_text">Prospectus</p>
+                        <p class="mt-3 green__text bold_text resources_content">Prospectus</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="why_choose_us mt-5">
-            <h4 class="text-center bold_text">Why Choose Us ?</h4>
+            <h4 class="text-center bold_text header_content">Why Choose Us ?</h4>
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h4 class="bold_text">Character</h4>
@@ -148,7 +148,11 @@
                         an important feature used by large and small DVD production houses to print information on DVDs.</p>
                 </div>
             </div>
+            
             <div class="mt-5 row align-items-center">
+                <div class="col-md-7">
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img mobile_view" width="450px"  />
+                </div>
                 <div class="col-md-7">
                     <h4 class="bold_text">Leadership</h4>
                     <p class="para pr-5">While it was just a TV show, that little speech at the beginning of 
@@ -157,12 +161,12 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img desktop_view" width="450px"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="" width="450px"  />
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h4 class="bold_text">Academics</h4>
@@ -193,7 +197,7 @@
               :gap="0"
               :slide-ratio="1 / 4"
               :dragging-distance="200"
-              :breakpoints="{ 800: { visibleSlides: 2, slideMultiple: 2 } }">
+              :breakpoints="{ 800: { visibleSlides: 1, slideMultiple: 1 } }">
               <vueper-slide  v-for="(x, index) in 4" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
                   <template v-slot:content>
                      <div class=" ace_curriculum">
@@ -204,14 +208,14 @@
                         </div>
                         <div class="ace_curriculum_item last">
                             <div class="text-center py-4">
-                                <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2" width="30" />
+                                <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
                             </div>
                             <div class="testimonials__text_container">
-                                <p class="para">
+                                <p class="para testimonials__text">
                                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
                                 </p>
                                 <h6 class="">Eben</h6>
-                                <small>Software Developer @Fuelmetrics</small>
+                                <p>Software Developer @Fuelmetrics</p>
                             </div>
                         </div>  
                     </div>

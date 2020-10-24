@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 footer_img">
                         <div>
                            <img src="@/assets/img/offstead.png" width="130" /> 
                         </div>
@@ -47,10 +47,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
-                <div class="bold_text text-white">Get In Touch</div>
+            <div class="col-md-5 footer_img">
+                <div class="bold_text text-white">
+                    <span>Get In Touch</span>
+                </div>
                 <div class="footer_contact_text mt-3">Feel free to get in touch with us via email</div>
-                <div class="bold_text text-white mt-3">info@solacademy.org.uk</div>
+                <div class="bold_text text-white mt-3 contact_email_text">
+                    <P>info@solacademy.org.uk</P>
+                </div>
                 <div class="mt-3">
                     <div class="social_media_icons">
                         <div class="sm_icon mr-3">
@@ -66,12 +70,20 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-4">
-                        <div class="grey_text text-white">Phone</div>
-                        <div class="text-white bold_text">+357463844</div>
+                        <div class="grey_text text-white">
+                            <h6>Phone</h6>
+                        </div>
+                        <div class="text-white bold_text">
+                            <span>+357463844</span>
+                        </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="grey_text text-white">Address</div>
-                        <div class="text-white bold_text">491 Merlin Crest Suite 963, UK</div>
+                    <div class="col-md-8 footer_img">
+                        <div class="grey_text text-white">
+                            <h6>Address</h6>
+                        </div>
+                        <div class="text-white bold_text">
+                            <span>491 Merlin Crest Suite 963, UK</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,7 +94,7 @@
                     <img src="@/assets/img/logo.png" width="40"  />
                 </div> 
                 <div>
-                    <div class="grey_text text-white">© Copyright 2020 SOL. All Rights Reserved.</div>
+                    <div class="grey_text text-white footer_text">© Copyright 2020 SOL. All Rights Reserved.</div>
                 </div>
             </div>
         </div>
