@@ -2,34 +2,27 @@
     padding-top: 80px;
     section {
         .blog_post {
+            box-shadow: 0px 3px 31px #00000029;
+            margin-bottom: 40px;
             img {
                 width: 100%;
-                margin-bottom: 15px;
             }
-            .post_header {
-                font-size: 15px;
-                color: $colHeaderText;
-                margin-bottom: 25px;
-                display: flex;
-                justify-content: space-between;
-                .post_date {
+            .post_content_holder {
+                padding: 20px;
+                .post_header {
+                    font-size: 15px;
+                    color: $colHeaderText;
+                    margin-bottom: 25px;
                     display: flex;
-                    align-items: center;
-                    p {
-                        margin-bottom: 0
+                    justify-content: space-between;
+                    .post_date {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            margin-bottom: 0
+                        }
                     }
                 }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 798px) {
-    .blog_posts_container {
-        padding-top: 40px;
-        section {
-            .blog_post {
-                margin-bottom: 20px;
             }
         }
     }

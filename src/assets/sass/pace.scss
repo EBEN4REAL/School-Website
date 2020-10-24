@@ -1,0 +1,21 @@
+.pace_container {
+    padding-top: 80px;
+    .post_image {
+        height: 400px;
+        width: 100%;
+        margin-bottom: 60px;
+        border-radius: 5px;
+    }
+    section {
+        .remove_about_padding {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            img {
+                width: 100%; 
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}

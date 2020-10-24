@@ -75,7 +75,7 @@
 import MasterLayout from '@/views/masterlayout.vue';
 
 export default {
-    name: 'Home',
+    name: 'About',
     components: {
         MasterLayout
     },
