@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div :style="[{
-                backgroundImage: `url('https://res.cloudinary.com/dfjzditzc/image/upload/v1572447495/samples/ecommerce/leather-bag-gray.jpg')`,
+                backgroundImage: `linear-gradient(rgb(8, 129, 62 , 0.75), rgb(8, 129, 62 , 0.75)), url('https://res.cloudinary.com/dfjzditzc/image/upload/v1572447495/samples/ecommerce/leather-bag-gray.jpg')`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover'

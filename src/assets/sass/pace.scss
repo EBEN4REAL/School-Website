@@ -17,5 +17,68 @@
                 background-size: cover;
             }
         }
+        .single_report {
+            width: 320px;
+            height: 320px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            margin: 0 auto;
+            box-shadow: 0px 5px 20px #1F28330D;
+            margin-bottom: 20px;
+            p {
+                font-size: 35px;
+                color: white;
+                margin-bottom: 30px;
+            }
+            .report_link {
+                color: white;
+                font-size: 17px;
+                &:hover {
+                    color: $primaryGreen;
+                }
+            }
+        }
+        &.reports_holder {
+            margin-bottom: 50px;
+        }
+    }
+    .reports_text {
+        color: $primaryGreen;
+    }
+    &.policies_container {
+        .img_holder {
+            width: 600px;
+            margin: 0 auto;
+            position: relative;
+            top: -110px;
+            margin-bottom: -70px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 798px) {
+    .pace_container {
+        section {
+            .single_report {
+                width: 250px; 
+                height: 250px;
+            }
+        }
+        &.policies_container {
+            .img_holder {
+                width: 80%;
+            }
+        }
+        &.uniform_container {
+            .codes {
+                margin-top: 40px;
+            }
+        }
     }
 }
