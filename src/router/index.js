@@ -7,6 +7,7 @@ import BlogPosts from "@/views/BlogPosts"
 import Post from "@/views/Post"
 import Pace from "@/views/Pace"
 import Rewards from "@/views/Rewards"
+import Contact from "@/views/contact"
 
 Vue.use(VueRouter);
 
@@ -40,6 +41,11 @@ let routes = [
     name: 'rewardsAndSanctions',
     path: '/rewards&sanctions',
     component: Rewards
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: Contact
   }
 ];
 
