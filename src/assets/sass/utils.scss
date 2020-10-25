@@ -84,12 +84,8 @@
     }
 }
 .skewed_div {
-    background: linear-gradient(-54deg, transparent 137px, #E8FFF2 0) right;
-    height: 233px;
     width: 100%;
-    position: absolute;
-    right: -38px;
-    top: 47px;
+    position: relative;
     z-index: 1;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
@@ -117,8 +113,36 @@
     align-items: baseline;
 }
 
+.flex_stretch {
+    display: flex; 
+    align-items: stretch;
+}
+
 .flex_center {
     display: flex; 
     align-items: center;
     justify-content: center;
+}
+
+.flex_column {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex_column_around {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.remove_p_mar {
+    margin-bottom: 0
+}
+
+
+@media screen and (max-width: 1025px) {
+    .mar_bot {
+        margin-bottom: 40px;
+    }
 }

@@ -20,10 +20,10 @@
             </section>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-5 remove_about_padding">
+                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding mar_bot">
                         <img src="@/assets/img/about-second.png">
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-xl-7 col-lg-12 col-md-12">
                         <h3 class="section_col_header text-center">What's Inside</h3>
                         <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                     </div>

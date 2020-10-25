@@ -11,6 +11,8 @@ import Rewards from "@/views/Rewards"
 import Policies from "@/views/Policies"
 import Uniform from "@/views/Uniform"
 import Development from "@/views/Development"
+import Curriculum from "@/views/Curriculum"
+import SchoolHours from "@/views/SchoolHours"
 
 Vue.use(VueRouter);
 
@@ -64,6 +66,16 @@ let routes = [
     name: 'development',
     path: '/development',
     component: Development
+  },
+  {
+    name: 'curriculum',
+    path: '/curriculum',
+    component: Curriculum
+  },
+  {
+    name: 'schoolHours',
+    path: '/school-hours',
+    component: SchoolHours
   }
 ];
 

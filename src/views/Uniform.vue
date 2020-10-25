@@ -3,11 +3,12 @@
         <div class="pace_container content_width uniform_container">
             <p class="section_col_text para">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
             <section class="mb-5">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-md-5 remove_about_padding">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-5 col-lg-12 mb-3 col-md-12 remove_about_padding">
                         <img src="@/assets/img/about-second.png">
                     </div>
-                    <div class="col-md-6 codes">
+                    <div class="col-lg-1"></div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 codes">
                         <h3 class="section_col_header text-center">DRESS CODE AND GENERAL GUIDELINES</h3>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -42,12 +43,17 @@
                 
             </section>
             <section class="mb-5">
-                <div class="row  ">
-                    <div class="col-md-6 skewed_parent">
-                        <h5 class="section_col_header text-center">UNIFORM AVAILABLE AT THE SCHOOL OFFICE:</h5>
-                        <div class="skewed_div"></div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
+                        <h3 class="section_col_header text-center">UNIFORM AVAILABLE AT THE SCHOOL OFFICE:</h3>
+                        <div class="skewed_div uniform_skewed flex_column">
+                            <p>Boys' shirt, golden, collar: 36cm / 14" (12-14 years)</p>
+                            <p>Boys' shirt, golden, collar: 41cm / 16" (16 years)</p>
+                            <p>Girls' blouse, golden, 71cm / 28" (8-9 years)</p>
+                            <p>Girls' blouse, golden, 76cm / 30" (9-10 years)</p>
+                        </div>
                     </div>
-                    <div class="col-md-5 remove_about_padding">
+                    <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
                         <img src="@/assets/img/uniform-second.png">
                     </div>
                 </div>
