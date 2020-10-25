@@ -8,6 +8,7 @@ import Post from "@/views/Post"
 import Reports from "@/views/Reports"
 import Pace from "@/views/Pace"
 import Rewards from "@/views/Rewards"
+import Contact from "@/views/contact"
 import Policies from "@/views/Policies"
 import Uniform from "@/views/Uniform"
 import Development from "@/views/Development"
@@ -76,7 +77,12 @@ let routes = [
     name: 'schoolHours',
     path: '/school-hours',
     component: SchoolHours
-  }
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: Contact
+  },
 ];
 
 const router = new VueRouter({
