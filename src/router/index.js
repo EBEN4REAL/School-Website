@@ -5,9 +5,13 @@ import Home from "@/views/Home"
 import About from "@/views/About"
 import BlogPosts from "@/views/BlogPosts"
 import Post from "@/views/Post"
+import Reports from "@/views/Reports"
 import Pace from "@/views/Pace"
 import Rewards from "@/views/Rewards"
 import Contact from "@/views/contact"
+import Policies from "@/views/Policies"
+import Uniform from "@/views/Uniform"
+import Development from "@/views/Development"
 
 Vue.use(VueRouter);
 
@@ -33,6 +37,11 @@ let routes = [
     component: Post
   },
   {
+    name: 'reports',
+    path: '/reports',
+    component: Reports
+  },
+  {
     name: 'pace',
     path: '/pace',
     component: Pace
@@ -41,6 +50,21 @@ let routes = [
     name: 'rewardsAndSanctions',
     path: '/rewards&sanctions',
     component: Rewards
+  },
+  {
+    name: 'policies',
+    path: '/policies',
+    component: Policies
+  },
+  {
+    name: 'uniform',
+    path: '/uniform',
+    component: Uniform
+  },
+  {
+    name: 'development',
+    path: '/development',
+    component: Development
   },
   {
     name: 'contact',

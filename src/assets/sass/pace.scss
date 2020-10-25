@@ -8,13 +8,119 @@
     }
     section {
         .remove_about_padding {
-            padding-left: 0 !important;
-            padding-right: 0 !important;
+            // padding-left: 0 !important;
+            // padding-right: 0 !important;
             img {
                 width: 100%; 
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+            }
+        }
+        .single_report {
+            width: 320px;
+            height: 320px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            margin: 0 auto;
+            box-shadow: 0px 5px 20px #1F28330D;
+            margin-bottom: 20px;
+            p {
+                font-size: 35px;
+                color: white;
+                margin-bottom: 30px;
+            }
+            .report_link {
+                color: white;
+                font-size: 17px;
+                &:hover {
+                    color: $primaryGreen;
+                }
+            }
+        }
+        &.reports_holder {
+            margin-bottom: 50px;
+        }
+    }
+    .reports_text {
+        color: $primaryGreen;
+    }
+    &.policies_container {
+        .img_holder {
+            width: 600px;
+            margin: 0 auto;
+            position: relative;
+            top: -110px;
+            margin-bottom: -70px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    &.development_container {
+        .all_developments {
+            .development_holder {
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 7px;
+                height: 306px;
+                padding: 20px 15px;
+                width: 100%;
+                display: flex;
+                .dev_img {
+                    width: 25%;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    .image {
+                        background-color: #F5F5F5;
+                        border-radius: 10px;
+                        height: 60px;
+                        width: 60px;
+                    }
+                }
+                
+                .developement_content {
+                    width: 75%;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    p {
+                        font-size: 13px;
+                        margin-bottom: 0;
+                        line-height: 1.8;
+                        letter-spacing: 1.5;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 798px) {
+    .pace_container {
+        section {
+            .single_report {
+                width: 250px; 
+                height: 250px;
+            }
+        }
+        &.policies_container {
+            .img_holder {
+                width: 80%;
+            }
+        }
+        &.uniform_container {
+            .codes {
+                margin-top: 40px;
+            }
+        }
+        &.development_container {
+            .all_developments {
+                .development_holder  {
+                    height: 350px;
+                }
             }
         }
     }
