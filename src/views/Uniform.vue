@@ -42,10 +42,10 @@
                 
             </section>
             <section class="mb-5">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6">
-                        <h3 class="section_col_header text-center">UNIFORM AVAILABLE AT THE SCHOOL OFFICE:</h3>
-                        <p class="section_col_text para">The role of rewards and praise in recognising and promoting Heston Community School’s values is a key component of developing the potential of our students by giving them encouragement and praise; praise is a key component of good teaching and good staff/student relationships. Good behaviour is also best promoted and developed by drawing attention to and rewarding well behaved and hardworking students. Praise is used appropriately, sincerely and will be linked to tangible examples of a student’s strengths or effort. Students’ hard work, good behaviour and demonstration of the School’s core values are recognised and celebrated by teachers in many different ways, including: · Verbal praise · Positive feedback · Positive letters · Merits · Assembly Trop</p>
+                <div class="row  ">
+                    <div class="col-md-6 skewed_parent">
+                        <h5 class="section_col_header text-center">UNIFORM AVAILABLE AT THE SCHOOL OFFICE:</h5>
+                        <div class="skewed_div"></div>
                     </div>
                     <div class="col-md-5 remove_about_padding">
                         <img src="@/assets/img/uniform-second.png">

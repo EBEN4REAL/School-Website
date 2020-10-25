@@ -83,6 +83,21 @@
         background: $white
     }
 }
+.skewed_div {
+    background: linear-gradient(-54deg, transparent 137px, #E8FFF2 0) right;
+    height: 233px;
+    width: 100%;
+    position: absolute;
+    right: -38px;
+    top: 47px;
+    z-index: 1;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+.skewed_parent {
+    position: relative !important;
+}
+
 
 .header__banner {
     height: 200px;
