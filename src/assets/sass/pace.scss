@@ -96,10 +96,71 @@
             }
         }
     }
+    &.uniform_container {
+        .view_calendar_button {
+            border: 1px solid $primaryGreen;
+            border-radius: 25px;
+            background-color: white;
+            color: $primaryGreen;
+            font-size: 14px;
+            padding: 8px 20px;
+            outline-width: 0;
+            margin-bottom: 25px;
+        }
+        .uniform_skewed {
+            background: linear-gradient(-54deg, transparent 137px, #E8FFF2 0) right;
+            height: 240px;
+            padding-left: 15%;
+            &.school_hours_skewed {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+    &.curriculum_container {
+        .uniform_skewed {
+            background: linear-gradient(-74deg, transparent 137px, #E8FFF2 0) right;
+            height: 400px;
+            padding-left: 15%;
+            p {
+                font-size: 15px;
+            }
+        }
+        .single_media {
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 7px;
+            height: 200px;
+            padding: 20px 15px;
+            width: 100%;
+            display: flex;
+            .dev_img {
+                width: 35%;
+                padding-left: 12px;
+                padding-right: 12px;
+                .image {
+                    background-color: #F5F5F5;
+                    border-radius: 10px;
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+            
+            .media_content {
+                width: 65%;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+        }
+    }
 }
+
 
 @media screen and (max-width: 798px) {
     .pace_container {
+        padding-top: 40px;
         section {
             .single_report {
                 width: 250px; 
@@ -121,6 +182,18 @@
                 .development_holder  {
                     height: 350px;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .pace_container {
+        &.uniform_container {
+            .uniform_skewed {
+                background: linear-gradient(-0deg, transparent 0, #E8FFF2 0) right;
+                height: 340px;
+                padding: 10px;
             }
         }
     }
