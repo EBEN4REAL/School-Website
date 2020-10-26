@@ -5,7 +5,7 @@
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/about-second.png">
+                        <img src="@/assets/img/about-second.png" style="width: 100%">
                     </div>
                     <div class="col-md-6 codes">
                         <h3 class="section_col_header text-center">DRESS CODE AND GENERAL GUIDELINES</h3>
