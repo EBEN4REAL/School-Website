@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title">
+    <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width uniform_container">
             <p class="section_col_text para">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
             <section class="mb-5">
@@ -64,6 +64,8 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
+import bg_URL from '@/assets/img/The-matriculants.png';
+
 
 export default {
     name: 'Uniform',
@@ -72,7 +74,8 @@ export default {
     },
     data() {
         return {
-            title: 'Rewards and Solutions'
+            title: 'UNIFORM',
+            bg_URL
         }
     }
 }

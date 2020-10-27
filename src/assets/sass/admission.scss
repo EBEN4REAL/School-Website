@@ -1,0 +1,37 @@
+.admission_content_wrapper {
+    margin: 0 auto;
+    width: 50%;
+    p{
+        font-size: 13px;
+        color: $greyText
+    }
+}
+.open_bible_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+        color:$goldColor    
+    }
+}
+.centra_para_section {
+    margin: 0 auto;
+    width: 65%;
+    .cent_para{
+        text-align: justify;
+    }
+    .card_para {
+        font-size: 13px;
+    }
+    small {
+        font-weight: 600;
+    }
+}
+.admission_media {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 7px;
+    height: 160px;
+    padding: 20px 15px;
+    
+}

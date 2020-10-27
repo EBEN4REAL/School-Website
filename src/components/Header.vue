@@ -73,30 +73,34 @@
                 </router-link>
                     </li>
                      <li class="nav-item mt-4">
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item">
+                 <router-link :to="{name: 'admission'}" class="text-decoration-none nav_item" :class="activeTab  === 'admission' ?  'activeNav' : null">
                     <div class="">
                         Admission 
                     </div>
                 </router-link>
                      </li>
                       <li class="nav-item mt-4">
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item">
+                 <router-link :to="{name: 'uniform'}" class="text-decoration-none nav_item" :class="activeTab  === 'uniform' ?  'activeNav' : null">
                     <div class="">
-                        Parents 
+                        <!-- Parents  -->
+                        Uniform
                     </div>
                 </router-link>
                       </li>
                        <li class="nav-item mt-4">
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item">
+                 <router-link :to="{name: 'schoolHours'}" class="text-decoration-none nav_item" :class="activeTab  === 'schoolHours' ?  'activeNav' : null">
                     <div class="">
-                        Academics 
+                        <!-- Academics  -->
+                        School Hours
+                        
                     </div>
                 </router-link>
                        </li>
                         <li class="nav-item mt-4">
-                 <router-link :to="{name: 'about'}" class="text-decoration-none nav_item" >
+                 <router-link :to="{name: 'curriculum'}" class="text-decoration-none nav_item" :class="activeTab  === 'curriculum' ?  'activeNav' : null">
                     <div class="">
-                        Student Life 
+                        <!-- Student Life  -->
+                        Curriculum
                     </div>
                 </router-link>
                         </li>
@@ -108,7 +112,7 @@
                 </router-link>
                          </li>
                           <li class="nav-item mt-4">
-                 <router-link :to="{name: 'contact'}" class="text-decoration-none nav_item">
+                 <router-link :to="{name: 'contact'}" class="text-decoration-none nav_item" :class="activeTab  === 'contact' ?  'activeNav' : null">
                     <div class="">
                         Contact Us
                     </div>

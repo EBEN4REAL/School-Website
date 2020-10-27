@@ -129,7 +129,25 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.hundred-percent-width{
+    width: 100%;
+}
+.icon_centralised_wrapper {
+    height: 80px;
+    width: 80px;
+    border: 2px solid $goldColor;
+    border-radius: 50%;
+    background: $primaryGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_media {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 7px;
+    height: 240px;
+    padding: 20px 15px;
+}
 .flex_column_around {
     display: flex; 
     flex-direction: column;
@@ -139,7 +157,12 @@
 .remove_p_mar {
     margin-bottom: 0
 }
-
+.full_width_wrapper {
+    width: 100%;
+}
+.open_bible_wrapper {
+    height: 300px;
+}
 
 @media screen and (max-width: 1025px) {
     .mar_bot {

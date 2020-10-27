@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title">
+    <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="content_width">
             <div class="row mt-3">
                 <div class="col-lg-5 col-md-4 mt-5 desktop_view">
@@ -80,13 +80,15 @@
         <div class="map_location">
             <h2 class="font-weight-bold text-center pb-2">Find us on map</h2>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1981934338924!2d3.355999714297244!3d6.6222854238454225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9338c5016057%3A0x79aeb10a1e8d0c2c!2sBerger%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1603637035704!5m2!1sen!2sng" width="1280" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1981934338924!2d3.355999714297244!3d6.6222854238454225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9338c5016057%3A0x79aeb10a1e8d0c2c!2sBerger%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1603637035704!5m2!1sen!2sng" width="1700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </MasterLayout>
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
+import bg_URL from '@/assets/img/The-matriculants.png';
+
 
 export default {
     name: 'About',
@@ -95,7 +97,8 @@ export default {
     },
     data() {
         return {
-            title: 'Contact Us'
+            title: 'Contact Us',
+            bg_URL
         }
     }
 }

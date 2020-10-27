@@ -14,6 +14,9 @@ import Uniform from "@/views/Uniform"
 import Development from "@/views/Development"
 import Curriculum from "@/views/Curriculum"
 import SchoolHours from "@/views/SchoolHours"
+import Admission from "@/views/Admission"
+import KidzoneLinks from "@/views/kidzoneLinks"
+import Homework from "@/views/Homework"
 
 Vue.use(VueRouter);
 
@@ -22,6 +25,21 @@ let routes = [
     name: 'home',
     path: '/',
     component: Home
+  },
+  {
+    name: 'homework',
+    path: '/homework',
+    component: Homework
+  },
+  {
+    name: 'KidzoneLinks',
+    path: '/kidzone-links',
+    component: KidzoneLinks
+  },
+  {
+    name: 'admission',
+    path: '/Admission',
+    component: Admission
   },
   {
     name: 'about',
@@ -84,7 +102,7 @@ let routes = [
     component: Contact
   },
 ];
-
+// console.log(routes.length)
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,

@@ -1,9 +1,9 @@
 <template>
-    <MasterLayout :title="title">
+    <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="blog_posts_container content_width">
             <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
-                <div class="col-md-4">
+                <div class="col-md-4" v-for="(x,i) in 12" :key="i">
                     <div class="blog_post">
                         <img src="@/assets/img/blog-posts-first.png">
                         <div class="post_content_holder">
@@ -31,6 +31,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
+import bg_URL from '@/assets/img/The-matriculants.png';
 
 export default {
     name: 'BlogPosts',
@@ -40,7 +41,8 @@ export default {
     },
     data() {
         return {
-            title: 'Blog'
+            title: 'Blog',
+            bg_URL
         }
     }
 }

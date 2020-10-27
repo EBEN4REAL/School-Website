@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title">
+    <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width curriculum_container">
             <h3 class="section_col_header">Core Curriculum</h3>
             <p class="section_col_text para mb-5">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and</p>
@@ -108,6 +108,8 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
+import bg_URL from '@/assets/img/The-matriculants.png';
+
 
 export default {
     name: 'Curriculum',
@@ -116,7 +118,8 @@ export default {
     },
     data() {
         return {
-            title: 'Curriculum'
+            title: 'Curriculum',
+            bg_URL
         }
     }
 }
