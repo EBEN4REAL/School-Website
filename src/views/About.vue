@@ -63,7 +63,7 @@
                 </div>
             </section>
             <section class="content_width">
-                <h3 class="section_col_header text-center">Message from the HeadMaster</h3>
+                <h3 class="section_col_header text-center py-4">Message from the HeadMaster</h3>
                 <div class="row">
                     <div class="col-xl-4 col-lg-12 col-md-12 remove_about_padding fourth_about_image">
                         <img src="@/assets/img/about-fourth.png">
