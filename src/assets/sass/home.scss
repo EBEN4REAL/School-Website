@@ -1,9 +1,8 @@
 .bg_wrapper {
   background: linear-gradient(
-      rgb(8, 129, 62, 0.75),
-      rgb(8, 129, 62, 0.75)
-    ),
-    url("~./assets/img/about-first.png");
+      rgb(8, 129, 62, 0.85),
+      rgb(8, 129, 62, 0.85)
+    );
   // background-position: center;
   // background-repeat: no-repeat;
   // background-size: cover;
@@ -68,6 +67,9 @@
     margin-right: 20px;
     height: 200px;
   }
+}
+.boxes_container {
+  margin-top: 10px;
 }
 .upcoming_events_wrapper {
   margin: 0 auto;

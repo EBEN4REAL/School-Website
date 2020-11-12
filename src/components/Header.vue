@@ -1,5 +1,26 @@
 <template>
-    <div class="header_wrapper py-3">
+    <div >
+        <b-navbar toggleable="lg">
+            <b-link to="/"><img src="@/assets/img/logo.png" width="40"  /></b-link>
+
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+            <b-collapse id="nav-collapse" is-nav>
+
+            <b-navbar-nav class="ml-auto">
+                <b-link to="/" class="text-decoration-none nav_item"  :class="activeTab  === 'home' ?  'activeNav' : null">Home</b-link>
+                <b-link to="/about" class="text-decoration-none nav_item"  :class="activeTab  === 'about' ?  'activeNav' : null">About</b-link>
+                <b-link to="/admission" class="text-decoration-none nav_item"  :class="activeTab  === 'admission' ?  'activeNav' : null">Admission</b-link>
+                 <b-link to="/uniform" class="text-decoration-none nav_item"  :class="activeTab  === 'uniform' ?  'activeNav' : null">School Hours</b-link>
+                <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Curriculum</b-link>
+                <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">School Hours</b-link>
+                <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Blog Posts</b-link>
+                <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'contact' ?  'activeNav' : null">Contact</b-link>
+            </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
+    </div>
+    <!-- <div class="header_wrapper py-3">
     <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light contact-navbar scrolling-navbar px-0 w-100">
          <div class="container">
             <a class="navbar-brand" href="./"><img src="@/assets/img/logo.png" width="40"  />
@@ -36,7 +57,6 @@
                       <li class="nav-item mt-4">
                  <router-link :to="{name: 'uniform'}" class="text-decoration-none nav_item" :class="activeTab  === 'uniform' ?  'activeNav' : null">
                     <div class="">
-                        <!-- Parents  -->
                         Uniform
                     </div>
                 </router-link>
@@ -44,7 +64,6 @@
                        <li class="nav-item mt-4">
                  <router-link :to="{name: 'schoolHours'}" class="text-decoration-none nav_item" :class="activeTab  === 'schoolHours' ?  'activeNav' : null">
                     <div class="">
-                        <!-- Academics  -->
                         School Hours
                         
                     </div>
@@ -53,7 +72,6 @@
                         <li class="nav-item mt-4">
                  <router-link :to="{name: 'curriculum'}" class="text-decoration-none nav_item" :class="activeTab  === 'curriculum' ?  'activeNav' : null">
                     <div class="">
-                        <!-- Student Life  -->
                         Curriculum
                     </div>
                 </router-link>
@@ -72,16 +90,16 @@
                     </div>
                 </router-link>
                           </li>
-                          </ul>
+                    </ul>
                         
                 <div class="nav_item last">
                     <button class="school_btn btn-white">Apply Online</button>
                 </div>
                </div>
          </div>
-      </nav>
+    </nav>
 
-    </div>
+    </div> -->
 </template>
 <script>
 export default {

@@ -17,8 +17,8 @@
                 >
                 <b-carousel-slide img-src="../assets/img/dmhdj336mqcvsz2jhfcm@2x.png">
                     <div class="image-overlay"></div>
-                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:60px; padding-left: 60px" :style="[{
-                            background: `linear-gradient(rgb(0, 0, 0 , 0.7), rgb(0, 0, 0 , 0.7))`,
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
@@ -30,7 +30,7 @@
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3">Learn More</button>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3">Learn More</button>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
             </div>
         </section>
         </section>
-        <section class="upcoming_events_wrapper">
+        <section class="upcoming_events_wrapper mt-4">
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <h3 class="upcoming_events_header">Growing in Knowledge. Following in Faith. Serving in Unity</h3>

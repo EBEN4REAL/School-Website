@@ -13,7 +13,7 @@
     left: 0 !important;
     z-index: 10;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px !important;
     color: #fff;
     text-align: left !important;
 }
@@ -21,7 +21,7 @@
 .carousel{
     margin: 0 !important;
     padding: none !important;
-    height: 400px;
+    height: 500px;
     img {
         height: 500px;
     }
