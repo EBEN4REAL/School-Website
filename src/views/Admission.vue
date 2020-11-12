@@ -14,7 +14,7 @@
                 <p class="  ">
                     Annual School Fees are payable in 12 equal monthly instalments by Standing Order. The Nursery is free for the first thirty hours per week that a 3-4 year old attends, Therefore, if a child attends for only fifteen hours a week there are no fees to pay! PACEs that have to be re-issued due to scoring violations will be charged at a rate of £7 each. Costs for outside activities e.g. field trips, swimming lessons etc. will be extra. We endeavour to keep the costs to a minimum. School meals are not supplied, so a healthy packed lunch will be required. School uniforms are compulsory. Any child not wearing the school uniform will be sent home if prior arrangements have not been made. If you are interested in sending your child(ren) to our school please complete the attached form and return it to school administration 
                 </p>
-                <div class="text-left">
+                <div class="text-left mobile_alignment">
                     <button class="btn btn-green mt-2">Download Fee structure</button>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 Everyone knows that what we really value is what we invest in. We believe that our children are worth investing in. The financial contribution from each family is kept to a minimum by the sacrificial giving of time, energy, and availability of all the staff involved as well as the generous support of volunteer parents. Sol Christian Academy is very grateful for the financial support it has received from individuals and churches.
             </p>
             <div class="row py-4">
-                <div class="col-md-6">
+                <div class="col-md-6 admission_media_wrapper">
                     <div class="admission_media">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 admission_media_wrapper">
                     <div class="admission_media">
                         <div class="row align-items-center hundred-percent-height">
                             <div class="col-md-4">
