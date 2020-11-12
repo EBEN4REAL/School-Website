@@ -2,18 +2,62 @@
    <div>
        <div class="bg_wrapper">
             <Header />
-            <div class="banner_wrapper">
-                <div class="row">
-                     <div class="col-md-5">
-                        <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
-                        <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
-                        </p>
-                        <div>
-                            <button class="btn btn-white mt-3">Learn More</button>
+            <b-carousel
+                id="carousel-1"
+                v-model="slide"
+                :interval="4000"
+                controls
+                indicators
+                background="#ababab"
+                img-width="1024"
+                img-height="480"
+                style="text-shadow: 1px 1px 2px #333;"
+                @sliding-start="onSlideStart"
+                @sliding-end="onSlideEnd"
+                >
+                <b-carousel-slide img-src="../assets/img/dmhdj336mqcvsz2jhfcm@2x.png">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:60px; padding-left: 60px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.7), rgb(0, 0, 0 , 0.7))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3">Learn More</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </b-carousel-slide>
+                <b-carousel-slide img-src="../assets/img/dmhdj336mqcvsz2jhfcm@2x.png">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+            </b-carousel>
        </div>
         <section class="boxes_container">
             <section class="card__boxes__wrapper mt-3">
@@ -240,6 +284,20 @@ export default {
         Footer,
         VueperSlides, 
         VueperSlide,
+    },
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart() {
+        this.sliding = true
+      },
+      onSlideEnd() {
+        this.sliding = false
+      }
     }
 }
 </script>

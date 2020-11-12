@@ -1,16 +1,17 @@
 .bg_wrapper {
-  background-image: linear-gradient(
+  background: linear-gradient(
       rgb(8, 129, 62, 0.75),
       rgb(8, 129, 62, 0.75)
     ),
-    url("~./assets/img/dmhdj336mqcvsz2jhfcm@2x.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    url("~./assets/img/about-first.png");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   .banner_wrapper {
     margin: 0 auto;
-    width: 85%;
-    height: 65vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    // height: 65vh;
     margin-top: 70px;
     display: flex;
 
@@ -52,8 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -10%;
-  transform: translateY(-50%);
+  margin-top: 15px;
+  // transform: translateY(-50%);
   .card-box {
     width: 25%;
     background: #ffffff 0% 0% no-repeat padding-box;
