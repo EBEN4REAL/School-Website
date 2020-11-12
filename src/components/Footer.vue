@@ -62,10 +62,10 @@
                     </div>
                     <div class="col-md-4 footer_img">
                         <div>
-                           <img src="@/assets/img/offstead.png" width="130" /> 
+                           <!-- <img src="@/assets/img/offstead.png" width="130" />  -->
                         </div>
                         <div class="mt-3">
-                           <img src="@/assets/img/offstead2.png"  width="130"/> 
+                           <!-- <img src="@/assets/img/offstead2.png"  width="130"/>  -->
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,9 @@
         <div class="footer_bottom">
             <div class="footer_bottom_inner_container">
                <div>
-                    <img src="@/assets/img/logo.png" width="40"  />
+                    <img src="@/assets/img/logo.png" width="40" class="mr-3" /> 
+                    <img src="@/assets/img/ace.jpg" width="40"  /> 
+                    
                 </div> 
                 <div>
                     <div class="grey_text text-white footer_text">© Copyright 2020 SOL. All Rights Reserved.</div>

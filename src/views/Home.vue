@@ -15,7 +15,28 @@
                 @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
                 >
-                <b-carousel-slide img-src="../assets/img/dmhdj336mqcvsz2jhfcm@2x.png">
+                <b-carousel-slide img-src="../assets/img/slider.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                           
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                <b-carousel-slide img-src="../assets/img/slider 2.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -36,7 +57,91 @@
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/dmhdj336mqcvsz2jhfcm@2x.png">
+                 <b-carousel-slide img-src="../assets/img/slider 9.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                 <b-carousel-slide img-src="../assets/img/slider 8.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                 <b-carousel-slide img-src="../assets/img/slider 7.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                 <b-carousel-slide img-src="../assets/img/slider 4.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
+                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                </p>
+                                <div>
+                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                 <b-carousel-slide img-src="../assets/img/slider 3.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
                             background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
@@ -92,7 +197,7 @@
                         </h3>
                         <div class="row">
                             <div class="col-md-4 card_subcontent text-right">
-                                <img src="@/assets/img/Eben.jpg" class="img_thumbnail" />
+                                <img src="@/assets/img/about-fourth.png" class="img_thumbnail" />
                             </div>
                             <div class="col-md-8 content_title">
                                 <strong>SQl academy</strong>
@@ -183,7 +288,7 @@
             <h4 class="text-center bold_text header_content">Why Choose Us ?</h4>
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img" width="450px"  />
+                    <img src="@/assets/img/character.jpg" class="why_img" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h4 class="bold_text">Character</h4>
@@ -195,7 +300,7 @@
             
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img mobile_view" width="450px"  />
+                    <img src="@/assets/img/leadership (1).jpg" class="why_img mobile_view" width="450px"  />
                 </div>
                 <div class="col-md-7">
                     <h4 class="bold_text">Leadership</h4>
@@ -205,7 +310,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img desktop_view" width="450px"  />
+                    <img src="@/assets/img/academics.jpg" class="why_img desktop_view" width="450px"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center">
