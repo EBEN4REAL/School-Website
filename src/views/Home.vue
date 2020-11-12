@@ -310,12 +310,12 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="@/assets/img/academics.jpg" class="why_img desktop_view" width="450px"  />
+                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img desktop_view" width="450px"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img" width="450px"  />
+                    <img src="@/assets/img/academics.jpg" class="why_img" width="450px"  />
                 </div>
                 <div class="col-md-4">
                     <h4 class="bold_text">Academics</h4>
