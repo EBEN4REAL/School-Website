@@ -12,32 +12,28 @@
 
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Contact Support</a> -->
                                 <router-link :to="{ name: 'contact' }">Contact Support</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Privacy Policy</a> -->
                                 <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'pace' }">Pace</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'development' }">Reading Development</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
                             </div>
                              <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'homework' }">Homework</router-link>
+                            </div>
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'gallery' }">Gallery</router-link>
                             </div>
                         </div>
                     </div>
@@ -45,16 +41,13 @@
                         <div class="footer_links_header">Admission</div>
                         <div class="footer_menu mt-4">
                             <div class="footer_menu_item">
-                                <!-- <a href="">How it works</a> -->
                                 <router-link :to="{ name: 'admission' }">Admission</router-link>
 
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Contact Support</a> -->
                                 <router-link :to="{ name: 'contact' }">Contact Support</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Privacy Policy</a> -->
                                 <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
                             </div>
                             
