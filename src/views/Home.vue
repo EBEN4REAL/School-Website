@@ -24,8 +24,8 @@
                            
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -45,8 +45,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -66,8 +66,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -87,8 +87,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -108,8 +108,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -129,8 +129,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -150,8 +150,8 @@
                             backgroundSize: 'cover',
                             backgroundAttachment: 'fixed'
                         }]">
-                        <div class="row">
-                            <div class="col-md-5">
+                        <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">High quality education services. better and faster learning solution!</h3>
                                 <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
                                 </p>
@@ -184,7 +184,7 @@
             </div>
         </section>
         </section>
-        <section class="upcoming_events_wrapper mt-4">
+        <section class="upcoming_events_wrapper">
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <h3 class="upcoming_events_header">Growing in Knowledge. Following in Faith. Serving in Unity</h3>
@@ -200,9 +200,9 @@
                                 <img src="@/assets/img/about-fourth.png" class="img_thumbnail" />
                             </div>
                             <div class="col-md-8 content_title">
-                                <strong>SQl academy</strong>
+                                <strong>SOL academy</strong>
                                 <div>
-                                    <small>Founder & CEO, SQL</small>
+                                    <small>Founder & CEO, SOL</small>
                                 </div>
                             </div>
                         </div>
@@ -251,41 +251,49 @@
             <h4 class="text-center bold_text header_content">Important Resources</h4>
             <div class="row mt-5">
                 <div class="col-md-3 ">
-                    <div class="important_resources_box ">
-                        <div class="circular_div">
-                            <img src="@/assets/img/money.svg"  width="40" />
+                     <a href="./Fees_Struture.pdf"  download>
+                        <div class="important_resources_box">
+                            <div class="circular_div">
+                                <img src="@/assets/img/information.svg"  width="40" />
+                            </div>
+                            <p class="mt-3 green__text bold_text resources_content">Fee Structure</p>
                         </div>
-                        <p class="mt-3 green__text bold_text resources_content">Fees Structure</p>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="important_resources_box">
-                        <div class="circular_div">
-                            <img src="@/assets/img/calendar.svg"  width="40" />
+                    <a href="./Calendar 2020_2021.pdf"  download>
+                        <div class="important_resources_box">
+                            <div class="circular_div">
+                                <img src="@/assets/img/information.svg"  width="40" />
+                            </div>
+                            <p class="mt-3 green__text bold_text resources_content">Calendar</p>
                         </div>
-                        <p class="mt-3 green__text bold_text resources_content">Calender</p>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="important_resources_box">
-                        <div class="circular_div">
-                            <img src="@/assets/img/information.svg"  width="40" />
+                    <a href="./Application_Form.pdf"  download>
+                        <div class="important_resources_box">
+                            <div class="circular_div">
+                                <img src="@/assets/img/information.svg"  width="40" />
+                            </div>
+                            <p class="mt-3 green__text bold_text resources_content">Application Form</p>
                         </div>
-                        <p class="mt-3 green__text bold_text resources_content">Application Form</p>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="important_resources_box">
-                        <div class="circular_div">
-                            <img src="@/assets/img/innovation.svg"  width="40" />
+                     <a href="./Prospectus.pdf"  download>
+                        <div class="important_resources_box">
+                            <div class="circular_div">
+                                <img src="@/assets/img/information.svg"  width="40" />
+                            </div>
+                            <p class="mt-3 green__text bold_text resources_content">Prospectus</p>
                         </div>
-                        <p class="mt-3 green__text bold_text resources_content">Prospectus</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="why_choose_us mt-5">
-            <h4 class="text-center bold_text header_content">Why Choose Us ?</h4>
+            <h4 class="text-center bold_text header_content">Reasons Why You Should Choose Us</h4>
             <div class="mt-5 row align-items-center">
                 <div class="col-md-7">
                     <img src="@/assets/img/character.jpg" class="why_img" width="450px"  />
@@ -330,12 +338,9 @@
                 <div class="col-md-6">
                     <h4 class="bold_text">Our Clients Feedback</h4>
                     <div class="para">
-                        It is a long established fact that a reader will be distracted by the readable content of
-                         a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-                         normal distribution.
                     </div>
                 </div>
-                <div class="col-md-5 text-right">
+                <div class="col-md-6 mb-3 text-right">
                     <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button>
                 </div>
             </div>
@@ -402,7 +407,7 @@ export default {
       },
       onSlideEnd() {
         this.sliding = false
-      }
+      },
     }
 }
 </script>

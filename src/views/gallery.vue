@@ -3,11 +3,11 @@
         <div class="blog_posts_container content_width">
             <div class="mb-3">
                 <button class="gallery_button gallery_button_active mr-2">All</button>
-                <button class="gallery_button">Tree Top</button>
+                <!-- <button class="gallery_button">Tree Top</button>
                 <button class="gallery_button">Sports Day</button>
                 <button class="gallery_button">Sol Park</button>
                 <button class="gallery_button">TSol Tennis</button>
-                <button class="gallery_button">Museaum</button>
+                <button class="gallery_button">Museaum</button> -->
             </div>
             <section class="row">
                 <div class="col-md-3" >

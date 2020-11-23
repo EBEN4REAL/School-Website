@@ -30,19 +30,12 @@
     
     .navbar {
         margin-top: -14px;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
         margin: 0 auto;
         
         .logo_wrapper {
             width: 15%;
         }
         .nav_items {
-            // width: 85%;
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
             .nav_item {
                 color: $white;
                 font-weight: 600;
@@ -80,4 +73,5 @@ ul.navbar-nav.navbar-fixed-top.nav_items.ml-auto {
     width: 85% !important;
     height: 70px !important;
     margin: 0 auto;
+    z-index: 9999999999999999999999999 !important;
 }

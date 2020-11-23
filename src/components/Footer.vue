@@ -104,11 +104,17 @@
                 </div>
             </div>
         </div>
-        <div class="footer_bottom">
+        <div class="footer_bottom py-3">
             <div class="footer_bottom_inner_container">
                <div>
-                    <img src="@/assets/img/logo.png" width="40" class="mr-3" /> 
-                    <img src="@/assets/img/ace.jpg" width="40"  /> 
+                    <img src="@/assets/img/logo.png" width="60" class="mr-3" /> 
+                    <img src="@/assets/img/ace.jpg" width="60"  /> 
+                    <img src="@/assets/img/Pace-logo 2.jpg" width="60"  /> 
+                    <img src="@/assets/img/icce small colour logo.jpeg" width="127"  />
+                    <img src="@/assets/img/Ofsted_Good_GP.jpg" width="60"  /> 
+                    <img src="@/assets/img/premier league 11.png" width="120"  /> 
+                    <img src="@/assets/img/premier league primary stars.jpg" width="120"  /> 
+
                     
                 </div> 
                 <div>
