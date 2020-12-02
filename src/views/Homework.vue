@@ -4,7 +4,7 @@
             <div class="text-justify mt-4">
                 <p class="section_col_text para">Homework is designed to aid the learning process and to train students to organise themselves and to be responsible for their own work. All subjects are expected to set a reasonable amount of homework at least once a week, to mark homework regularly and to write helpful comments for improvement or commendations alongside students' work.</p>
             </div>
-            <div class="row mt-4">
+            <div class="row mt-4 mb-5">
                 <div class="col-md-4">
                     <img src="@/assets/img/20181212_185405.png" class="hundred-percent-width" />
                 </div>
@@ -25,6 +25,19 @@
 
                 </div>
             </div>
+            <section class="mb-5">
+                <h3 class="section_col_header text-center">SHOW MY HOMEWORK</h3>
+                <div class="row justify-content-between">
+                    <div class="col-md-12">
+                        <p class="section_col_text para">Homework requirements are to be written on the day it is set along with the date on which it is to be handed in. Extra details can be written in exercise books. Time should be given within a lesson for homework details to be written down and checked by the Subject Teacher where necessary.
+                        <br>
+                        <br>
+                        Parents have a PIN to access details of their son/daughter’s homework. This system will mean parents will be able to see all homework set and be able to support the School by helping to ensure deadlines are met.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <button><a href="https://www.edplace.com/student/" target="blank">View Homework</a></button>
         </div>
     </MasterLayout>
 </template>
