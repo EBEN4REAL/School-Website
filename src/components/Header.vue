@@ -13,9 +13,12 @@
                 <b-link to="/admission" class="text-decoration-none nav_item"  :class="activeTab  === 'admission' ?  'activeNav' : null">Admission</b-link>
                  <b-link to="/uniform" class="text-decoration-none nav_item"  :class="activeTab  === 'uniform' ?  'activeNav' : null">School Hours</b-link>
                 <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Curriculum</b-link>
-                <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">School Hours</b-link>
-                <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Blog Posts</b-link>
-                <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'contact' ?  'activeNav' : null">Contact</b-link>
+                <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'schoolHours' ?  'activeNav' : null">School Hours</b-link>
+                <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'blogPosts' ?  'activeNav' : null">Blog Posts</b-link>
+                <b-link to="/contact" class="text-decoration-none nav_item"  :class="activeTab  === 'contact' ?  'activeNav' : null">Contact</b-link>
+                 <b-link to="/contact" class="text-decoration-none "  :class="activeTab  === 'contact' ?  'activeNav' : null">
+                 <button class="btn btn-white mt-3 mb-3">Apply Online</button>
+                 </b-link>
             </b-navbar-nav>
             </b-collapse>
         </b-navbar>

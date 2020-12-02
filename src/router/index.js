@@ -18,6 +18,7 @@ import SchoolHours from "@/views/SchoolHours"
 import Admission from "@/views/Admission"
 import KidzoneLinks from "@/views/kidzoneLinks"
 import Homework from "@/views/Homework"
+import Gallery from "@/views/gallery"
 
 Vue.use(VueRouter);
 
@@ -101,6 +102,11 @@ let routes = [
     name: 'schoolHours',
     path: '/school-hours',
     component: SchoolHours
+  },
+   {
+    name: 'gallery',
+    path: '/gallery',
+    component: Gallery
   },
   {
     name: 'contact',

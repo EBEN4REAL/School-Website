@@ -17,12 +17,15 @@
 @import 'contact';
 @import 'admission';
 @import 'kidzone_links';
+@import 'gallery';
 
 
 h1, h2, h3, h4, h5, h6 , p{
     font-family: 'Poppins', sans-serif !important;
 }
-
+a {
+    text-decoration: none !important;
+}
 .read_more_div {
     width: 100%;
     .small {

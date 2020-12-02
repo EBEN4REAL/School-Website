@@ -12,32 +12,28 @@
 
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Contact Support</a> -->
                                 <router-link :to="{ name: 'contact' }">Contact Support</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Privacy Policy</a> -->
                                 <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'pace' }">Pace</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'development' }">Reading Development</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
                             </div>
                              <div class="footer_menu_item">
-                                <!-- <a href="">FAQ</a> -->
                                 <router-link :to="{ name: 'homework' }">Homework</router-link>
+                            </div>
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'gallery' }">Gallery</router-link>
                             </div>
                         </div>
                     </div>
@@ -45,16 +41,13 @@
                         <div class="footer_links_header">Admission</div>
                         <div class="footer_menu mt-4">
                             <div class="footer_menu_item">
-                                <!-- <a href="">How it works</a> -->
                                 <router-link :to="{ name: 'admission' }">Admission</router-link>
 
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Contact Support</a> -->
                                 <router-link :to="{ name: 'contact' }">Contact Support</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <!-- <a href="">Privacy Policy</a> -->
                                 <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
                             </div>
                             
@@ -111,11 +104,17 @@
                 </div>
             </div>
         </div>
-        <div class="footer_bottom">
+        <div class="footer_bottom py-3">
             <div class="footer_bottom_inner_container">
                <div>
-                    <img src="@/assets/img/logo.png" width="40" class="mr-3" /> 
-                    <img src="@/assets/img/ace.jpg" width="40"  /> 
+                    <img src="@/assets/img/logo.png" width="60" class="mr-3" /> 
+                    <img src="@/assets/img/ace.jpg" width="60"  /> 
+                    <img src="@/assets/img/Pace-logo 2.jpg" width="60"  /> 
+                    <img src="@/assets/img/icce small colour logo.jpeg" width="127"  />
+                    <img src="@/assets/img/Ofsted_Good_GP.jpg" width="60"  /> 
+                    <img src="@/assets/img/premier league 11.png" width="120"  /> 
+                    <img src="@/assets/img/premier league primary stars.jpg" width="120"  /> 
+
                     
                 </div> 
                 <div>
