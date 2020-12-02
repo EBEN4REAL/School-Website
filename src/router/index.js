@@ -7,6 +7,7 @@ import BlogPosts from "@/views/BlogPosts"
 import Post from "@/views/Post"
 import Reports from "@/views/Reports"
 import Pace from "@/views/Pace"
+import Ofsted from "@/views/Ofsted"
 import Rewards from "@/views/Rewards"
 import Contact from "@/views/contact"
 import Policies from "@/views/Policies"
@@ -65,6 +66,11 @@ let routes = [
     name: 'pace',
     path: '/pace',
     component: Pace
+  },
+  {
+    name: 'ofsted',
+    path: '/ofsted',
+    component: Ofsted
   },
   {
     name: 'rewardsAndSanctions',
