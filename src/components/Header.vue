@@ -11,7 +11,7 @@
                 <b-link to="/" class="text-decoration-none nav_item"  :class="activeTab  === 'home' ?  'activeNav' : null">Home</b-link>
                 <b-link to="/about" class="text-decoration-none nav_item"  :class="activeTab  === 'about' ?  'activeNav' : null">About</b-link>
                 <b-link to="/admission" class="text-decoration-none nav_item"  :class="activeTab  === 'admission' ?  'activeNav' : null">Admission</b-link>
-                 <b-link to="/uniform" class="text-decoration-none nav_item"  :class="activeTab  === 'uniform' ?  'activeNav' : null">School Hours</b-link>
+                 <b-link to="/uniform" class="text-decoration-none nav_item"  :class="activeTab  === 'uniform' ?  'activeNav' : null">Uniform</b-link>
                 <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Curriculum</b-link>
                 <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'schoolHours' ?  'activeNav' : null">School Hours</b-link>
                 <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'blogPosts' ?  'activeNav' : null">Blog Posts</b-link>
