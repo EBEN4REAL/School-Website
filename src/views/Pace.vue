@@ -29,7 +29,7 @@
                         <img src="@/assets/img/about-second.png">
                     </div>
                     <div class="col-xl-7 col-lg-12 col-md-12">
-                        <h3 class="section_col_header text-center">What's Inside</h3>
+                        <h3 class="section_col_header text-center">WHAT'S INSIDE</h3>
                         <ul>
                             <li class="section_col_text para">Students begin their PACE work by noting their goals, the concepts they will learn, a Bible verse, and a corresponding character trait. From the beginning of each PACE, they know what is expected and assume the responsibility for their own learning!</li>
                             <li class="section_col_text para">Throughout the curriculum, the introduction of new vocabulary words is computer controlled so that no new vocabulary word is used without the student first learning its meaning and pronunciation. Also, these words are repeated to ensure mastery.</li>
@@ -42,7 +42,7 @@
                 
             </section>
             <section class="mb-5">
-                <h3 class="section_col_header text-center">The A.C.E. Program</h3>
+                <h3 class="section_col_header text-center">THE A.C.E. PROGRAM</h3>
                 <div class="row justify-content-between">
                     <div class="col-md-12">
                         <p class="section_col_text para">Since 1970, A.C.E. PACEs have proven to be effective tools for goal setting and for achieving academic excellence. The A.C.E. Program is indeed more than just a PACE. A.C.E. provides a wide variety of student programs and staff training opportunities at locations around the world. See how A.C.E. can take education at your school or home school far beyond academics.</p>

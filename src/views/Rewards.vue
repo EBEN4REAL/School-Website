@@ -8,7 +8,7 @@
                         <img src="@/assets/img/development-first.png">
                     </div>
                     <div class="col-md-6">
-                        <h3 class="section_col_header text-center">Rewards</h3>
+                        <h3 class="section_col_header text-center">REWARDS</h3>
                         <p class="section_col_text para">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.
                         <br>
                         <br>
@@ -33,7 +33,7 @@
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <h3 class="section_col_header text-center">Sanctions</h3>
+                        <h3 class="section_col_header text-center">SANCTIONS</h3>
                         <p class="section_col_text para">At Sol Christian Academy we will support those who are experiencing behavioural, emotional, social or other difficulties that might impede self-discipline and effective learning. Whilst we believe the most effective way of managing behaviour is to praise and reward good behaviour, there are occasions and circumstances when other support is required. Where students are having difficulty conforming to the expected standards of behaviour various strategies and systems may be employed to help them improve.
                         <br>
                         <br>
