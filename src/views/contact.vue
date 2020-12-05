@@ -36,13 +36,13 @@
                                 <img src="@/assets/img/tel.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3">
-                                <p>+44(0)797 1402 653</p>
+                                <p>01616372944</p>
                             </div>
                             <div class="col-4 mt-3 mb-4 text-center">
                                 <img src="@/assets/img/mail.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3 mb-4">
-                                <p>info@solacademy.co.uk</p>
+                                <p> board@solacademy.org.uk</p>
                             </div>
                         </div>
                     </div>

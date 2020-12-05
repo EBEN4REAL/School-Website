@@ -69,7 +69,7 @@
                 </div>
                 <div class="footer_contact_text mt-3">Feel free to get in touch with us via email</div>
                 <div class="bold_text text-white mt-3 contact_email_text">
-                    <P>info@solacademy.co.uk</P>
+                    <P> board@solacademy.org.uk</P>
                 </div>
                 <div class="mt-3">
                     <div class="social_media_icons">
