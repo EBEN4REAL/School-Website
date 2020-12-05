@@ -19,6 +19,7 @@ import Admission from "@/views/Admission"
 import KidzoneLinks from "@/views/kidzoneLinks"
 import Homework from "@/views/Homework"
 import Gallery from "@/views/gallery"
+import Attendance from "@/views/Attendance"
 
 Vue.use(VueRouter);
 
@@ -113,8 +114,13 @@ let routes = [
     path: '/contact',
     component: Contact
   },
+  {
+    name: 'attendance',
+    path: '/attendance',
+    component: Attendance
+  },
 ];
-// console.log(routes.length)
+
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,

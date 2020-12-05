@@ -35,6 +35,9 @@
                             <div class="footer_menu_item">
                                 <router-link :to="{ name: 'gallery' }">Gallery</router-link>
                             </div>
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'attendance' }">Attendance</router-link>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
