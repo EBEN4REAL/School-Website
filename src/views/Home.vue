@@ -187,13 +187,16 @@
         <section class="upcoming_events_wrapper">
             <div class="row align-items-center">
                 <div class="col-md-4">
-                    <h3 class="upcoming_events_header">Growing in Knowledge. Following in Faith. Serving in Unity</h3>
+                    <small class="upcoming_events_header">On behalf of all staff and I would like to welcome you to this New Academic Year.
+                        At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum
+                </small>
                 </div>
                 <div class="col-md-4">
                     <div class="upcoming_event_founder_card">
                         <h3 class="upcoming_event_founder_card_para">
-                            At SOL Academy we are commited the excellence in all aspects 
-                            of school life. We encourage children to give of their best in everything they do
+                            On behalf of all staff and I would like to welcome you to this New Academic Year.
+                            At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. 
+                            <!-- We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum -->
                         </h3>
                         <div class="row">
                             <div class="col-md-4 card_subcontent text-right">
@@ -212,7 +215,10 @@
                     <div class="upcoming_events_section">
                         <h3 class="py-3 text-center">Upcoming Events</h3>
                         <div class="upcoming_events_section_inner_wrapper">
-                            <div class="list_item mb-2" v-for="(a,i) in 3" :key="i">
+                            <small>Due to the Covid circumstance, Preparation for Christmas and parents meeting will be passed shortly
+
+                            </small>
+                            <!-- <div class="list_item mb-2" v-for="(a,i) in 3" :key="i">
                                 <div class="row hundred-percent-height">
                                     <div class="col-4 hundred-percent-height">
                                         <img src="@/assets/img/write-good-blog-article-get-more-traffic1.png" class="card_img" />
@@ -241,7 +247,7 @@
                             </div>
                             <div class="text-center mt-2">
                                 <button class="btn btn-green ">Learn More</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -295,41 +301,38 @@
         <section class="why_choose_us mt-5">
             <h4 class="text-center bold_text header_content">Reasons Why You Should Choose Us</h4>
             <div class="mt-5 row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <img src="@/assets/img/character.jpg" class="why_img" width="450px"  />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h4 class="bold_text">Character</h4>
-                    <p class="para">This article is floated online with an aim to help you find the best 
-                        dvd printing solution. Dvd printing is 
-                        an important feature used by large and small DVD production houses to print information on DVDs.</p>
+                    <p class="para">As Christians, we need to strive for success. Our strong Christian character needs to stand out to a lost world. The world needs to see Christians who can handle adversity as well as success. Success tests the crucible of our Christian character! Let’s remember who we are and who brought success our way.
+                    We all think about a lot of things that are not godly, and things we would be ashamed of if they were available for all to know. 
+                    Abraham Lincoln once said, “Character is like a tree and reputation like its shadow. The shadow is what we think of it; the tree is the real thing.” My reputation is what others think of me, which may or may not be true, but my character is who I really am. Your character is the real you in the sense that you cannot separate what you do from who you are.
+                    </p>
                 </div>
             </div>
             
             <div class="mt-5 row align-items-center">
-                <div class="col-md-7">
-                    <img src="@/assets/img/leadership (1).jpg" class="why_img mobile_view" width="450px"  />
-                </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <h4 class="bold_text">Leadership</h4>
-                    <p class="para pr-5">While it was just a TV show, that little speech at the beginning of 
-                        the original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings 
-                        that drive our love of astronomy and our desire to learn more and more about it.
+                    <p class="para">As Christians, we carry the responsibility of representing Christ in the way we lead. It’s not just for our sake but the sake of those around us.
+                    When people know that we are followers of Jesus, they see our behaviour and associate whatever behaviour they see in us with Jesus. Whether we like it or not, we are carefully watched by those outside the church, and we represent Jesus on earth. Our behaviour doesn’t change the nature of Jesus, but we can change the way people around us think about Jesus based on our actions and behaviour.“If we lead poorly, that’s a really bad representation and every one of us knows that we can absolutely affect someone’s faith by how we lead, good or bad.”
+                    Global citizen of a greater Kingdom to come..Inspiration
+                    .
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img desktop_view" width="450px"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <img src="@/assets/img/academics.jpg" class="why_img" width="450px"  />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h4 class="bold_text">Academics</h4>
-                    <p class="para italic">While it was just a TV show, that little speech at the beginning of the 
-                        original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings that drive our love of 
-                        astronomy and our desire to learn more and more about it..</p>
+                    <p class="para italic">Academics are important in the life of a disciple of Christ, because they engage our minds by sharpening, stretching, and challenging our thinking about God in a myriad of ways. In science and math classes, we can love God by learning about His awesome creation and how the universe is perfectly designed. In language arts, we love God by learning the skills we need to read His Word and to communicate effectively with others. In history, we love God by learning how all of human events fit into the arc of the Gospel – creation, fall, redemption, and (coming soon!) glorification. If it’s true that God has something to say about every subject, and every subject has something to say about God, it follows that studying these subjects – when they are taught from a Biblical worldview – helps us to love God with our minds.</p>
                 </div>
             </div>
         </section>
@@ -341,7 +344,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 mb-3 text-right">
-                    <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button>
+                    <!-- <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button> -->
                 </div>
             </div>
             <vueper-slides                            
@@ -352,7 +355,7 @@
               :slide-ratio="1 / 4"
               :dragging-distance="200"
               :breakpoints="{ 800: { visibleSlides: 1, slideMultiple: 1 } }">
-              <vueper-slide  v-for="(x, index) in 4" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
+              <vueper-slide  v-for="(x, index) in 1" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
                   <template v-slot:content>
                      <div class=" ace_curriculum">
                         <div class="ace_curriculum_item first">
@@ -366,10 +369,10 @@
                             </div>
                             <div class="testimonials__text_container">
                                 <p class="para testimonials__text">
-                                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
+                                    Excellent results from SCA’s students from the recent SK1 and SK2 SATs exams!
                                 </p>
-                                <h6 class="">Eben</h6>
-                                <p>Software Developer @Fuelmetrics</p>
+                                <!-- <h6 class="">Eben</h6> -->
+                                <!-- <p>Software Developer @Fuelmetrics</p> -->
                             </div>
                         </div>  
                     </div>
