@@ -5,9 +5,11 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
                         <h3 class="section_col_header">To see a list of all events at SOL Christian Academy Please look at our events calendar</h3>
-                        <button class="view_calendar_button">
-                            View Calendar
-                        </button>
+                        <a href="./Calendar 2020_2021.pdf" target="_blank"> 
+                            <button class="view_calendar_button">
+                                View Calendar
+                            </button>
+                        </a>
                         <div class="skewed_div uniform_skewed school_hours_skewed flex_column_around">
                             <div class="flex_stretch">
                                 <img src="@/assets/img/notification.svg" style="width: 10px;" >

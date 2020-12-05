@@ -344,7 +344,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 mb-3 text-right">
-                    <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button>
+                    <!-- <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button> -->
                 </div>
             </div>
             <vueper-slides                            
@@ -355,7 +355,7 @@
               :slide-ratio="1 / 4"
               :dragging-distance="200"
               :breakpoints="{ 800: { visibleSlides: 1, slideMultiple: 1 } }">
-              <vueper-slide  v-for="(x, index) in 4" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
+              <vueper-slide  v-for="(x, index) in 1" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
                   <template v-slot:content>
                      <div class=" ace_curriculum">
                         <div class="ace_curriculum_item first">
@@ -369,10 +369,10 @@
                             </div>
                             <div class="testimonials__text_container">
                                 <p class="para testimonials__text">
-                                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo modi tem."
+                                    Excellent results from SCA’s students from the recent SK1 and SK2 SATs exams!
                                 </p>
-                                <h6 class="">Eben</h6>
-                                <p>Software Developer @Fuelmetrics</p>
+                                <!-- <h6 class="">Eben</h6> -->
+                                <!-- <p>Software Developer @Fuelmetrics</p> -->
                             </div>
                         </div>  
                     </div>
