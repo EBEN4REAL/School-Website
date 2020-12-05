@@ -2,35 +2,46 @@
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width curriculum_container">
             <h3 class="section_col_header">Core Curriculum</h3>
-            <p class="section_col_text para mb-5">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. <br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and</p>
+            <p class="section_col_text para mb-5">Core curriculum provides students with academics, skill building, reading practice, character and wisdom training, and knowledge of God and His Word. This complete package begins with reading development and progresses through high school, giving students a solid foundation for pursuing their life goals.
+            <br>
+            <br>
+            Students who are more skilled may progress at a faster rate or may accelerate in the areas of their academic strengths. Slower students are encouraged to do their best but are able to work at their levels of proficiency and proceed as they are capable.
+            <br>
+            <br>
+            Each core subject consists of 12 PACEs <a href="https://www.aceministries.com/what-is-a-pace" target="blank">(Packet of Accelerated Christian Education)</a> per level. Typical students work daily on one PACE in each subject and may be performing at varying levels. The diagnostic test results help to identify academic weaknesses and prescribe a path to help students catch up. Most students complete at least 70 PACEs per year, while maintaining academic balance by completing about the same number of PACEs in each assigned subject.
+            </p>
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-7 skewed_parent">
-                        <h3 class="section_col_header text-center">Core Subject</h3>
+                        <h3 class="section_col_header text-center">Core Subjects</h3>
                         <div class="skewed_div uniform_skewed flex_column">
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">Maths</p>
+                                <p class="section_col_text para">Math (Levels K–12)</p>
                             </div>
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">English</p>
+                                <p class="section_col_text para">English (Levels K–12)</p>
                             </div>
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">Chemistry</p>
+                                <p class="section_col_text para">Literature and Creative Writing (Levels 2–8)</p>
                             </div>
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">Agric</p>
+                                <p class="section_col_text para">Social Studies (Levels K–12)</p>
                             </div>
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">CRS</p>
+                                <p class="section_col_text para">Science (Levels K–12)</p>
                             </div>
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                                <p class="section_col_text para">Music</p>
+                                <p class="section_col_text para">Word Building (Levels K–9)</p>
+                            </div>
+                            <div class="flex_display">
+                                <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                                <p class="section_col_text para">Bible Reading (Levels 1–6)</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +53,7 @@
             </section>
             <section class="mb-5">
                 <h3 class="section_col_header text-center">Multimedia</h3>
-                <p class="section_col_text para">Uniform gives Our Students a sense of ‘Unity’ and by dressing correctly students can show pride in their school. Students are required to wear uniform at all times. All students must wear the uniform listed below.</p>
+                <p class="section_col_text para">Readmaster Plus is an educational software suite that enhances students’ educational experiences while challenging their learning. Readmaster Plus offers four distinct computer software programs:</p>
             </section>
             <section class="row justify-content-between mb-5">
                 <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
@@ -54,7 +65,7 @@
                             
                         </div>
                         <div class="media_content col-md-9">
-                            <h5 class="">Text</h5>
+                            <p class="para">Readmaster® improves reading rate and comprehension skills for Levels 1–12.</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +78,7 @@
                             
                         </div>
                         <div class="media_content col-md-9">
-                            <h5 class="">Text</h5>
+                            <p class="para">Typemaster® teaches computer keyboard skills for Levels 1–6.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +91,7 @@
                             
                         </div>
                         <div class="media_content col-md-9">
-                            <h5 class="">Text</h5>
+                            <p class="para">Math Builder® provides drill and practice in math concepts for Levels 1–6.</p>
                         </div>
                     </div>
                 </div>
@@ -93,15 +104,19 @@
                             
                         </div>
                         <div class="media_content col-md-9">
-                            <h5 class="">Text</h5>
+                            <p class="para">Word Builder® improves spelling, word usage, and pronunciation for Levels 2–8</p>
                         </div>
                     </div>
                 </div>
                 
             </section>
             <section class="mb-5">
-                <h3 class="section_col_header text-center">Elective and Additional Instruction Programs</h3>
-                <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. <br><br>I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p>
+                <h3 class="section_col_header text-center">Effective and Additional Instructional Program</h3>
+                <p class="section_col_text para">In order to enhance the core curriculum, A.C.E. offers a number of other programs and courses beneficial to academic growth and development. Each of these courses adds interest and enhancement to the core curriculum and to other learning activities
+                <br>
+                <br>
+                Accelerated Christian Education is a Bible-based, Christian K–12 curriculum, consisting of reading programs, core curriculum, required electives, and additional instruction programs. Some courses are enhanced with CDs, DVDs, and computer software.
+                </p>
             </section>
         </div>
     </MasterLayout>

@@ -12,7 +12,7 @@
                         <h3 class="section_col_header text-center">DRESS CODE AND GENERAL GUIDELINES</h3>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                            <p class="section_col_text para">Jewellery is not permitted in school except for girls who may wear one pair of studs or sleepers in their ears if pierced</p>
+                            <p class="section_col_text para">Jewellery is not permitted in school except for girls who may wear one pair of studs or sleepers in their ears if pierced.</p>
                         </div>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -20,23 +20,19 @@
                         </div>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                            <p class="section_col_text para">Experience working on projects with information and feature lists and real user recognition.</p>
-                        </div>
-                        <div class="flex_display">
-                            <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
                             <p class="section_col_text para">Hair for boys must be worn short.</p>
                         </div>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                            <p class="section_col_text para">For girls, long hair must be tied back or a headband worn</p>
+                            <p class="section_col_text para">For girls, long hair must be tied back or a headband worn.</p>
                         </div>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                            <p class="section_col_text para">Hair colouring is not permitted nor fashion or ‘Punk’ styles</p>
+                            <p class="section_col_text para">Hair colouring is not permitted nor fashion or ‘Punk’ styles.</p>
                         </div>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
-                            <p class="section_col_text para">No mobile phones or bleepers are allowed in school unless prior written permission has been given</p>
+                            <p class="section_col_text para">No mobile phones or bleepers are allowed in school unless prior written permission has been given.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +41,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
-                        <h3 class="section_col_header text-center">UNIFORM AVAILABLE AT THE SCHOOL OFFICE:</h3>
+                        <h3 class="section_col_header text-center">BLOUSES AND SHIRTS AVAILABLE :</h3>
                         <div class="skewed_div uniform_skewed flex_column">
                             <p>Boys' shirt, golden, collar: 36cm / 14" (12-14 years)</p>
                             <p>Boys' shirt, golden, collar: 41cm / 16" (16 years)</p>
