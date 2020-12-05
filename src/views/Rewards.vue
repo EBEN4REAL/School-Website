@@ -5,7 +5,7 @@
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/about-second.png">
+                        <img src="@/assets/img/development-first.png">
                     </div>
                     <div class="col-md-6">
                         <h3 class="section_col_header text-center">Rewards</h3>
@@ -50,7 +50,7 @@
                         </ul>
                     </div>
                     <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/about-second.png">
+                        <img src="@/assets/img/leadership (1).jpg">
                     </div>
                 </div>
                 <p class="section_col_text para">
