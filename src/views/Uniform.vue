@@ -53,7 +53,20 @@
                         <img src="@/assets/img/uniform-second.png">
                     </div>
                 </div>
-                
+
+                <div class="text-center mt-5">
+                    <a href="https://www.schooltrends.co.uk/" target="blank">
+                        <button class="view_calendar_button">
+                            ORDER UNIFORM HERE 
+                        </button>
+                    </a>
+
+                    <a href="https://www.schooltrends.co.uk/" target="blank">
+                        <button class="view_calendar_button">
+                            SEE UNIFORM LIST
+                        </button>
+                    </a>
+                </div>
             </section>
         </div>
     </MasterLayout>
