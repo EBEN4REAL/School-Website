@@ -14,22 +14,21 @@
                         <br>
                         The role of rewards and praise in recognising and promoting the school’s values is a key component of developing the potential of our students by giving them encouragement and praise; praise is a key component of good teaching and good staff/student relationships. Good behaviour is also best promoted and developed by drawing attention to and rewarding well behaved and hardworking students. Praise is used appropriately, sincerely and will be linked to tangible examples of a student’s strengths or effort.
                         </p>
+                         <p class="section_col_text para">
+                            Students’ hard work, good behaviour and demonstration of the School’s core values are recognised and celebrated by teachers in many different ways, including:
+                        </p>
+                        <ul>
+                            <li class="section_col_text para">Verbal praise</li>
+                            <li class="section_col_text para">Positive feedback</li>
+                            <li class="section_col_text para">Positive letters</li>
+                            <li class="section_col_text para">Merits</li>
+                            <li class="section_col_text para">Assembly Trophy</li>
+                        </ul>
+                        <p class="section_col_text para">
+                            Student’s effort and achievements are rewarded in Assembly on Friday. 
+                        </p>
                     </div>
                 </div>
-                <p class="section_col_text para">
-                Students’ hard work, good behaviour and demonstration of the School’s core values are recognised and celebrated by teachers in many different ways, including:
-                </p>
-                <ul>
-                    <li class="section_col_text para">Verbal praise</li>
-                    <li class="section_col_text para">Positive feedback</li>
-                    <li class="section_col_text para">Positive letters</li>
-                    <li class="section_col_text para">Merits</li>
-                    <li class="section_col_text para">Assembly Trophy</li>
-                </ul>
-                <p class="section_col_text para">
-                Student’s effort and achievements are rewarded in Assembly on Friday. 
-                </p>
-                
             </section>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">

@@ -2,10 +2,11 @@
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width">
             <div :style="[{
-                backgroundImage: `url('https://res.cloudinary.com/dfjzditzc/image/upload/v1572447495/samples/ecommerce/leather-bag-gray.jpg')`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                backgroundImage: `linear-gradient(rgb(12, 4, 31 , 0.7), rgb(12, 4, 31 , 0.7)), url(${backgroundUrl})`,
+                backgroundAttachment: 'fixed'
             }]" class="post_image">
                 
             </div>
@@ -55,6 +56,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import bg_URL from '@/assets/img/The-matriculants.png';
+import backgroundUrl from "@/assets/img/ttop_5.jpg";
 
 
 export default {
@@ -65,6 +67,7 @@ export default {
     data() {
         return {
             title: 'Pace',
+            backgroundUrl,
             bg_URL
         }
     }

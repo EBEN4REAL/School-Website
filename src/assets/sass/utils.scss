@@ -50,7 +50,16 @@
         font-style: italic;
     }
 }
-
+.view_calendar_button {
+    border: 1px solid $primaryGreen;
+    border-radius: 25px;
+    background-color: white;
+    color: $primaryGreen;
+    font-size: 14px;
+    padding: 8px 20px;
+    outline-width: 0;
+    margin-bottom: 25px;
+}
 .section_col_header {
     font-weight: bold;
     color: $colHeaderText;

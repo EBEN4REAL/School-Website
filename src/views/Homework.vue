@@ -37,7 +37,12 @@
                     </div>
                 </div>
             </section>
-            <button><a href="https://www.edplace.com/student/" target="blank">View Homework</a></button>
+            <a href="https://www.edplace.com/student/" target="blank">
+                <button class="view_calendar_button">
+                    View Homework
+                </button>
+            </a>
+            
         </div>
     </MasterLayout>
 </template>

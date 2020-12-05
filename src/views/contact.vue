@@ -14,7 +14,7 @@
                                 <div class="address">
                                     <h6>Physical Address:</h6>
                                     <p class="mt-4">SOL Christian Academy</p>
-                                    <p>115 Fairfield Street <br>Manchester<br> M12 6EL</p>
+                                    <p>115 Fairfield Street <br>Manchester, Piccadilly Station<br> M12 6EL</p>
                                 </div>
                             </div>
                         </div>
@@ -30,13 +30,13 @@
                                 <img src="@/assets/img/phonecall.svg" alt="" width="20">
                             </div>
                             <div class="col-8">
-                                <p>0161-637-2944</p>
+                                <p>01616372944</p>
                             </div>
                             <div class="col-4 mt-3 text-center">
-                                <img src="@/assets/img/tel.svg" alt="" width="20">
+                                <!-- <img src="@/assets/img/tel.svg" alt="" width="20"> -->
                             </div>
                             <div class="col-8 mt-3">
-                                <p>0161-637-2944</p>
+                                <!-- <p>0161-637-2944</p> -->
                             </div>
                             <div class="col-4 mt-3 mb-4 text-center">
                                 <img src="@/assets/img/mail.svg" alt="" width="20">
@@ -80,7 +80,7 @@
         <div class="map_location">
             <h2 class="font-weight-bold text-center pb-2">Find us on map</h2>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1981934338924!2d3.355999714297244!3d6.6222854238454225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9338c5016057%3A0x79aeb10a1e8d0c2c!2sBerger%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1603637035704!5m2!1sen!2sng" width="1700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.597834455831!2d-2.223227884201329!3d53.47564717271933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb198fc6f61a7%3A0x84c13518a0f3a76e!2s115%20Fairfield%20St%2C%20Manchester%20M12%206EL%2C%20UK!5e0!3m2!1sen!2sng!4v1607161927640!5m2!1sen!2sng" width="1280" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </MasterLayout>
