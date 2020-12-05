@@ -33,16 +33,16 @@
                                 <p>01616372944</p>
                             </div>
                             <div class="col-4 mt-3 text-center">
-                                <!-- <img src="@/assets/img/tel.svg" alt="" width="20"> -->
+                                <img src="@/assets/img/tel.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3">
-                                <!-- <p>0161-637-2944</p> -->
+                                <p>+44(0)797 1402 653</p>
                             </div>
                             <div class="col-4 mt-3 mb-4 text-center">
                                 <img src="@/assets/img/mail.svg" alt="" width="20">
                             </div>
                             <div class="col-8 mt-3 mb-4">
-                                <p>Admin@solacademy.org.uk</p>
+                                <p>info@solacademy.co.uk</p>
                             </div>
                         </div>
                     </div>

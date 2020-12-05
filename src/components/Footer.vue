@@ -69,7 +69,7 @@
                 </div>
                 <div class="footer_contact_text mt-3">Feel free to get in touch with us via email</div>
                 <div class="bold_text text-white mt-3 contact_email_text">
-                    <P>info@solacademy.org.uk</P>
+                    <P>info@solacademy.co.uk</P>
                 </div>
                 <div class="mt-3">
                     <div class="social_media_icons">
@@ -90,7 +90,7 @@
                             <h6>Phone</h6>
                         </div>
                         <div class="text-white bold_text">
-                            <span>+357463844</span>
+                            <span>+44(0)797 1402 653</span>
                         </div>
                     </div>
                     <div class="col-md-8 footer_img">
@@ -98,7 +98,7 @@
                             <h6>Address</h6>
                         </div>
                         <div class="text-white bold_text">
-                            <span>491 Merlin Crest Suite 963, UK</span>
+                            <span>115 Fairfield Street Manchester, Piccadilly Station M12 6EL</span>
                         </div>
                     </div>
                 </div>

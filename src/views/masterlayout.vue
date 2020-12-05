@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class="bg_wrapper"  :style="{
-            backgroundImage: `linear-gradient(rgb(8, 129, 62, 0.8), rgb(8, 129, 62, 0.8)), url(${bg_URL})`,
+            backgroundImage: `linear-gradient(rgb(8, 129, 62, 0.7), rgb(8, 129, 62, 0.7)), url(${bg_URL})`,
           }">
             <Header />
             <div class="header__banner">
