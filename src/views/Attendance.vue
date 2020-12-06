@@ -39,7 +39,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import bg_URL from '@/assets/img/The-matriculants.png';
-import backgroundUrl from "@/assets/img/ttop_5.jpg";
+import backgroundUrl from "@/assets/img/uniform-second.png";
 
 
 export default {
@@ -52,7 +52,7 @@ export default {
             title: 'Attendance',
             backgroundUrl,
             bg_URL
-        }
+         }
     }
 }
 </script>

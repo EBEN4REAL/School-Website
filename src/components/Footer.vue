@@ -24,18 +24,6 @@
                                 <router-link :to="{ name: 'development' }">Reading Development</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
-                            </div>
-                            <div class="footer_menu_item">
-                                <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
-                            </div>
-                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'homework' }">Homework</router-link>
-                            </div>
-                            <div class="footer_menu_item">
-                                <router-link :to="{ name: 'gallery' }">Gallery</router-link>
-                            </div>
-                            <div class="footer_menu_item">
                                 <router-link :to="{ name: 'attendance' }">Attendance</router-link>
                             </div>
                         </div>
@@ -48,10 +36,22 @@
 
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'contact' }">Contact Support</router-link>
+                                 <div class="footer_menu_item">
+                                    <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
+                                </div>
+                                <div class="footer_menu_item">
+                                    <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
+                                </div>
+                                <div class="footer_menu_item">
+                                    <router-link :to="{ name: 'homework' }">Homework</router-link>
+                                </div>
+                                <div class="footer_menu_item">
+                                    <router-link :to="{ name: 'gallery' }">Gallery</router-link>
+                                </div>
+                               
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
+
                             </div>
                             
                         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="footer_contact_text mt-3">Feel free to get in touch with us via email</div>
                 <div class="bold_text text-white mt-3 contact_email_text">
-                    <P> board@solacademy.org.uk</P>
+                    <P><small>board@solacademy.org.uk</small></P>
                 </div>
                 <div class="mt-3">
                     <div class="social_media_icons">
@@ -93,7 +93,7 @@
                             <h6>Phone</h6>
                         </div>
                         <div class="text-white bold_text">
-                            <span>+44(0)797 1402 653</span>
+                            <small>+44(0)797 1402 653</small>
                         </div>
                     </div>
                     <div class="col-md-8 footer_img">
@@ -101,7 +101,7 @@
                             <h6>Address</h6>
                         </div>
                         <div class="text-white bold_text">
-                            <span>115 Fairfield Street Manchester, Piccadilly Station M12 6EL</span>
+                            <small>115 Fairfield Street Manchester, Piccadilly Station M12 6EL</small>
                         </div>
                     </div>
                 </div>

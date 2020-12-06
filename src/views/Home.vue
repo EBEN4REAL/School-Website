@@ -187,6 +187,9 @@
         <section class="upcoming_events_wrapper">
             <div class="row align-items-center">
                 <div class="col-md-4">
+                     <h3 class="upcoming_event_founder_card_para">
+                          WELCOME NOTE
+                        </h3>
                     <small class="upcoming_events_header">On behalf of all staff and I would like to welcome you to this New Academic Year.
                         At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum
                 </small>
@@ -203,7 +206,7 @@
                                 <img src="@/assets/img/about-fourth.png" class="img_thumbnail" />
                             </div>
                             <div class="col-md-8 content_title">
-                                <strong>SOL academy</strong>
+                                <strong>SOL Academy</strong>
                                 <div>
                                     <small>Founder & CEO, SOL</small>
                                 </div>

@@ -1,6 +1,7 @@
 .admission_content_wrapper {
     margin: 0 auto;
     width: 50%;
+    margin-top: 100px;
     p{
         font-size: 13px;
         color: $greyText
@@ -36,7 +37,35 @@
     
 }
 
-
+.adm_circle{
+    width: 15px;
+    height: 15px;
+    background: $goldColor;
+    border-radius: 50%;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 7px;
+        height: 71px;
+        width: 3px;
+        background: $primaryGreen;
+    }
+    .adm_left_rod{
+        position: absolute;
+        top: 82px;
+        right: 7px;
+        height: 3px;
+        width: 344px;
+        // background: #08813E;
+        border-top: 4px dotted $primaryGreen;
+    }
+}
+.adm_circle_wrapper{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 768px) {
     .centra_para_section, .admission_content_wrapper {
         width: 100%;
