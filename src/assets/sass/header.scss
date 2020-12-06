@@ -31,7 +31,6 @@
     .navbar {
         margin-top: -14px;
         margin: 0 auto;
-        z-index: 9 !important;
         .logo_wrapper {
             width: 15%;
         }
@@ -74,5 +73,5 @@ ul.navbar-nav.navbar-fixed-top.nav_items.ml-auto {
     width: 85% !important;
     height: 70px !important;
     margin: 0 auto;
-    z-index: 9999999999999999999999999 !important;
+    z-index: 11 !important;
 }
