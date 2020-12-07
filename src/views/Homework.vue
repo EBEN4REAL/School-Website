@@ -9,14 +9,13 @@
                     <img src="@/assets/img/20181212_185405.png" class="hundred-percent-width" />
                 </div>
                 <div class="col-md-8">
-                    <p class="section_col_text para">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
+                    <p class="section_col_text para remove_p_bottom_border">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
                     <br>
                     Each student is issued with a Student Diary at the beginning of each School Year. It is very important that this diary is not defaced, damaged or lost. Replacements cost £2.00 and can be obtained from the Student Reception.
                     <br>
-                    <br>
                     In the Student Diary, student’s record comprises of: 
                     </p>
-                    <ol type="a">
+                    <ol type="a" class="remove_p_bottom_border">
                         <li class="section_col_text para">Their own daily timetable</li>
                         <li class="section_col_text para">Their homework timetable</li>
                         <li class="section_col_text para">The homework as it is set.</li>
@@ -30,7 +29,6 @@
                 <div class="row justify-content-between">
                     <div class="col-md-12">
                         <p class="section_col_text para">Homework requirements are to be written on the day it is set along with the date on which it is to be handed in. Extra details can be written in exercise books. Time should be given within a lesson for homework details to be written down and checked by the Subject Teacher where necessary.
-                        <br>
                         <br>
                         Parents have a PIN to access details of their son/daughter’s homework. This system will mean parents will be able to see all homework set and be able to support the School by helping to ensure deadlines are met.
                         </p>
