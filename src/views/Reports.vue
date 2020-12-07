@@ -18,8 +18,8 @@
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }]" class="single_report">
-                        <p>2019</p>
-                        <router-link :to="{ name: 'post' }" class="text-decoration-none report_link">View Report</router-link>
+                        <p class="text-center">OFSTED</p>
+                        <a href="./Ofsted.pdf" download class="text-decoration-none report_link">Download Report</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-4">
@@ -29,8 +29,8 @@
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }]" class="single_report">
-                        <p>2019</p>
-                        <router-link :to="{ name: 'post' }" class="text-decoration-none report_link">View Report</router-link>
+                        <p class="text-center">SOL OFSTED REPORT</p>
+                        <a href="./SOL OFSTED RESULTS.pptx" download class="text-decoration-none report_link">Download Report</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-4">
@@ -41,7 +41,7 @@
                         backgroundSize: 'cover'
                     }]" class="single_report">
                         <p>2019</p>
-                        <router-link :to="{ name: 'post' }" class="text-decoration-none report_link">View Report</router-link>
+                        <a href="./SOL OFSTED RESULTS.pptx" download class="text-decoration-none report_link">Download Report</a>
                     </div>
                 </div>
                 
