@@ -1,15 +1,10 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width">
-            <div :style="[{
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                backgroundImage: `linear-gradient(rgb(12, 4, 31 , 0.7), rgb(12, 4, 31 , 0.7)), url(${backgroundUrl})`,
-                backgroundAttachment: 'fixed'
-            }]" class="post_image">
-                
-            </div>
+            <video controls autoplay class="post_image">
+                <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <section class="mb-5">
                 <h3 class="section_col_header text-center">Packet of Accelerated Christian EDUCATION(PACE®)</h3>
                 <div class="row justify-content-between">
