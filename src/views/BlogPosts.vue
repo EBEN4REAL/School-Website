@@ -5,7 +5,7 @@
             <section class="row justify-content-between">
                 <div class="col-md-4" v-for="(blog,i) in blogs" :key="i">
                     <div class="blog_post">
-                        <img src="@/assets/img/blog-posts-first.png">
+                        <img :src="require('@/assets/blogs/' + blog.key + '/images/first.jpg')">
                         <div class="post_content_holder">
                             <div class="post_header">
                                 <div class="post_date">
@@ -18,8 +18,11 @@
                                 </div>
                             </div>
                             <h4>{{blog.title}}</h4>
-                            <p class="section_col_text">Book unique camping experiences on over 300,000 campsites.</p>
+                            
+                            <div class="post_content_spread">
+                                <p class="section_col_text">{{blog.content}}</p>
                             <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">See More</router-link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -43,7 +46,7 @@ export default {
         return {
             title: 'Blog',
             bg_URL,
-            blogs: [{title: 'Tree Top', key: 'tree-top'}, {title: 'Sport Day', key: 'sport-day'}, {title: 'SOL Park', key: 'sol-park'}, {title: 'SOL Tennis', key: 'sol-tennis'}, {title: 'Museum', key: 'museum'}, {title: 'Legoland', key: 'legoland'}]
+            blogs: [{title: 'Tree Top', key: 'tree-top', content: 'Students having fun in the tree top'}, {title: 'Sports Day', key: 'sports-day', content: 'Students participating in sporting activities on sports day'}, {title: 'SOL Park', key: 'sol-park', content: 'Students at the school park'}, {title: 'SOL Tennis', key: 'sol-tennis', content: 'Students at the tennis court'}, {title: 'Museum', key: 'museum', content: 'Students taking an excursion at a museum'}, {title: 'Legoland', key: 'legoland', content: 'Students having a fun day at legoland'}]
         }
     },
     computed: {
