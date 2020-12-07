@@ -1,7 +1,13 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="content_width mb-4">
-            <h4 class="section_col_header text-center py-4">It’s as easy as 1, 2, 3</h4>
+            <h4 class="section_col_header text-center py-3">It’s as easy as 1, 2, 3</h4>
+            <div class="adm_circle_wrapper">
+                <div class="adm_circle">
+                    <div class="adm_left_rod"></div>
+                </div>
+                
+            </div>
             <div class="admission_content_wrapper ">
                 <p class="  ">
                     Read through this website (latest information) or download an overview in our prospectus.

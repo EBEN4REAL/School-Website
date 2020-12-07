@@ -1,13 +1,10 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="blog_posts_container content_width">
-            <div class="mb-3">
+            <div class="mb-3 text-center">
                 <!-- <button class="gallery_button gallery_button_active mr-2">All</button> -->
-                <!-- <button class="gallery_button">Tree Top</button>
-                <button class="gallery_button">Sports Day</button>
-                <button class="gallery_button">Sol Park</button>
-                <button class="gallery_button">TSol Tennis</button>
-                <button class="gallery_button">Museaum</button> -->
+                <button class="gallery_button gallery_button_active">Pictures</button>
+                <button class="gallery_button">Videos</button>
             </div>
             <section class="row">
                 <div class="col-md-3" >
