@@ -15,17 +15,13 @@
                     <div class="col-md-12">
                         <p class="section_col_text para">We expect students to attend at all times. If a student does not attend school they will not learn. A student's regular attendance and punctuality are a parent's or guardians legal responsibility.
                         <br>
-                        <br>
                         Recent changes to Government Guidelines regarding acceptable school attendance levels state:
                         <br>
                         <i><b>All students must achieve at least 95% attendance as instructed by LEA and any child falling below 95% will now be contacted by the School and meetings will be arranged to discuss how attendance can be improved. All parents of a student who will not be attending school through illness or for other unforeseen reasons are required to telephone the school office before 7:30am to give the reason.</b></i>
                         <br>
-                        <br>
                         A note, signed by a parent or guardian, confirming the reason, must be brought after every absence otherwise the absence will be logged as unauthorised. By law, only the School can authorise an absence.
                         <br>
-                        <br>
                         The Local Education Authority's Educational Welfare Service investigates unexplained absences. It is essential that students attend regularly. We believe that student attainment and success are closely linked to regular attendance. Dental or medical treatment should be arranged after school.
-                        <br>
                         <br>
                         If, in very exceptional circumstances, you need to request absence from school for your child during school time you should apply to the School in writing in advance of the leave.  Research indicates that two weeks' absence can seriously affect potential examination results.
                         </p>

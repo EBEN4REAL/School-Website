@@ -16,7 +16,6 @@
                     <div class="col-md-12">
                         <p class="section_col_text para">Accelerated Christian Education® has taken the conventional style textbook and divided it into bite-sized, achievable worktexts called PACEs. Each PACE is similar to a unit in a textbook. Each level consists of 12 PACEs in each subject. PACEs integrate Godly character-building lessons into the academic content, and self-instructional activities are carefully designed to develop thinking skills and create mastery learning.
                         <br>
-                        <br>
                         A.C.E. stands out from other curriculum providers with its individualized, self-instructional, mastery-based approach.  With minimal assistance, PACEs allow students to absorb subject material according to their own learning ability rather than being pushed forward or held back by their age. For instance, a student placed in the fifth grade by a conventional school may be taking PACEs in Level 4 math, Level 5 science, and Level 5 English in the A.C.E. program. Students may move ahead in some subject areas and proceed at a slower pace in others
                         </p>
                     </div>
