@@ -5,7 +5,7 @@
                 <img src="https://conserve.com.au/wp-content/uploads/2019/10/is-your-whs-policy-as-good-as-you.jpg"/>
             </div>
             <div>
-                <p>At the school we have an ‘open door’ policy. Parents are encouraged to make an appointment to speak with the teachers and the Principal. We aim to deal with issues as they arise, contacting parents within the day if an incident should occur. The students are encouraged to talk to teachers and parents if they have any concerns or problems. Children are strongly advised not to retaliate, but to take the correct course of action, that is, to inform the teacher. We endeavour to have effective communication channels, a prerequisite for any healthy partnership. Parents, management, teachers, and governors are all committed to enforcing this policy. <br> <b><i>‘Can two walk together, unless they are in agreement?’ – Amos 3:3</i></b> <br><br> Our behaviour policy is evaluated periodically and any necessary changes made. To ensure the smooth running of the school and maintain consistency throughout the school community, parents must read and sign the policy stating their agreement. <br> Safeguarding <br><br>Safeguarding Policy incorporating Child Protection <br><strong>SEND POLICY</strong> <br><strong>COMPLAINTS PROCEDURES</strong><br><strong>BEHAVIOUR , HEALTH AND SAFETY</strong> <br> <br>Full details of all our policies listed below are available upon request. </p>
+                <p class="section_col_text">At the school we have an ‘open door’ policy. Parents are encouraged to make an appointment to speak with the teachers and the Principal. We aim to deal with issues as they arise, contacting parents within the day if an incident should occur. The students are encouraged to talk to teachers and parents if they have any concerns or problems. Children are strongly advised not to retaliate, but to take the correct course of action, that is, to inform the teacher. We endeavour to have effective communication channels, a prerequisite for any healthy partnership. Parents, management, teachers, and governors are all committed to enforcing this policy. <br> <b><i>‘Can two walk together, unless they are in agreement?’ – Amos 3:3</i></b> <br><br> Our behaviour policy is evaluated periodically and any necessary changes made. To ensure the smooth running of the school and maintain consistency throughout the school community, parents must read and sign the policy stating their agreement. <br><br><strong>SAFEGUARDING</strong> <br><br> Policy incorporating Child Protection <br><strong>SEND POLICY</strong> <br><strong>COMPLAINTS PROCEDURES</strong><br><strong>BEHAVIOUR , HEALTH AND SAFETY</strong> <br> <br>Full details of all our policies listed below are available upon request. </p>
 
                 <ul>
                     <li>
@@ -50,10 +50,11 @@
                      <li>
                       School Trip Check List
                     </li>
-                     <li>
-                      SMCS -Link
+                    <li>
+                         <a href="https://b79cefee-7358-4de2-977d-cf00cade6405.filesusr.com/ugd/211fb5_3c4134c6d99a4a65bdf59ae2afb56a54.doc?dn=Promoting Fundamental British Values Pol" target="_blank">SMCS -Link</a>
+                      
                     </li>
-                     <li>
+                    <li>
                        Transport Policy
                     </li>
                      <li>

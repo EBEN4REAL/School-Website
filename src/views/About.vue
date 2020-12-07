@@ -23,31 +23,34 @@
                 <h3 class="section_col_header text-center">Our Values</h3>
                 <div class="row justify-content-around">
                     <div class="col-md-4 mb-4">
-                        <div class="about_media flex_column">
-                            <div class="flex_center">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                        <a href="./#character">
+                            <div class="about_media flex_column">
+                                <div class="flex_center">
+                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                </div>
+                                <p class="value_name text-center mt-5">Character</p>
                             </div>
-                            <p class="value_name text-center mt-5">Character</p>
-                            <!-- <p class="value_text text-center">Software development teams used by tools</p> -->
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="about_media flex_column">
-                            <div class="flex_center">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                        <a href="./#leadership">
+                            <div class="about_media flex_column">
+                                <div class="flex_center">
+                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                </div>
+                                <p class="value_name text-center mt-5">Leadership</p>
                             </div>
-                            <p class="value_name text-center mt-5">Leadership</p>
-                            <!-- <p class="value_text text-center">Software development teams used by tools</p> -->
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="about_media flex_column">
-                            <div class="flex_center">
-                                <img src="@/assets/img/reading.svg" style="width: 40px;">
+                        <a href="./#academics">
+                            <div class="about_media flex_column">
+                                <div class="flex_center">
+                                    <img src="@/assets/img/reading.svg" style="width: 40px;">
+                                </div>
+                                <p class="value_name text-center mt-5">Academics</p>
                             </div>
-                            <p class="value_name text-center mt-5">Academics</p>
-                            <!-- <p class="value_text text-center">Software development teams used by tools</p> -->
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -85,7 +88,7 @@
                         <img src="@/assets/img/about-fourth.png">
                     </div>
                     <div class="col-xl-8 col-lg-12 col-md-12">
-                        <p class="section_col_text ">Sol Christian Academy is an independent, fee paying, faith school based in Greater Manchester in Manchester. We have been offering a Christian education to children between the ages of three and eighteen since 2013. During this time we have been privileged to share the formative years of many children from different backgrounds, nationalities and cultures and, we believe, have added great value to their young lives.
+                        <p class="section_col_text para ">Sol Christian Academy is an independent, fee paying, faith school based in Greater Manchester in Manchester. We have been offering a Christian education to children between the ages of three and eighteen since 2013. During this time we have been privileged to share the formative years of many children from different backgrounds, nationalities and cultures and, we believe, have added great value to their young lives.
                         At Sol Christian Academy we have always identified our role as being an extension of the Christian home and we have worked hard to engender a positive, encouraging, familiar atmosphere where relationships are nurtured. From our first intake of three children we have steadily grown in student numbers to forty.
                         Our school is now divided into four distinct learning centres, from the pre-school through to the seniors. Each learning centre operates independently, as a class would in a mainstream school. All learning centres come together for times of worship and assembly. 
                         </p>

@@ -9,7 +9,7 @@
                 
             </div>
             <div class="admission_content_wrapper ">
-                <p class="  ">
+                <p class="section_col_text">
                     Read through this website (latest information) or download an overview in our prospectus.
                     Download your own copy of Sol Christian Academy prospectus today.
                     Everything you need know about how the School operates is found in this prospectus.
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="admission_content_wrapper  mt-4">
-                <p class="  ">
+                <p class="section_col_text ">
                     Annual School Fees are payable in 12 equal monthly instalments by Standing Order.
                     The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!
                     PACEs that have to be re-issued due to scoring violations will be charged at a rate of £7 each.
@@ -75,7 +75,7 @@
             <p class="py-5 ">“For where your treasure is, there your heart will be also.”</p>
         </div>
          <div class="mt-4 centra_para_section">
-            <p class="cent_para">
+            <p class="section_col_text">
                 Everyone knows that what we really value is what we invest in. We believe that our children are worth investing in. The financial contribution from each family is kept to a minimum by the sacrificial giving of time, energy, and availability of all the staff involved as well as the generous support of volunteer parents. Sol Christian Academy is very grateful for the financial support it has received from individuals and churches.
             </p>
             <div class="row py-4">

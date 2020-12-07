@@ -2,11 +2,11 @@
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="blog_posts_container content_width">
             <div class="mb-3 text-center">
-                <!-- <button class="gallery_button gallery_button_active mr-2">All</button> -->
-                <button class="gallery_button gallery_button_active">Pictures</button>
-                <button class="gallery_button">Videos</button>
+                <button class="gallery_button  mr-2" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
+                <button class="gallery_button " @click="changeView('pictures')" :class="view == 'pictures' ? ['gallery_button_active'] : null">Pictures</button>
+                <button class="gallery_button" @click="changeView('videos')" :class="view == 'videos' ? ['gallery_button_active'] : null">Videos</button>
             </div>
-            <section class="row">
+            <section class="row" v-show="view == 'all' || view == 'pictures'">
                 <div class="col-md-3" >
                     <div class="gallery_card">
                         <img src="@/assets/img/ttop_1.jpg"  />
@@ -58,6 +58,13 @@
                     </div>
                 </div>
             </section>
+            <section class="row" v-show="view == 'all' || view == 'videos'">
+                <div class="col-md-3" >
+                    <div class="gallery_card">
+                        <img src="@/assets/img/ttop_1.jpg"  />
+                    </div>
+                </div>
+            </section>
         </div>
         <Subscribe />
     </MasterLayout>
@@ -77,55 +84,15 @@ export default {
         return {
             title: 'Gallery',
             bg_URL,
-            gallery: [
-                {
-                    cat: 'treeTop',
-                    path: './assets/img/ttop_1.jpg'
-                },
-                {
-                    cat: 'treeTop',
-                    path: '@/assets/img/ttop_2.jpg'
-                },
-                {
-                    cat: 'treeTop',
-                    path: '@/assets/img/ttop_3.jpg'
-                },
-                {
-                    cat: 'treeTop',
-                    path: '@/assets/img/ttop_4.jpg'
-                },
-                {
-                    cat: 'treeTop',
-                    path: '@/assets/img/ttop_5.jpg'
-                },
-                 {
-                    cat: 'sports',
-                    path: './assets/img/sport_1.jpg'
-                },
-                {
-                    cat: 'sports',
-                    path: '@/assets/img/sport_2.jpg'
-                },
-                {
-                    cat: 'sports',
-                    path: '@/assets/img/sport_3.jpg'
-                },
-                {
-                    cat: 'sports',
-                    path: '@/assets/img/sport_4.jpg'
-                },
-                {
-                    cat: 'sports',
-                    path: '@/assets/img/sport_5.jpg'
-                }
-
-                
-            ]
+            view: 'all'
         }
     },
     methods: {
         getImage(path) {
             return require(path)
+        },
+        changeView(view) {
+            this.view = view
         }
     }
 }
