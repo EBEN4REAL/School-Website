@@ -2,7 +2,7 @@
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width">
             <video controls autoplay class="post_image">
-                <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
+                <!-- <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4"> -->
                 Your browser does not support the video tag.
             </video>
             <section class="mb-5">
