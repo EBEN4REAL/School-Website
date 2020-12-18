@@ -53,6 +53,9 @@
         font-style: italic;
     }
 }
+.primary-color {
+    color: $primaryGreen !important;
+}
 .view_calendar_button {
     border: 1px solid $primaryGreen;
     border-radius: 25px;

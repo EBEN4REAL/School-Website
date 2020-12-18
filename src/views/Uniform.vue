@@ -5,17 +5,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding">
-                        <splide :options="options">
-                            <splide-slide>
-                                <img src="@/assets/img/about-second.png" width="300">
-                            </splide-slide>
-                            <splide-slide>
-                                <img src="@/assets/img/about-second.png" width="300">
-                            </splide-slide>
-                            <splide-slide>
-                                <img src="@/assets/img/about-second.png" width="300">
-                            </splide-slide>
-                        </splide>
+                        <img src="@/assets/img/uniform-second.png">
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12 codes">
                         <h3 class="section_col_header text-center">DRESS CODE AND GENERAL GUIDELINES</h3>
@@ -45,7 +35,6 @@
                         </div>
                     </div>
                 </div>
-                
             </section>
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
@@ -59,18 +48,30 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
-                        <img src="@/assets/img/uniform-second.png">
+                        <splide :options="options">
+                            <splide-slide>
+                                <img src="@/assets/img/Uniform 2.jpg" width="100%" >
+                            </splide-slide>
+                            <splide-slide>
+                                <img src="@/assets/img/Uniform 3.jpg" width="100%"  >
+                            </splide-slide>
+                            <splide-slide>
+                                <img src="@/assets/img/Uniform 4.jpg" width="100%" >
+                            </splide-slide>
+                            <splide-slide>
+                                <img src="@/assets/img/Uniform 5.jpg" width="100%" >
+                            </splide-slide>
+                        </splide>
                     </div>
                 </div>
 
                 <div class="text-center mt-5">
-                    <a href="https://www.schooltrends.co.uk/" target="blank">
+                    <a href="https://www.schooltrends.co.uk/" >
                         <button class="view_calendar_button">
                             ORDER UNIFORM HERE 
                         </button>
                     </a>
-
-                    <a href="https://www.schooltrends.co.uk/" target="blank">
+                    <a href="./Uniform List.pdf" target="blank">
                         <button class="view_calendar_button">
                             SEE UNIFORM LIST
                         </button>

@@ -1,18 +1,12 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
-        <div class="pace_container content_width">
-            <!-- <div :style="[{
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                backgroundImage: `linear-gradient(rgb(12, 4, 31 , 0.7), rgb(12, 4, 31 , 0.7)), url(${backgroundUrl})`,
-                backgroundAttachment: 'fixed'
-            }]" class="post_image">
-                
-            </div> -->
+        <div class="pace_container content_width uniform_containe">
             <section class="mb-5">
-                <div class="row justify-content-between">
-                    <div class="col-md-12">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding">
+                        <img src="@/assets/img/Attendance.jpg" width="300px" />
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 codes">
                         <p class="section_col_text para">We expect students to attend at all times. If a student does not attend school they will not learn. A student's regular attendance and punctuality are a parent's or guardians legal responsibility.
                         <br>
                         Recent changes to Government Guidelines regarding acceptable school attendance levels state:
@@ -27,7 +21,6 @@
                         </p>
                     </div>
                 </div>
-                
             </section>
         </div>
     </MasterLayout>

@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width curriculum_container">
             <h3 class="section_col_header text-center">CORE CURRICULUM</h3>
             <p class="section_col_text para mb-5">Core curriculum provides students with academics, skill building, reading practice, character and wisdom training, and knowledge of God and His Word. This complete package begins with reading development and progresses through high school, giving students a solid foundation for pursuing their life goals.
@@ -120,7 +120,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/CurriculumSlider.jpg';
 
 
 export default {
@@ -131,7 +131,7 @@ export default {
     data() {
         return {
             title: 'Curriculum',
-            bg_URL
+            BgUrl
         }
     }
 }

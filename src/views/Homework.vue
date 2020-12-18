@@ -1,12 +1,12 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width py-4">
             <div class="text-justify mt-4">
                 <p class="section_col_text para">Homework is designed to aid the learning process and to train students to organise themselves and to be responsible for their own work. All subjects are expected to set a reasonable amount of homework at least once a week, to mark homework regularly and to write helpful comments for improvement or commendations alongside students' work.</p>
             </div>
             <div class="row mt-4 mb-5">
                 <div class="col-md-4">
-                    <img src="@/assets/img/20181212_185405.png" class="hundred-percent-width" />
+                    <img src="@/assets/img/HomeworkImage.jpg" class="hundred-percent-width" />
                 </div>
                 <div class="col-md-8">
                     <p class="section_col_text para remove_p_bottom_border">Curriculum Leaders are expected to keep a check on the quantity and quality of homework given and marking undertaken by Teachers. Monitor Diaries inform the Supervisors of shortfalls, gaps or overloads in the amount of homework given.
@@ -47,7 +47,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/HomeworkImage.jpg';
 
 
 export default {
@@ -58,7 +58,7 @@ export default {
     data() {
         return {
             title: 'Homework',
-            bg_URL
+            BgUrl
         }
     }
 }

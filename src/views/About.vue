@@ -4,19 +4,43 @@
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-5 col-lg-12 col-md-12">
                     <h3 class="section_col_header">Our Vision</h3>
-                    <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                    <p class="section_col_text para">The Academy is anchored on the principle of cooperation, which depends on trust and commitment, where parents and teachers help and support one another, pooling resources of time, gifts and finances to provide excellent individualized Christian education to children</p>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding">
-                    <img src="@/assets/img/about-first.png">
+                    <img src="@/assets/img/SOL VISION4.jpg">
                 </div>
             </section>
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-6 col-lg-12 col-md-12 remove_about_padding mar_bot">
-                    <img src="@/assets/img/about-second.png">
+                    <img src="@/assets/img/SOL'S AIM1.jpg">
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12">
                     <h3 class="section_col_header">Our Aim</h3>
-                    <p class="section_col_text para">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happ. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                    <p class="section_col_text para">SOl Christian Academy is driven by the following goals, which underpin all that we do:</p>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To produce a secure and stable atmosphere where students can excel with their education.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To promote attitudes of self-discipline, honesty, integrity, perseverance, appreciation, consistency, responsibility, thoroughness and the exercise of initiative and self-motivation through daily tasks.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To train and equip character and gifting in students, develop their personal responsibility and encourage them towards their calling in life.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To encourage students to think biblically and responsibly about world issues.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To impart the skills of independent study and logical thought.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">To encourage a desire to contribute to others within society, an awareness of the needs of those around and sensitivity to the call of God to find a place of service.</p>
+                    </div>
                 </div>
             </section>
             <section class="content_width">
