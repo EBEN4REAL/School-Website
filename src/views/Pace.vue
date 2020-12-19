@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width">
             <video controls autoplay class="post_image">
                 <!-- <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4"> -->
@@ -49,7 +49,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 import backgroundUrl from "@/assets/img/ttop_5.jpg";
 
 
@@ -62,7 +62,7 @@ export default {
         return {
             title: 'Pace',
             backgroundUrl,
-            bg_URL
+            BgUrl
         }
     }
 }

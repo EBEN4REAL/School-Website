@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width">
             <div :style="[{
                 backgroundImage: `url('https://res.cloudinary.com/dfjzditzc/image/upload/v1572447495/samples/ecommerce/leather-bag-gray.jpg')`,
@@ -51,7 +51,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -62,7 +62,7 @@ export default {
     data() {
         return {
             title: 'Reports',
-            bg_URL
+            BgUrl
         }
     }
 }

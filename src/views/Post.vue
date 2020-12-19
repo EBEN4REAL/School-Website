@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="posts_container content_width">
             <h3 class="section_col_header text-center">{{ formatTitle }}</h3>
             <div class="post_header">
@@ -63,7 +63,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -76,7 +76,7 @@ export default {
         return {
             title: 'Post',
             postTitle: 'School Update',
-            bg_URL,
+            BgUrl,
             source: 'pictures',
             images: {
                 'tree-top': ['first.jpg', 'second.jpg', 'third.jpg', 'fourth.jpg', 'fifth.jpg'],

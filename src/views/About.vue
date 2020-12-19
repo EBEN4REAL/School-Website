@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="about_container">
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-5 col-lg-12 col-md-12">
@@ -129,7 +129,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -141,7 +141,7 @@ export default {
     data() {
         return {
             title: 'About Us',
-            bg_URL
+            BgUrl
         }
     }
 }

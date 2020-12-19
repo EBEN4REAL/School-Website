@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width">
             <div class="row py-3">
                 <div class="col-md-6">
@@ -75,7 +75,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -86,7 +86,7 @@ export default {
     data() {
         return {
             title: 'Kidzone Liks to Website',
-            bg_URL
+            BgUrl
         }
     }
 }
