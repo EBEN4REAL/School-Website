@@ -54,7 +54,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 import backgroundUrl from "@/assets/img/ttop_5.jpg";
 
 

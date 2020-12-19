@@ -34,7 +34,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import BgUrl from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 
 export default {
     name: 'BlogPosts',

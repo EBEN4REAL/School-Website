@@ -69,7 +69,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/about-us-background-images-for-website-12.png';
 
 
 export default {
