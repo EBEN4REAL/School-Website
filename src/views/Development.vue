@@ -12,8 +12,8 @@
                         <p class="section_col_text para" style="margin-bottom: 0">ABCs with Ace and Christi </p>
                         <p class="section_col_text para">This full-year program is designed for children aged 5–9 who have passed the Pretest. The Pretest helps to determine if a student is ready to learn to read. This program combines Speaking English with Ace and Christi and ABCs with Ace and Christi. It allows students to learn, to read and speak.</p>
                     </div>
-                    <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/development-first.png">
+                    <div class="col-md-6 remove_about_padding">
+                        <img src="@/assets/img/Reading development.jpg">
                     </div>
                 </div>
             </section>
