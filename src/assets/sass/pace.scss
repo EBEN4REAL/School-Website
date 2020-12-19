@@ -78,12 +78,13 @@
                 .developement_content {
                     width: 75%;
                     height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
                     padding-left: 12px;
                     padding-right: 12px;
+                    h5 {
+                        height: 18%;
+                    }
                     p {
+                        height: 82%;
                         font-size: 13px;
                         margin-bottom: 0;
                         line-height: 1.8;
@@ -178,7 +179,7 @@
         &.development_container {
             .all_developments {
                 .development_holder  {
-                    height: 350px;
+                    min-height: 365px;
                 }
             }
         }
@@ -192,6 +193,18 @@
                 background: linear-gradient(-0deg, transparent 0, #E8FFF2 0) right;
                 height: 340px;
                 padding: 10px;
+            }
+        }
+        &.curriculum_container {
+            .uniform_skewed {
+                // background: linear-gradient(-0deg, transparent 137px, #E8FFF2 0) right;
+                background: #E8FFF2;
+                height: 450px;
+                padding-left: 5%;
+                padding-right: 5%;
+                p {
+                    font-size: 15px;
+                }
             }
         }
     }

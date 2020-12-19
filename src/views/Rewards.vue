@@ -4,8 +4,8 @@
             <p class="section_col_text para">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.</p>
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/development-first.png">
+                    <div class="col-md-6 remove_about_padding">
+                        <img src="@/assets/img/Rewards.jpg">
                     </div>
                     <div class="col-md-6">
                         <h3 class="section_col_header text-center">REWARDS</h3>
@@ -46,7 +46,7 @@
                             <li class="section_col_text para">referring the incident to the Curriculum Leader (for subject issues) or the Supervisor (for pastoral issues)</li>
                         </ul>
                     </div>
-                    <div class="col-md-5 remove_about_padding">
+                    <div class="col-md-6 remove_about_padding">
                         <img src="@/assets/img/leadership (1).jpg">
                     </div>
                 </div>

@@ -43,8 +43,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 remove_about_padding">
-                        <img src="@/assets/img/uniform-second.png">
+                    <div class="col-md-5 remove_about_padding text-center">
+                        <img src="@/assets/img/School Logo 1.png" style="width:80%">
                     </div>
                 </div>
                 

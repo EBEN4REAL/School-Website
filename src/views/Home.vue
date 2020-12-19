@@ -265,8 +265,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="upcoming_events_section">
+                <div class="col-md-4 [b">
+                    <div class="upcoming_events_section pb-2">
                         <h3 class="py-3 text-center primary-color">Upcoming Events</h3>
                         <div class="upcoming_events_section_inner_wrapper">
                             
@@ -389,12 +389,12 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="@/assets/img/Rectangle 5 Copy.png" class="why_img desktop_view" width="450px"  />
+                    <img src="@/assets/img/Leadership.jpg" class="why_img" width="100%"  />
                 </div>
             </div>
              <div class="mt-5 row align-items-center" id="academics">
                 <div class="col-md-6">
-                    <img src="@/assets/img/academics.jpg" class="why_img" width="450px"  />
+                    <img src="@/assets/img/academics.jpg" class="why_img" width="100%"  />
                 </div>
                 <div class="col-md-6">
                     <h4 class="bold_text primary-color">Academics</h4>
