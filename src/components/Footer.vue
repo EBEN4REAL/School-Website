@@ -7,52 +7,46 @@
                         <div class="footer_links_header">Useful Links</div>
                         <div class="footer_menu mt-4">
                             <div class="footer_menu_item">
-                                <!-- <a href="">How it works</a> -->
-                                <router-link :to="{ name: 'reports' }">Reports</router-link>
-
+                                <router-link :to="{ name: 'admission' }">Admission</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'contact' }">Contact Support</router-link>
+                                <router-link :to="{ name: 'attendance' }">Attendance</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'policies' }">Privacy Policy</router-link>
+                                <router-link :to="{ name: 'homework' }">Homework</router-link>
+                            </div>
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'reports' }">Ofsted Reports</router-link>
                             </div>
                             <div class="footer_menu_item">
                                 <router-link :to="{ name: 'pace' }">Pace</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'development' }">Reading Development</router-link>
-                            </div>
-                            <div class="footer_menu_item">
-                                <router-link :to="{ name: 'attendance' }">Attendance</router-link>
+                                <router-link :to="{ name: 'policies' }">Policy</router-link>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="footer_links_header">Admission</div>
+                        <div class="footer_links_header hide_visibility display_none">Useful Links</div>
                         <div class="footer_menu mt-4">
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'admission' }">Admission</router-link>
-
+                                <router-link :to="{ name: 'gallery' }">Gallery</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                 <div class="footer_menu_item">
-                                    <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
-                                </div>
-                                <div class="footer_menu_item">
-                                    <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
-                                </div>
-                                <div class="footer_menu_item">
-                                    <router-link :to="{ name: 'homework' }">Homework</router-link>
-                                </div>
-                                <div class="footer_menu_item">
-                                    <router-link :to="{ name: 'gallery' }">Gallery</router-link>
-                                </div>
-                               
+                                <router-link :to="{ name: 'development' }">Reading Development</router-link>
                             </div>
                             <div class="footer_menu_item">
-
+                                <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
                             </div>
+                                <div class="footer_menu_item">
+                                <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
+                            </div>
+                            <!-- <div class="footer_menu_item">
+                                <router-link :to="{ name: 'termDates' }">Term Dates</router-link>
+                            </div>  -->
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'contact' }">Contact Support</router-link>
+                            </div> 
                             
                         </div>
                     </div>

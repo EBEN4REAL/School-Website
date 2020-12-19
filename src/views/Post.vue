@@ -25,7 +25,7 @@
             </section>
             <section class="row" v-if="source == 'videos'">
                 <div class="col-md-6" v-for="(video, i) in videos[$route.query.title]" :key="i">
-                    <video :key="video" controls autoplay class="post_image">
+                    <video :key="video" controls class="post_image">
                         <source :src="require('@/assets/blogs/' + $route.query.title + '/videos/' + video)" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
