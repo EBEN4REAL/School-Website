@@ -1,12 +1,12 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width">
-            <div class="ace_curriculum_item first">
+            <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                 <div class="play_button">
                     <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
                 </div> 
             </div>
-            <video controls class="post_image">
+            <video controls autoplay class="post_image" v-if="showVideo">
                 <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -67,7 +67,13 @@ export default {
         return {
             title: 'Pace',
             backgroundUrl,
-            bg_URL
+            bg_URL,
+            showVideo: false
+        }
+    },
+    methods: {
+        showVideoFunc() {
+            this.showVideo = !this.showVideo
         }
     }
 }

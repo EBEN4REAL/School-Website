@@ -1,6 +1,25 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="about_container">
+            <section class="content_width">
+                <h3 class="section_col_header text-center py-4">Message from the HeadMistress</h3>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-12 col-md-12 remove_about_padding fourth_about_image">
+                        <img src="@/assets/img/about-fourth.png">
+                    </div>
+                    <div class="col-xl-8 col-lg-12 col-md-12">
+                        <p class="section_col_text para ">Sol Christian Academy is an independent, fee paying, faith school based in Greater Manchester in Manchester. We have been offering a Christian education to children between the ages of three and eighteen since 2013. During this time we have been privileged to share the formative years of many children from different backgrounds, nationalities and cultures and, we believe, have added great value to their young lives.
+                        At Sol Christian Academy we have always identified our role as being an extension of the Christian home and we have worked hard to engender a positive, encouraging, familiar atmosphere where relationships are nurtured. From our first intake of three children we have steadily grown in student numbers to forty.
+                        Our school is now divided into four distinct learning centres, from the pre-school through to the seniors. Each learning centre operates independently, as a class would in a mainstream school. All learning centres come together for times of worship and assembly. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-md-12 section_col_text para">Each of our learning centres has always catered for a wider age range than just one academic year because the children work at their own pace, albeit under close supervision.
+                        At Sol Christian Academy we insist on the highest academic and moral standards. High standards of achievement through the ACE curriculum, continual love and encouragement from our dedicated staff, combined with a steady input of the Word of God and adherence to a strict code of conduct have always paid great dividends in the young lives entrusted to our care.
+                        I.TABETH</p>
+                </div>
+            </section>
             <section class="row justify-content-between align-items-center content_width">
                 <div class="col-xl-5 col-lg-12 col-md-12">
                     <h3 class="section_col_header">Our Vision</h3>
@@ -78,7 +97,7 @@
                     </div>
                 </div>
             </section>
-            <section class="row curriculum">
+            <section class="row curriculum" style="margin-bottom: 240px">
                 <div class="col-md-7 curriculum_content">
                     <h3 class="section_col_header text-center">A.C.E Curriculum</h3>
                     <p class="section_col_text" style="font-size: 10px">(A.C.E.) has been the trendsetter in Biblical educational reform. Its philosophy is built on basic principles of the Word of God. Students are taught to see life from God’s point of view, to take responsibility for their own learning, and to walk in Godly wisdom and character.
@@ -103,25 +122,6 @@
                 </div>
                 <div class="col-md-5 remove_about_padding">
                     <img src="@/assets/img/about-third.png" style="height: 100%;">
-                </div>
-            </section>
-            <section class="content_width mt-5">
-                <h3 class="section_col_header text-center py-4" style="margin-top: 240px">Message from the HeadMaster</h3>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-12 col-md-12 remove_about_padding fourth_about_image">
-                        <img src="@/assets/img/about-fourth.png">
-                    </div>
-                    <div class="col-xl-8 col-lg-12 col-md-12">
-                        <p class="section_col_text para ">Sol Christian Academy is an independent, fee paying, faith school based in Greater Manchester in Manchester. We have been offering a Christian education to children between the ages of three and eighteen since 2013. During this time we have been privileged to share the formative years of many children from different backgrounds, nationalities and cultures and, we believe, have added great value to their young lives.
-                        At Sol Christian Academy we have always identified our role as being an extension of the Christian home and we have worked hard to engender a positive, encouraging, familiar atmosphere where relationships are nurtured. From our first intake of three children we have steadily grown in student numbers to forty.
-                        Our school is now divided into four distinct learning centres, from the pre-school through to the seniors. Each learning centre operates independently, as a class would in a mainstream school. All learning centres come together for times of worship and assembly. 
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-md-12 section_col_text para">Each of our learning centres has always catered for a wider age range than just one academic year because the children work at their own pace, albeit under close supervision.
-                        At Sol Christian Academy we insist on the highest academic and moral standards. High standards of achievement through the ACE curriculum, continual love and encouragement from our dedicated staff, combined with a steady input of the Word of God and adherence to a strict code of conduct have always paid great dividends in the young lives entrusted to our care.
-                        I.TABETH</p>
                 </div>
             </section>
         </div>
