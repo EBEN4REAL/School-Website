@@ -36,7 +36,15 @@
     padding: 20px 15px;
     
 }
-
+.adm_circle_2 {
+    width: 15px;
+    height: 15px;
+    background: #FFD723;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 112px;
+    left: -79px;
+}
 .adm_circle{
     width: 15px;
     height: 15px;
@@ -50,7 +58,6 @@
         left: 7px;
         height: 71px;
         width: 3px;
-        // background: $primaryGreen;
         border-right: 3px dashed $primaryGreen;
     }
     .adm_left_rod{
@@ -66,6 +73,103 @@
 .adm_circle_wrapper{
     display: flex;
     justify-content: center;
+}
+.adm-rod-2{
+    position: absolute;
+    top: 197px;
+    left: -73px;
+    height: 3px;
+    width: 716px;
+    border-top: 3px dashed #08813E;
+}
+.adm-rod-4{
+    position: absolute;
+    bottom: 45px;
+    left: -73px;
+    height: 3px;
+    width: 716px;
+    border-top: 3px dashed #08813E;
+}
+.adm-rod-1 {
+    position: absolute;
+    top: -30px;
+    left: -74px;
+    height: 227px;
+    width: 3px;
+    border-right: 3px dashed #08813E;
+}
+.adm-rod-5 {
+    position: absolute;
+    top: -70px;
+    left: -74px;
+    height: 620px;
+    width: 3px;
+    border-right: 3px dashed #08813E;
+}
+.adm-rod-3 {
+    position: absolute;
+    top: -2px;
+    right: -102px;
+    height: 227px;
+    width: 3px;
+    border-right: 3px dashed #08813E;
+}
+.adm-number-wrapper-2 {
+    z-index: 1;
+    position: absolute;
+    top: 76px;
+    right: -140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    span {
+        font-weight: 800;
+        font-size: 23px;
+    }
+}
+.adm-number-wrapper {
+    z-index: 1;
+    position: absolute;
+    top: 47px;
+    left: -104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    span {
+        font-weight: 800;
+        font-size: 23px;
+    }
+}
+.adm-number-wrapper-3 {
+    z-index: 1;
+    position: absolute;
+    top: 216px;
+    left: -104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    span {
+        font-weight: 800;
+        font-size: 23px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .centra_para_section, .admission_content_wrapper {

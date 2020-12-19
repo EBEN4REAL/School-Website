@@ -227,7 +227,9 @@
 .hide_visibility {
     visibility: hidden;
 }
-
+.position-relative {
+    position: relative;
+}
 @media screen and (max-width: 1025px) {
     .mar_bot {
         margin-bottom: 40px;

@@ -2,13 +2,19 @@
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width mb-4">
             <h4 class="section_col_header text-center py-3">It’s as easy as 1, 2, 3</h4>
-            <div class="adm_circle_wrapper">
+            <div class="adm_circle_wrapper position-relative">
                 <div class="adm_circle">
                     <div class="adm_left_rod"></div>
                 </div>
-                
             </div>
-            <div class="admission_content_wrapper ">
+            <div class="admission_content_wrapper position-relative">
+                <div class="adm-rod-2"></div>
+                <div class="adm-rod-1"></div>
+                <div class="adm-number-wrapper">
+                    <div>
+                        <span class="primary-color">1</span>
+                    </div>
+                </div>
                 <p class="section_col_text">
                     Read through this website (latest information) or download an overview in our prospectus.
                     Download your own copy of Sol Christian Academy prospectus today.
@@ -22,7 +28,14 @@
                     </a>
                 </div>
             </div>
-            <div class="admission_content_wrapper  mt-4">
+            <div class="admission_content_wrapper position-relative  mt-4">
+                <div class="adm-number-wrapper-2">
+                    <div>
+                        <span class="primary-color">2</span>
+                    </div>
+                </div>
+                <div class="adm-rod-3"></div>
+                <div class="adm-rod-4"></div>
                 <p class="section_col_text ">
                     Annual School Fees are payable in 12 equal monthly instalments by Standing Order.
                     The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!
@@ -39,7 +52,14 @@
                     </a>
                 </div>
             </div>
-            <div class="admission_content_wrapper  mt-4">
+            <div class="admission_content_wrapper position-relative mt-4">
+                    <div class="adm-rod-5"></div>
+                    <div class="adm_circle_2"></div>
+                    <div class="adm-number-wrapper-3">
+                        <div>
+                            <span class="primary-color">3</span>
+                        </div>
+                    </div>
                    <p>Gathering all the information to better serve you and your child.
                     </p> 
                     <p>APPLICATION PROCEDURE</p> 
