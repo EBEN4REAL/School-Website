@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="about_container">
             <section class="content_width">
                 <h3 class="section_col_header text-center py-4">Message from the HeadMistress</h3>
@@ -129,7 +129,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -141,7 +141,7 @@ export default {
     data() {
         return {
             title: 'About Us',
-            bg_URL
+            BgUrl
         }
     }
 }

@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="blog_posts_container content_width">
             <div class="mb-3 text-center">
                 <button class="gallery_button mr-2" @click="changeView('all')" :class="view == 'all' ? ['gallery_button_active'] : null">All</button>
@@ -94,7 +94,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 export default {
     name: 'BlogPosts',
@@ -105,7 +105,7 @@ export default {
     data() {
         return {
             title: 'Gallery',
-            bg_URL,
+            BgUrl,
             view: 'all'
         }
     },

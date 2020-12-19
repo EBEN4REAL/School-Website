@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width mb-4">
             <h4 class="section_col_header text-center py-3">It’s as easy as 1, 2, 3</h4>
             <div class="adm_circle_wrapper">
@@ -128,7 +128,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 import  OpenBibleBG from '@/assets/img/opened-holy-bible.png';
 
 export default {
@@ -139,7 +139,7 @@ export default {
     data() {
         return {
             title: 'Admission',
-            bg_URL,
+            BgUrl,
             OpenBibleBG
         }
     }

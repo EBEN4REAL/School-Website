@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width development_container">
             <h3 class="section_col_header text-center">BEGINNING READING FOR YOUNG CHILDREN</h3>
             <p class="section_col_text para text-center" style="margin-bottom: 0">ABCs with Ace and Christi </p>
@@ -69,7 +69,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 
 export default {
@@ -80,7 +80,7 @@ export default {
     data() {
         return {
             title: 'Reading Development',
-            bg_URL
+            BgUrl
         }
     }
 }

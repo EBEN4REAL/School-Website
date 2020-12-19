@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width uniform_containe">
             <section class="mb-5">
                 <p class="section_col_text para mb-5">We expect students to attend at all times. If a student does not attend school they will not learn. A student's regular attendance and punctuality are a parent's or guardians legal responsibility.</p>
@@ -28,7 +28,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 import backgroundUrl from "@/assets/img/uniform-second.png";
 
 
@@ -41,7 +41,7 @@ export default {
         return {
             title: 'Attendance',
             backgroundUrl,
-            bg_URL
+            BgUrl
          }
     }
 }

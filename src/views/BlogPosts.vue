@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="blog_posts_container content_width">
             <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
@@ -34,7 +34,7 @@
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
 import Subscribe from '@/components/Subscribe.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 
 export default {
     name: 'BlogPosts',
@@ -45,7 +45,7 @@ export default {
     data() {
         return {
             title: 'Blog',
-            bg_URL,
+            BgUrl,
             blogs: [{title: 'Tree Top', key: 'tree-top', content: 'Students having fun in the tree top'}, {title: 'Sports Day', key: 'sports-day', content: 'Students participating in sporting activities on sports day'}, {title: 'SOL Park', key: 'sol-park', content: 'Students at the school park'}, {title: 'SOL Tennis', key: 'sol-tennis', content: 'Students at the tennis court'}, {title: 'Museum', key: 'museum', content: 'Students taking an excursion at a museum'}, {title: 'Legoland', key: 'legoland', content: 'Students having a fun day at legoland'}]
         }
     },

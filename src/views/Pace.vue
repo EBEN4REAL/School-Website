@@ -1,5 +1,5 @@
 <template>
-    <MasterLayout :title="title" :bg_URL="bg_URL">
+    <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width">
             <div class="ace_curriculum_item first post_image cursor_hover" v-if="!showVideo" @click="showVideoFunc">
                 <div class="play_button">
@@ -54,7 +54,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import bg_URL from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/The-matriculants.png';
 import backgroundUrl from "@/assets/img/ttop_5.jpg";
 
 
@@ -67,7 +67,7 @@ export default {
         return {
             title: 'Pace',
             backgroundUrl,
-            bg_URL,
+            BgUrl,
             showVideo: false
         }
     },
