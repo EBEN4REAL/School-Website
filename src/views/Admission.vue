@@ -22,7 +22,7 @@
                     We recommend that you take time to read it and discover what Sol Christian Academy can offer your child in terms of spiritual, social and educational development.
 
                 </p>
-                <div class="text-center">
+                <div class="text-center py-5">
                     <a href="./Prospectus.pdf"  download>
                         <button class="btn btn-green mt-2">Download prospectus</button>
                     </a>
@@ -46,7 +46,7 @@
                     If you are interested in sending your child(ren) to our school please complete the attached form and return it to  school administration office.
 
                 </p>
-                <div class="text-left mobile_alignment">
+                <div class="text-left mobile_alignment py-5">
                     <a href="./Fees_Struture.pdf"  download>
                          <button class="btn btn-green mt-2">Download Fee structure</button>
                     </a>
@@ -76,7 +76,7 @@
                     <p class="">-The parent(s) must attend a Parent Orientation at the beginning of the year of their child’ </p>
                     <p>Agreed fees are payable monthly on a regular standing order. Forms must be completed on admission to the School.</p>
                    
-                <div class="text-center">
+                <div class="text-center py-5">
                     <a href="./Application_Form.pdf"  download>
                         <button class="btn btn-green mt-2">Download application form</button>
                     </a>
