@@ -270,14 +270,18 @@
                         <h3 class="py-3 text-center primary-color">Upcoming Events</h3>
                         <div class="upcoming_events_section_inner_wrapper">
                             
-                            <!-- <div class="text-center">
+                            <div class="text-center">
                                 <img src="@/assets/img/—Pngtree—coronavirus covid-19 element_5340536.png" width="280"  />
                             </div>
-                            <div class="text-center mt-3">
-                                <small>Due to the Covid circumstance, Preparation for Christmas and parents meeting will be passed shortly
+                            <div class="mt-3">
+                                <small class="section_col_text">Due to the Covid circumstance, Preparation for Christmas and parents meeting will be passed shortly.
                                 </small>
-                            </div> -->
-                            <div class="list_item mb-2" >
+                                <br>
+                                <small class="section_col_text">
+                                    The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.
+                                </small>
+                            </div>
+                            <!-- <div class="list_item mb-2" >
                                 <div class="row hundred-percent-height">
                                     <div class="col-4 hundred-percent-height">
                                         <img src="@/assets/img/write-good-blog-article-get-more-traffic1.png" class="card_img" />
@@ -295,7 +299,7 @@
                                             </div>
                                             <div class="mt-2">
                                                 <div class="blog_para" >The management of SOL Academy wish you a prosperous Christmas...<small class="green__text">Read More</small>
-                                                <!--holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.-->
+                                                holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.
                                                 </div>
                                             </div>
                                             
@@ -306,7 +310,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="text-center mt-2">
                                  <!--<button class="btn btn-green ">Learn More</button>-->
                             </div>

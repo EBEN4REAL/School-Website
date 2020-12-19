@@ -1,8 +1,13 @@
 <template>
     <MasterLayout :title="title" :bg_URL="bg_URL">
         <div class="pace_container content_width">
-            <video controls autoplay class="post_image">
-                <!-- <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4"> -->
+            <div class="ace_curriculum_item first">
+                <div class="play_button">
+                    <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
+                </div> 
+            </div>
+            <video controls class="post_image">
+                <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <section class="mb-5">
