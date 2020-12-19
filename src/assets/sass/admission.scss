@@ -50,7 +50,8 @@
         left: 7px;
         height: 71px;
         width: 3px;
-        background: $primaryGreen;
+        // background: $primaryGreen;
+        border-right: 3px dashed $primaryGreen;
     }
     .adm_left_rod{
         position: absolute;
@@ -59,7 +60,7 @@
         height: 3px;
         width: 344px;
         // background: #08813E;
-        border-top: 4px dotted $primaryGreen;
+        border-top: 3px dashed $primaryGreen;
     }
 }
 .adm_circle_wrapper{

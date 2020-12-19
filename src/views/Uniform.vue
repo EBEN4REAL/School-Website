@@ -83,7 +83,7 @@
 </template>
 <script>
 import MasterLayout from '@/views/masterlayout.vue';
-import BgUrl from '@/assets/img/The-matriculants.png';
+import BgUrl from '@/assets/img/write-good-blog-article-t-more-traffic1.png';
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
