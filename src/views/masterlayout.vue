@@ -2,7 +2,7 @@
     <div class="">
         <div class="bg_wrapper"
             :style="[{
-                background: `linear-gradient(rgb(8, 129, 62, 0.7), rgb(8, 129, 62, 0.7)), url(${bgImg})`,
+                background: `linear-gradient(rgb(8, 129, 62, 0.5), rgb(8, 129, 62, 0.5)), url(${bgImg})`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize:  'cover'
