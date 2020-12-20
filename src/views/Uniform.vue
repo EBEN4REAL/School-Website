@@ -8,7 +8,7 @@
                         <img src="@/assets/img/uniform-second.png">
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12 codes">
-                        <h3 class="section_col_header text-center">DRESS CODE AND GENERAL GUIDELINES</h3>
+                        <h3 class="section_col_header text-center primary-color">DRESS CODE AND GENERAL GUIDELINES</h3>
                         <div class="flex_display">
                             <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
                             <p class="section_col_text para">Jewellery is not permitted in school except for girls who may wear one pair of studs or sleepers in their ears if pierced.</p>
@@ -39,7 +39,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
-                        <h3 class="section_col_header text-center">BLOUSES AND SHIRTS AVAILABLE :</h3>
+                        <h3 class="section_col_header text-center primary-color">BLOUSES AND SHIRTS AVAILABLE :</h3>
                         <div class="skewed_div uniform_skewed flex_column">
                             <p>Boys' shirt, golden, collar: 36cm / 14" (12-14 years)</p>
                             <p>Boys' shirt, golden, collar: 41cm / 16" (16 years)</p>
@@ -49,6 +49,9 @@
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
                         <splide :options="options">
+                            <splide-slide>
+                                <img src="@/assets/img/Uniform 1.jpg" width="100%" >
+                            </splide-slide>
                             <splide-slide>
                                 <img src="@/assets/img/Uniform 2.jpg" width="100%" >
                             </splide-slide>

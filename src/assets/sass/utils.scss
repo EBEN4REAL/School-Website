@@ -39,7 +39,27 @@
 .small_text {
     font-size: 10px;
 }
-
+.line-height{
+    line-height: 1.8 !important;
+}
+.primary-bg {
+    background: $primaryGreen !important;
+}
+.golden-bg {
+    background: $goldColor !important;
+}
+.hide {
+    display: none !important;
+}
+.width-hundred {
+    width: 100% !important;
+}
+.width-fifty-percent {
+    width: 50% !important;
+}
+.two-rem-padding {
+    padding: 2em !important;
+}
 .italicize_text {
     font-style: italic !important;
 }
@@ -222,6 +242,10 @@
 
 .cursor_hover {
     cursor: pointer;
+}
+.section_col_text {
+    color: $colText;
+    text-align: justify;
 }
 
 .hide_visibility {

@@ -4,7 +4,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-7 col-lg-12 col-md-12 skewed_parent mar_bot">
-                        <h3 class="section_col_header">To see a list of all events at SOL Christian Academy Please look at our events calendar</h3>
+                        <h3 class="section_col_header primary-color">To see a list of all events at SOL Christian Academy Please look at our events calendar</h3>
                         <a href="./Calendar 2020_2021.pdf" target="_blank"> 
                             <button class="view_calendar_button">
                                 View Calendar

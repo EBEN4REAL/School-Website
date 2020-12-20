@@ -17,7 +17,9 @@
                                     <p>SOL Academy</p>
                                 </div>
                             </div>
-                            <h4>{{blog.title}}</h4>
+                            <h4>
+                                 <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none primary-color">{{blog.title}}</router-link>
+                            </h4>
                             
                             <div class="post_content_spread">
                                 <p class="section_col_text">{{blog.content}}</p>

@@ -16,9 +16,7 @@
                 <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'schoolHours' ?  'activeNav' : null">School Hours</b-link>
                 <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'blogPosts' ?  'activeNav' : null">Blog Posts</b-link>
                 <b-link to="/contact" class="text-decoration-none nav_item"  :class="activeTab  === 'contact' ?  'activeNav' : null">Contact</b-link>
-                 <b-link to="/contact" class="text-decoration-none " >
-                 <button class="btn btn-white mt-3 mb-3">Apply Online</button>
-                 </b-link>
+                 <button class="btn btn-white mt-3 mb-3" @click="apply">Apply Online</button>
             </b-navbar-nav>
             </b-collapse>
         </b-navbar>
@@ -33,7 +31,10 @@ export default {
         }
     },
     methods: {
-      
+      apply(e) {
+        e.preventDefault();
+        alert("Online Application Form would be Laucnhed soon")
+      }
     }
 }
 </script>

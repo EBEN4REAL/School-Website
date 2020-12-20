@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="pace_container content_width curriculum_container">
-            <h3 class="section_col_header text-center">CORE CURRICULUM</h3>
+            <h3 class="section_col_header text-center primary-color">CORE CURRICULUM</h3>
             <p class="section_col_text para mb-5">Core curriculum provides students with academics, skill building, reading practice, character and wisdom training, and knowledge of God and His Word. This complete package begins with reading development and progresses through high school, giving students a solid foundation for pursuing their life goals.
             <br>
             Students who are more skilled may progress at a faster rate or may accelerate in the areas of their academic strengths. Slower students are encouraged to do their best but are able to work at their levels of proficiency and proceed as they are capable.
@@ -11,7 +11,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-7 skewed_parent">
-                        <h3 class="section_col_header text-center">CORE SUBJECTS</h3>
+                        <h3 class="section_col_header text-center primary-color">CORE SUBJECTS</h3>
                         <div class="skewed_div uniform_skewed flex_column">
                             <div class="flex_display">
                                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
@@ -50,7 +50,7 @@
                 
             </section>
             <section class="mb-5">
-                <h3 class="section_col_header text-center">MULTIMEDIA</h3>
+                <h3 class="section_col_header text-center primary-color">MULTIMEDIA</h3>
                 <p class="section_col_text para">Readmaster Plus is an educational software suite that enhances students’ educational experiences while challenging their learning. Readmaster Plus offers four distinct computer software programs:</p>
             </section>
             <section class="row justify-content-between mb-5">
@@ -109,7 +109,7 @@
                 
             </section>
             <section class="mb-5">
-                <h3 class="section_col_header text-center">EFFECTIVE AND ADDITIONAL INSTRUCTIONAL PROGRAM</h3>
+                <h3 class="section_col_header text-center primary-color">EFFECTIVE AND ADDITIONAL INSTRUCTIONAL PROGRAM</h3>
                 <p class="section_col_text para">In order to enhance the core curriculum, A.C.E. offers a number of other programs and courses beneficial to academic growth and development. Each of these courses adds interest and enhancement to the core curriculum and to other learning activities
                 <br>
                 Accelerated Christian Education is a Bible-based, Christian K–12 curriculum, consisting of reading programs, core curriculum, required electives, and additional instruction programs. Some courses are enhanced with CDs, DVDs, and computer software.

@@ -41,9 +41,6 @@
                                 <div class="footer_menu_item">
                                 <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
                             </div>
-                            <!-- <div class="footer_menu_item">
-                                <router-link :to="{ name: 'termDates' }">Term Dates</router-link>
-                            </div>  -->
                             <div class="footer_menu_item">
                                 <router-link :to="{ name: 'contact' }">Contact Support</router-link>
                             </div> 

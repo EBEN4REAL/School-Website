@@ -41,9 +41,16 @@
                             <div class="col-4 mt-3 mb-4 text-center">
                                 <img src="@/assets/img/mail.svg" alt="" width="20">
                             </div>
-                            <div class="col-8 mt-3 mb-4">
+                            <div class="col-8 mt-3">
                                 <p> board@solacademy.org.uk</p>
                             </div>
+                            <div class="col-4 mt-3  text-center">
+                                <img src="@/assets/img/mail.svg" alt="" width="20">
+                            </div>
+                            <div class="col-8 mt-3">
+                                <p> admin@solacademy.org.uk</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -78,7 +85,7 @@
             </div>
         </div>
         <div class="map_location">
-            <h2 class="font-weight-bold text-center pb-2">Find us on map</h2>
+            <h2 class="font-weight-bold text-center pb-2 primary-color">Find us on map</h2>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.597834455831!2d-2.223227884201329!3d53.47564717271933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb198fc6f61a7%3A0x84c13518a0f3a76e!2s115%20Fairfield%20St%2C%20Manchester%20M12%206EL%2C%20UK!5e0!3m2!1sen!2sng!4v1607161927640!5m2!1sen!2sng" width="1580" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>

@@ -15,7 +15,28 @@
                 @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
                 >
-                
+                 <b-carousel-slide img-src="../assets/img/welcome to SOL Academy3.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                         <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
+                                <h3 class="banner__header__text"></h3>
+                                <p class="banner__header__para mt-3">
+
+                                </p>
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
                 <b-carousel-slide img-src="../assets/img/SOL Academy Christmas Greetings3.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
@@ -31,7 +52,7 @@
                                 <p class="banner__header__para mt-3">
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -52,7 +73,9 @@
                                 <p class="banner__header__para mt-3">	High quality education services; Find a balance of Values, Academics and Morals today!
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    <b-link to="/development"  >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +93,12 @@
                          <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">	At SOL: You can count on us for the right environment to equip and for effective learning
+                                <p class="banner__header__para mt-3">At SOL, we ensure a good mental balance by engaging with an array of extracurricular programs and activities while attaining our set goals; what are you waiting for?
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    <b-link to="/school-hours" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -91,41 +116,17 @@
                          <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">AT SOL Academy, we promote an equal, diverse working relationship between the staff members and pupils enabling us to work together as one happy family; this viewpoint brings us together and culminates in the attainment of our goals.
+                                <p class="banner__header__para mt-3">At SOL: You can count on us for the right environment to equip and for effective learning.
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    <b-link to="/school-hours" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </b-carousel-slide>
-                <b-carousel-slide img-src="../assets/img/welcome to SOL Academy3.jpg">
-                    <div class="image-overlay"></div>
-                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
-                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
-                            backgroundPosition: 'center',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',
-                            backgroundAttachment: 'fixed'
-                        }]">
-                         <div class="row  slider_banner_padding">
-                            <div class="col-md-5 slider_banner_padding">
-                                <h3 class="banner__header__text">
-                                
-                                </h3>
-                                <p class="banner__header__para mt-3">
-
-                                </p>
-                                <div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </b-carousel-slide>
-
-
                 <b-carousel-slide img-src="../assets/img/slider 8.jpg">
                     <div class="image-overlay"></div>
                     <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
@@ -138,10 +139,12 @@
                          <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                <p class="banner__header__para mt-3">AT SOL Academy, we promote an equal, diverse working relationship between the staff members and pupils enabling us to work together as one happy family; this viewpoint brings us together and culminates in the attainment of our goals.
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    <b-link to="/blog-posts" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +162,12 @@
                          <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                <p class="banner__header__para mt-3">As we await a better future, we don’t fold our hands at SOL Academy; we share and demonstrate an optimistic belief system; hence, the need of investing in the formative structure and platform that is responsible for the anticipated future transformation. 
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    <b-link to="/gallery" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -180,10 +185,12 @@
                          <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                <p class="banner__header__para mt-3">At SOL, we ensure a good mental balance by engaging with an array of extracurricular programs and activities while attaining our set goals; what are you waiting for?
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                     <b-link to="/blog-post" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -201,10 +208,35 @@
                         <div class="row  slider_banner_padding">
                             <div class="col-md-5 slider_banner_padding">
                                 <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
-                                <p class="banner__header__para mt-3">The phrasal sequence of the Lorem Ipsum text is now so widespread and common place that many DTP programmes can generate dummy text using the starting sequence
+                                <p class="banner__header__para mt-3">At SOL: You can count on us for the right environment to equip and for effective learning.
                                 </p>
                                 <div>
-                                    <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                     <b-link to="/development" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </b-carousel-slide>
+                <b-carousel-slide img-src="../assets/img/Main slider.jpg">
+                    <div class="image-overlay"></div>
+                    <div class="banner_wrapper" style="width:100%; height:100%; margin:0; padding-top:80px; padding-left: 80px" :style="[{
+                            background: `linear-gradient(rgb(0, 0, 0 , 0.6), rgb(0, 0, 0 , 0.6))`,
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed'
+                        }]">
+                        <div class="row  slider_banner_padding">
+                            <div class="col-md-5 slider_banner_padding">
+                                <h3 class="banner__header__text">Growing in Knowledge, Following in Faith, Serving in Unity.</h3>
+                                <p class="banner__header__para mt-3">As we await a better future, we don’t fold our hands at SOL Academy; we share and demonstrate an optimistic belief system; hence, the need of investing in the formative structure and platform that is responsible for the anticipated future transformation.
+                                </p>
+                                <div>
+                                     <b-link to="/gallery" class="text-decoration-none " >
+                                        <button class="btn btn-white mt-3 mb-3">Learn More</button>
+                                    </b-link>
                                 </div>
                             </div>
                         </div>
@@ -238,21 +270,24 @@
                      <h3 class="text-center py-3 primary-color">
                         Welcome Thought
                     </h3>
-                    <p class="section_col_text ">On behalf of all staff and I would like to welcome you to this New Academic Year.
-                        At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum
-                    </p>
+                    <div class="mt-3">
+                         <small class="section_col_text italicize_text line-height two-rem-padding">Empty spaces are unnatural and the universe has mechanism, interactions that seek to fill it. 
+                            At Sol academy we are committed to a life of excellence through the development of virtues and value within the framework of spirituality. Furthermore, In quest to fill up and sustain important element of the globe thereby translating into a better society. We believe in raising, nurturing, building the iGen, Gen Z and Gen Alpha future and transformational leaders from the foundational and formative stage of life on the anchor and platform of certain core values namely character, leadership and Academics.
+                            Welcome to SOL Academy and enjoy your stay with us.
+                            </small>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-center py-3 primary-color">
+                    <h3 class="text-center  primary-color mt-3">
                         Welcome Note
                     </h3>
-                    <div class="upcoming_event_founder_card">
-                        <p class="section_col_text p-5 italicize_text">
+                    <div class="upcoming_event_founder_card pt-4 pl-3 pr-3">
+                        <small class="section_col_text  line-height">
                             On behalf of all staff and I would like to welcome you to this New Academic Year.
-                            At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. 
-                            <!-- We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum -->
-                        </p>
-                        <div class="row">
+                            At SOL Christian Academy we aim to give every child the very best start possible to their education. The achievement of all children matters, and we strive to ensure that learning is fun, fulfilling and for everyone. We provide an environment which is friendly and promotes success through vibrant and engaging teaching enabling the children to become active learners by using exciting, broad and balanced curriculum.
+
+                        </small>
+                        <div class="row mt-5">
                             <div class="col-md-4 card_subcontent text-right">
                                 <img src="@/assets/img/about-fourth.png" class="img_thumbnail" />
                             </div>
@@ -269,50 +304,26 @@
                     <div class="upcoming_events_section pb-2">
                         <h3 class="py-3 text-center primary-color">Upcoming Events</h3>
                         <div class="upcoming_events_section_inner_wrapper">
-                            
-                            <div class="text-center">
-                                <img src="@/assets/img/—Pngtree—coronavirus covid-19 element_5340536.png" width="280"  />
-                            </div>
                             <div class="mt-3">
-                                <small class="section_col_text">Due to the Covid circumstance, Preparation for Christmas and parents meeting will be passed shortly.
-                                </small>
-                                <br>
-                                <small class="section_col_text">
-                                    The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.
-                                </small>
-                            </div>
-                            <!-- <div class="list_item mb-2" >
-                                <div class="row hundred-percent-height">
-                                    <div class="col-4 hundred-percent-height">
-                                        <img src="@/assets/img/write-good-blog-article-get-more-traffic1.png" class="card_img" />
-                                    </div>
-                                    <div class="col-8">
-                                        <div class="row upce_list pt-2" >
-                                            <div class="col-6 remove-padding-left">
-                                                <h6 class="blog-title">Happy Holidays</h6>
-                                            </div>
-                                            <div class="col-6 remove-padding-left remove-padding-right">
-                                                <span>
-                                                    <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
-                                                    <small class="small_text">{{todaysDate}}</small>
-                                                </span>
-                                            </div>
-                                            <div class="mt-2">
-                                                <div class="blog_para" >The management of SOL Academy wish you a prosperous Christmas...<small class="green__text">Read More</small>
-                                                holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="text-center read_more_div">
-                                                <router-link ></router-link>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="flex_display">
+                                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                                    <small class="section_col_text ">17th Thursday 2020: Commencement of Half Term.</small>
+                                </div><br>
+                                <div class="flex_display">
+                                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                                    <small class="section_col_text ">The management of SOL Academy wish you a prosperous Christmas holiday, also implore us as law abiding citizens to read and obey the guidance around COVID-19 regulations.</small>
+                                </div><br>
+                                <div class="flex_display">
+                                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                                    <small class="section_col_text ">Latest Covid guidance</small>
+                                </div><br>
+                                <div class="flex_display">
+                                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                                    <small class="section_col_text ">Ensure to keep washing your hands, wear a face cover and make 2 metres spacing; also, if you notice the following symptoms: a high temperature, a new or continuous cough, a loss of, or change to, your sense of smell or taste. Get a test and stay at home. <a href="./covid-19-local-alert-level-very-high-poster.pdf" download>Click here</a>  to download the COVID-19 poster</small>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="text-center mt-2">
-                                 <!--<button class="btn btn-green ">Learn More</button>-->
+
                             </div>
                         </div>
                     </div>
@@ -410,7 +421,6 @@
                     </div>
                 </div>
                 <div class="col-md-6 mb-3 text-right">
-                    <!-- <button class="btn btn-back ">Read More <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i></button> -->
                 </div>
             </div>
             <vueper-slides                            
@@ -421,24 +431,27 @@
               :slide-ratio="1 / 4"
               :dragging-distance="200"
               :breakpoints="{ 800: { visibleSlides: 1, slideMultiple: 1 } }">
-              <vueper-slide  v-for="(x, index) in 1" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
+              <vueper-slide  v-for="(vid, index) in testVideos" :key="index" style="display: block !important;padding-right: 0; padding-left: 0">
                   <template v-slot:content>
                      <div class=" ace_curriculum">
-                        <div class="ace_curriculum_item first">
+                        <div class="ace_curriculum_item first cursor_hover" v-if="!showVideo" @click="showVideoFunc" :class="[!vid.video ? 'hide' : null]">
                             <div class="play_button">
                                 <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
                             </div> 
                         </div>
-                        <div class="ace_curriculum_item last">
+                        <video controls  class="width-fifty-percent" v-if="showVideo" :class="[!vid.video ? 'hide' : null]">
+                            <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="ace_curriculum_item last" :class="[!vid.video ? 'width-hundred' : null]">
                             <div class="text-center py-4">
                                 <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
                             </div>
                             <div class="testimonials__text_container">
                                 <p class="para testimonials__text">
-                                    Excellent results from SCA’s students from the recent SK1 and SK2 SATs exams!
+                                    {{vid.comment}}
                                 </p>
-                                <!-- <h6 class="">Eben</h6> -->
-                                <!-- <p>Software Developer @Fuelmetrics</p> -->
+                                <small class="">{{vid.author}}</small> 
                             </div>
                         </div>  
                     </div>
@@ -468,7 +481,19 @@ export default {
       return {
         slide: 0,
         sliding: null,
-        blogs: [{title: 'Tree Top', key: 'tree-top', content: 'Students having fun in the tree top'}]
+        testVideos: [
+            {
+                comment: 'Life at Sol Academy', author: '', video: 'DVD-Sol Academy Testimonial.mp4'
+            },
+            {
+                comment: 'Sol Academy is another home away from home: Parent Survey.', author: 'The KS2 report: SOL’s Management Board.', video: null
+            },
+            {
+                comment: 'Pupils attain outstanding progress in their Packets of Accelerated Christian Learning (PACEs) in subjects including English Mathematics, Science, Bible studies and social studies.', video: null 
+            }
+
+            
+        ]
       }
     },
     computed: {
@@ -478,12 +503,15 @@ export default {
         }
     },
     methods: {
-      onSlideStart() {
-        this.sliding = true
-      },
-      onSlideEnd() {
-        this.sliding = false
-      },
+        onSlideStart() {
+            this.sliding = true
+        },
+        onSlideEnd() {
+            this.sliding = false
+        },
+        showVideoFunc() {
+            this.showVideo = !this.showVideo
+        }
     }
 }
 </script>

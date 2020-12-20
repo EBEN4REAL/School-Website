@@ -1,7 +1,7 @@
 <template>
     <MasterLayout :title="title" :BgUrl="BgUrl">
         <div class="content_width mb-4">
-            <h4 class="section_col_header text-center py-3">It’s as easy as 1, 2, 3</h4>
+            <h4 class="section_col_header text-center py-3 primary-color">It’s as easy as 1, 2, 3</h4>
             <div class="adm_circle_wrapper position-relative">
                 <div class="adm_circle">
                     <div class="adm_left_rod"></div>
@@ -15,13 +15,22 @@
                         <span class="primary-color">1</span>
                     </div>
                 </div>
-                <p class="section_col_text">
-                    Read through this website (latest information) or download an overview in our prospectus.
-                    Download your own copy of Sol Christian Academy prospectus today.
-                    Everything you need know about how the School operates is found in this prospectus.
-                    We recommend that you take time to read it and discover what Sol Christian Academy can offer your child in terms of spiritual, social and educational development.
-
-                </p>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">Read through this website (latest information) or download an overview in our prospectus.</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">To promote attitudes of self-discipline, honesty, integrity, perseverance, Download your own copy of Sol Christian Academy prospectus today.</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">Everything you need know about how the School operates is found in this prospectus..</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para"> We recommend that you take time to read it and discover what Sol Christian Academy can offer your child in terms of spiritual, social and educational development.</p>
+                </div>
                 <div class="text-center py-5">
                     <a href="./Prospectus.pdf"  download>
                         <button class="btn btn-green mt-2">Download prospectus</button>
@@ -36,16 +45,30 @@
                 </div>
                 <div class="adm-rod-3"></div>
                 <div class="adm-rod-4"></div>
-                <p class="section_col_text ">
-                    Annual School Fees are payable in 12 equal monthly instalments by Standing Order.
-                    The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!
-                    PACEs that have to be re-issued due to scoring violations will be charged at a rate of £7 each.
-                    Costs for outside activities e.g. field trips, swimming lessons etc. will be extra. We endeavour to keep the costs to a minimum.
-                    School meals are not supplied, so a healthy packed lunch will be required.
-                    School uniforms are compulsory. Any child not wearing the school uniform will be sent home if prior arrangements have not been made.
-                    If you are interested in sending your child(ren) to our school please complete the attached form and return it to  school administration office.
-
-                </p>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">Annual School Fees are payable in 12 equal monthly instalments by Standing Order.</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">The Nursery is free for the first thirty hours per week that a 3-4 year old attends; therefore, if a child attends for only fifteen hours a week there are no fees to pay!</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para"> PACEs that have to be re-issued due to scoring violations will be charged at a rate of £7 each.</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para">Costs for outside activities e.g. field trips, swimming lessons etc. will be extra. We endeavour to keep the costs to a minimum.</p>
+                </div>
+                 <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para"> School uniforms are compulsory. Any child not wearing the school uniform will be sent home if prior arrangements have not been made.</p>
+                </div>
+                <div class="flex_display">
+                    <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                    <p class="section_col_text para"> If you are interested in sending your child(ren) to our school please complete the attached form and return it to  school administration office.</p>
+                </div>
                 <div class="text-left mobile_alignment py-5">
                     <a href="./Fees_Struture.pdf"  download>
                          <button class="btn btn-green mt-2">Download Fee structure</button>
@@ -60,29 +83,55 @@
                             <span class="primary-color">3</span>
                         </div>
                     </div>
-                   <p>Gathering all the information to better serve you and your child.
-                    </p> 
-                    <p>APPLICATION PROCEDURE</p> 
-                    <p> Your child’s application will include the following: </p> 
-                    <p> Your child’s application will include the following: </p> 
-                    <p> -A Preliminary Application Form must be completed and all relevant documentation presented. </p> 
-                    <p class="text-black"> -A Preliminary Application Form must be completed and all relevant documentation presented. </p> 
-                    <p class="text-black"> -A Preliminary Application Form must be completed and all relevant documentation presented. </p> 
-                    <p class="">-A Diagnostic test must be completed to determine the child’s academic level.</p>
-                    <p class="">-ACE students must bring a copy of their current Supervisor Progress Card.</p>
-                    <p class=""> -A testimonial letter from both the school and church must be handed in.</p>
-                    <p class="">  -A parent and student interview will be conducted with the principal and with the school pastor if needed.</p>
-                    <p class=""> -Copies of the child’s birth certificate or ID document and the parent(s) ID document must be handed in. </p>
-                    <p class="">-The parent(s) must attend a Parent Orientation at the beginning of the year of their child’ </p>
-                    <p>Agreed fees are payable monthly on a regular standing order. Forms must be completed on admission to the School.</p>
-                   
-                <div class="text-center py-5">
-                    <a href="./Application_Form.pdf"  download>
-                        <button class="btn btn-green mt-2">Download application form</button>
-                    </a>
-                </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">Gathering all the information to better serve you and your child.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">APPLICATION PROCEDURE</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para"> Your child’s application will include the following: </p>
+                    </div>
+
+
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">-A Preliminary Application Form must be completed and all relevant documentation presented. </p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para"> -A Diagnostic test must be completed to determine the child’s academic level.</p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para"> -ACE students must bring a copy of their current Supervisor Progress Card.</p>
+                    </div>
+
+
+                     <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">  -Copies of the child’s birth certificate or ID document and the parent(s) ID document must be handed in.</p>
+                    </div>
+
+
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para">-The parent(s) must attend a Parent Orientation at the beginning of the year of their child’ </p>
+                    </div>
+                    <div class="flex_display">
+                        <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
+                        <p class="section_col_text para"> Agreed fees are payable monthly on a regular standing order. Forms must be completed on admission to the School.</p>
+                    </div>
+                    <div class="text-center py-5">
+                        <a href="./Application_Form.pdf"  download>
+                            <button class="btn btn-green mt-2">Download application form</button>
+                        </a>
+                    </div>
             </div>
-            <h4 class="section_col_header text-center py-4 mt-4">Find Out More</h4>
+            <h4 class="section_col_header text-center py-4 mt-4 primary-color">Find Out More</h4>
         </div>
          <div class="full_width_wrapper open_bible_wrapper "  :style="[{
                 backgroundImage: `linear-gradient(rgb(0, 0, 0 , 0.75), rgb(0, 0, 0 , 0.75)), url(${OpenBibleBG})`,

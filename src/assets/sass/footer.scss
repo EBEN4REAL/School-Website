@@ -2,7 +2,6 @@
     background: $primaryGreen;
     .footer_bottom {
         background: #00000038;
-        // height: 90px;
         .footer_bottom_inner_container {
             margin: 0 auto;
             width: 87%;
@@ -47,6 +46,9 @@
             text-decoration: none;
             font-weight: 400;
             color:#B6C197;
+            &:hover {
+                color: $goldColor;
+            }
         }
     }
     .inner_container {

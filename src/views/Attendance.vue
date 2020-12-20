@@ -8,7 +8,7 @@
                         <img src="@/assets/img/Attendance.jpg" width="300px" />
                     </div>
                     <div class="col-xl-7 col-lg-12 col-md-12 codes">
-                        <h3 class="section_col_header">
+                        <h3 class="section_col_header primary-color">
                             Recent changes to Government Guidelines regarding acceptable school attendance levels state:
                         </h3>
                         <p class="section_col_text para">

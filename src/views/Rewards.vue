@@ -8,7 +8,7 @@
                         <img src="@/assets/img/Rewards.jpg">
                     </div>
                     <div class="col-md-6">
-                        <h3 class="section_col_header text-center">REWARDS</h3>
+                        <h3 class="section_col_header text-center primary-color">REWARDS</h3>
                         <p class="section_col_text para remove_p_bottom_border">Visitors often comment on the calm environment of the School which is something we are proud of. This environment is the result of the desire of students to learn and teachers to make that learning experience interesting and enjoyable.
                         <br>
                         The role of rewards and praise in recognising and promoting the school’s values is a key component of developing the potential of our students by giving them encouragement and praise; praise is a key component of good teaching and good staff/student relationships. Good behaviour is also best promoted and developed by drawing attention to and rewarding well behaved and hardworking students. Praise is used appropriately, sincerely and will be linked to tangible examples of a student’s strengths or effort.
@@ -31,7 +31,7 @@
             <section class="mb-5">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <h3 class="section_col_header text-center">SANCTIONS</h3>
+                        <h3 class="section_col_header text-center primary-color">SANCTIONS</h3>
                         <p class="section_col_text para remove_p_bottom_border">At Sol Christian Academy we will support those who are experiencing behavioural, emotional, social or other difficulties that might impede self-discipline and effective learning. Whilst we believe the most effective way of managing behaviour is to praise and reward good behaviour, there are occasions and circumstances when other support is required. Where students are having difficulty conforming to the expected standards of behaviour various strategies and systems may be employed to help them improve.
                         <br>
                         In the Learning Centre, some examples of strategies that teachers may deploy include:
