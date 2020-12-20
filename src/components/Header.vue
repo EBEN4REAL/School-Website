@@ -4,45 +4,45 @@
               type="dark"
               class="mai-top-header">
             <b-container>
-                <b-navbar-brand :to="{ name: 'home' }"><img src="@/assets/img/logo.png" width="40"  /></b-navbar-brand>
-                <!--Left Menu-->
+                <b-navbar-brand :to="{ name: 'home' }"><img src="@/assets/img/logo.png" width="60"  /></b-navbar-brand>
                 <b-navbar-nav class="mai-top-nav">
-                    <b-nav-item :to="{ name: 'home' }">Home</b-nav-item>
-                    <b-nav-item href="http://www.bluescanlabs.com/index.html">About</b-nav-item>
-                </b-navbar-nav>
-                <!--User Menu-->
-                <b-navbar-nav class="float-lg-right mai-user-nav">
-                    <b-nav-item-dropdown text="Navigation" right>
-                        <b-dropdown-item class="icon s7-home">Home</b-dropdown-item>
-                        <b-dropdown-item class="icon s7-user">Profile</b-dropdown-item>
-                        <b-dropdown-item>Password</b-dropdown-item>
-                        <b-dropdown-item>Log Out</b-dropdown-item>
+                    <b-nav-item :to="{ name: 'home' }" class="text-white mr-1">Home</b-nav-item>
+                    <b-nav-item-dropdown text="About" right>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'about' }">Head Teacher's Welcome Message </b-dropdown-item>
                     </b-nav-item-dropdown>
+                    <b-nav-item :to="{ name: 'admission' }" class="text-white mr-1">Admission</b-nav-item>
+                    <b-nav-item :to="{ name: 'schoolHours' }" class="text-white mr-1">School Hours</b-nav-item>
+                    <b-nav-item-dropdown text="Kid's Hub" right class="mr-1">
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'KidzoneLinks' }">Kidzone links</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'KidzoneLinks' }">Reading development</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'homework' }">Homework</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Parents Corner" right class="mr-1">
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'uniform' }">Uniform</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'attendance' }">Attendance</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'homework' }">Homework</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'termDates' }">Term Dates</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'rewardsAndSanctions' }">Reward & Sanction</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'policies' }">Policies</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'gallery' }">Gallery</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="News & Extracurriculars" right class="mr-1">
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'blogPosts' }">Blog</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'gallery' }">Gallery</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item-dropdown text="Academic Evaluations" right class="mr-1">
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'reports' }">Ofsted Report</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'pace' }">Pace</b-dropdown-item>
+                        <b-dropdown-item class="icon s7-home" :to="{ name: 'curriculum' }">Curriculum</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    <b-nav-item :to="{ name: 'contact' }" class="text-white mr-1">Contact</b-nav-item>
+                    <b-nav-item  class="">
+                        <button class="btn btn-white " @click="apply" style="width 156px">Apply Online</button>
+                    </b-nav-item>
                 </b-navbar-nav>
             </b-container>
         </b-navbar>
-        <b-navbar toggleable="lg">
-            <b-link to="/"><img src="@/assets/img/logo.png" width="40"  /></b-link>
-
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-            <b-collapse id="nav-collapse" is-nav>
-
-            <b-navbar-nav class="ml-auto">
-                <b-link to="/" class="text-decoration-none nav_item"  :class="activeTab  === 'home' ?  'activeNav' : null">Home</b-link>
-                <b-link to="/about" class="text-decoration-none nav_item"  :class="activeTab  === 'about' ?  'activeNav' : null">About</b-link>
-                <b-link to="/admission" class="text-decoration-none nav_item"  :class="activeTab  === 'admission' ?  'activeNav' : null">Admission</b-link>
-                 <b-link to="/uniform" class="text-decoration-none nav_item"  :class="activeTab  === 'uniform' ?  'activeNav' : null">Uniform</b-link>
-                <b-link to="/curriculum" class="text-decoration-none nav_item"  :class="activeTab  === 'curriculum' ?  'activeNav' : null">Curriculum</b-link>
-                <b-link to="school-hours" class="text-decoration-none nav_item"  :class="activeTab  === 'schoolHours' ?  'activeNav' : null">School Hours</b-link>
-                <b-link to="/blog-posts" class="text-decoration-none nav_item"  :class="activeTab  === 'blogPosts' ?  'activeNav' : null">Blog Posts</b-link>
-                <b-link to="/contact" class="text-decoration-none nav_item"  :class="activeTab  === 'contact' ?  'activeNav' : null">Contact</b-link>
-                 <button class="btn btn-white mt-3 mb-3" @click="apply">Apply Online</button>
-            </b-navbar-nav>
-            </b-collapse>
-        </b-navbar>
     </div>
-    
 </template>
 <script>
 export default {
