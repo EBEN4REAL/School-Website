@@ -440,7 +440,7 @@
                             </div> 
                         </div>
                         <video controls  class="width-fifty-percent" v-if="showVideo" :class="[!vid.video ? 'hide' : null]">
-                            <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
+                            <source src="@/assets/videos/DVD-Sol Academy Testimonial.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <div class="ace_curriculum_item last" :class="[!vid.video ? 'width-hundred' : null]">

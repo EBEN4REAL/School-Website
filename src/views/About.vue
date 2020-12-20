@@ -121,7 +121,7 @@
                     </ul>
                 </div>
                 <div class="col-md-5 remove_about_padding">
-                    <img src="@/assets/img/Uniform 1.jpg" style="height: 100%;">
+                    <img src="@/assets/img/Uniform 1.jpg" style="height: 781px;">
                 </div>
             </section>
         </div>
