@@ -38,11 +38,14 @@
                             <div class="footer_menu_item">
                                 <router-link :to="{ name: 'KidzoneLinks' }">Kidzone links to website</router-link>
                             </div>
-                                <div class="footer_menu_item">
+                            <div class="footer_menu_item">
                                 <router-link :to="{ name: 'rewardsAndSanctions' }">Rewards & Sanctions</router-link>
                             </div>
                             <div class="footer_menu_item">
-                                <router-link :to="{ name: 'contact' }">Contact Support</router-link>
+                                <router-link :to="{ name: 'termDates' }">Term Dates</router-link>
+                            </div>
+                            <div class="footer_menu_item">
+                                <router-link :to="{ name: 'contact' }">Contact Us</router-link>
                             </div> 
                             
                         </div>

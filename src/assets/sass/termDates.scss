@@ -1,0 +1,62 @@
+.term_container {
+    padding: 80px 160px;
+    .term_section {
+        margin-bottom: 50px;
+        p {
+            margin-bottom: 0;
+        }
+        .marg_bottom {
+            margin-bottom: 20px;
+        }
+        .term_season {
+            font-size: 20px;
+            font-weight: bold;
+            color: #08813E;
+        }
+        .flex_center {
+            img {
+                margin-right: 7px;
+                width: 16px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        .term_header_holder {
+            display: flex;
+            .left_green_border {
+                height: 60px;
+                width: 6px;
+                border-radius: 5px;
+                background-color: #08813E;
+                margin-right: 20px;
+            }
+            .term_header {
+                background-color: #DAFFEB;
+                padding: 20px 150px 20px 15px;
+                height: 60px;
+                border-radius: 8px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .term_period {
+                    font-size: 16px;
+                }
+            }
+        }
+        .term_contents {
+            background-color: #FCFCFC;
+            padding: 20px 150px 20px 150px;
+            height: 60px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 26px;
+            .content_text {
+                font-weight: 400;
+            }
+        }
+    }
+}

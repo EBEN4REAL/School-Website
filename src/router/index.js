@@ -20,6 +20,7 @@ import KidzoneLinks from "@/views/kidzoneLinks"
 import Homework from "@/views/Homework"
 import Gallery from "@/views/gallery"
 import Attendance from "@/views/Attendance"
+import TermDates from "@/views/termDates"
 
 Vue.use(VueRouter);
 
@@ -118,6 +119,11 @@ let routes = [
     name: 'attendance',
     path: '/attendance',
     component: Attendance
+  },
+  {
+    name: 'termDates',
+    path: '/term-dates',
+    component: TermDates
   },
 ];
 
