@@ -172,6 +172,9 @@
     }
 }
 @media only screen and (max-width: 768px) {
+    .adm-rod-2 {
+        display: none !important;
+    }
     .centra_para_section, .admission_content_wrapper {
         width: 100%;
         padding: 25px;
@@ -180,17 +183,17 @@
         padding: 33px;
         text-align: center;
     }
-.admission_media {
-    height: auto;
-    margin-top: 21px;
-}
-.mobile_alignment {
-    text-align: center !important;
-}
-.admission_media_wrapper  {
-    text-align: center;
-    .icon_centralised_wrapper {
-        margin: 0 auto;
+    .admission_media {
+        height: auto;
+        margin-top: 21px;
     }
-}
+    .mobile_alignment {
+        text-align: center !important;
+    }
+    .admission_media_wrapper  {
+        text-align: center;
+        .icon_centralised_wrapper {
+            margin: 0 auto;
+        }
+    }
 }

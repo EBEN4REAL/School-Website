@@ -21,6 +21,7 @@ import Homework from "@/views/Homework"
 import Gallery from "@/views/gallery"
 import Attendance from "@/views/Attendance"
 import TermDates from "@/views/termDates"
+import ParentsCorner from "@/views/parentsCorner"
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ let routes = [
     name: 'KidzoneLinks',
     path: '/kidzone-links',
     component: KidzoneLinks
+  },
+  {
+    name: 'parents_corner',
+    path: '/parents-corner',
+    component: ParentsCorner
   },
   {
     name: 'admission',

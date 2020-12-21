@@ -36,7 +36,7 @@
                 <i class="fa fa-check-circle mr-3" style="color: #08813E"></i>
                 <p class="section_col_text para">To encourage a desire to contribute to others within society, an awareness of the needs of those around and sensitivity to the call of God to find a place of service.</p>
             </div>
-            <section class="row justify-content-between reports_holder">
+            <section class="row reports_holder">
                 <div class="col-md-3">
                     <div :style="[{
                         backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.9)), url(${ReportsBgUrl})`,
@@ -49,28 +49,6 @@
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div :style="[{
-                        backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.85)), url(${ReportsBgUrl})`,
-                        backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'cover'
-                    }]" class="single_report">
-                        <strong class="text-center text-white">SOL OFSTED</strong>
-                        <a href="./SOL OFSTED RESULTS.pptx" download class="text-decoration-none report_link  mt-3">Download Report</a>
-                    </div>
-                </div>
-                 <div class="col-md-3 ">
-                    <div :style="[{
-                        backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.85)), url(${ReportsBgUrl})`,
-                        backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'cover'
-                    }]" class="single_report">
-                        <strong class="text-center text-white">SOL OFSTED</strong>
-                        <a href="./SOL OFSTED RESULTS.pptx" download class="text-decoration-none report_link  mt-3">Download Report</a>
-                    </div>
-                </div>
-                 <div class="col-md-3 ">
                     <div :style="[{
                         backgroundImage: `linear-gradient(rgb(38, 40, 49, 0.9), rgb(38, 40, 49, 0.85)), url(${ReportsBgUrl})`,
                         backgroundPosition: 'center',
