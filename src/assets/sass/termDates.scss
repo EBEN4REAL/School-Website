@@ -9,7 +9,7 @@
             margin-bottom: 20px;
         }
         .term_season {
-            font-size: 20px;
+            font-size: 17px;
             font-weight: bold;
             color: #08813E;
         }
@@ -33,13 +33,16 @@
             }
             .term_header {
                 background-color: #DAFFEB;
-                padding: 20px 150px 20px 15px;
+                padding: 20px 90px 20px 15px;
                 height: 60px;
                 border-radius: 8px;
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                .term_season {
+                    font-size: 20px;
+                }
                 .term_period {
                     font-size: 16px;
                 }
@@ -55,7 +58,14 @@
             align-items: center;
             margin-left: 26px;
             .content_text {
-                font-weight: 400;
+                font-weight: bold;
+            }
+            .content_text_light {
+                color: #08813E;
+                font-size: 17px;
+            }
+            .bold_p {
+                font-weight: bold;
             }
         }
     }
