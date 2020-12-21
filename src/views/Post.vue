@@ -33,7 +33,7 @@
             </section>
         </div>
         <Subscribe />
-        <section class="content_width mt-5">
+        <!-- <section class="content_width mt-5">
             <h4>Similar posts to this one</h4>
             <div class="row justify-content-between mt-4">
                 <div class="col-md-4">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </MasterLayout>
 </template>
 <script>

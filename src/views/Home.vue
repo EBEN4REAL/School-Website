@@ -439,7 +439,7 @@
                                 <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
                             </div> 
                         </div>
-                        <video controls autoplay  class="width-fifty-percent" v-if="showVideo" :class="[!vid.video ? 'hide' : null]">
+                        <video controls autoplay  class="width-fifty-percent ace_curriculum_item" v-if="showVideo && vid.video" :class="[!vid.video ? 'hide' : null]">
                             <source src="@/assets/videos/DVD-Sol Academy Testimonial.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -495,7 +495,8 @@ export default {
             }
 
             
-        ]
+        ],
+        showVideo: false
       }
     },
     computed: {

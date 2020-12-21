@@ -4,29 +4,31 @@
             <h3 class="section_col_header text-center">Latest Posts</h3>
             <section class="row justify-content-between">
                 <div class="col-md-4" v-for="(blog,i) in blogs" :key="i">
-                    <div class="blog_post">
-                        <img :src="require('@/assets/blogs/' + blog.key + '/images/first.jpg')">
-                        <div class="post_content_holder">
-                            <div class="post_header">
-                                <div class="post_date">
-                                    <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
-                                    <p>{{todaysDate}}</p>
+                    <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">
+                        <div class="blog_post">
+                            <img :src="require('@/assets/blogs/' + blog.key + '/images/first.jpg')">
+                            <div class="post_content_holder">
+                                <div class="post_header">
+                                    <div class="post_date">
+                                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>
+                                        <p>{{todaysDate}}</p>
+                                    </div>
+                                    <div class="post_date">
+                                        <i class="fa fa-user mr-2" aria-hidden="true"></i>
+                                        <p>SOL Academy</p>
+                                    </div>
                                 </div>
-                                <div class="post_date">
-                                    <i class="fa fa-user mr-2" aria-hidden="true"></i>
-                                    <p>SOL Academy</p>
+                                <h4>
+                                    <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none primary-color">{{blog.title}}</router-link>
+                                </h4>
+                                
+                                <div class="post_content_spread">
+                                    <p class="section_col_text">{{blog.content}}</p>
+                                <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">See More</router-link>
                                 </div>
-                            </div>
-                            <h4>
-                                 <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none primary-color">{{blog.title}}</router-link>
-                            </h4>
-                            
-                            <div class="post_content_spread">
-                                <p class="section_col_text">{{blog.content}}</p>
-                            <router-link :to="{ name: 'post', query: { title: blog.key } }" class="text-decoration-none">See More</router-link>
                             </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
             </section>
         </div>

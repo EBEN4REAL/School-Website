@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 remove_about_padding">
-                        <img src="@/assets/img/uniform-second.png">
+                        <img src="@/assets/img/Group 2374.svg">
                     </div>
                 </div>
                 

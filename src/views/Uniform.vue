@@ -5,7 +5,7 @@
             <section class="mb-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-6 col-lg-12 mb-3 col-md-12 remove_about_padding">
-                        <img src="@/assets/img/uniform-second.png">
+                        <img src="@/assets/img/Group 3004.svg">
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12 codes">
                         <h3 class="section_col_header text-center primary-color">DRESS CODE AND GENERAL GUIDELINES</h3>
