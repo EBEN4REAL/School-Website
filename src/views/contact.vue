@@ -60,22 +60,22 @@
                         <img src="@/assets/img/mailicon.svg" alt="" class="ml-2" width="30"></h6>
                         <span>Need more info?<br>We would love to hear from you. Please send us a message and we will respond as soon as possible.</span>
                         <div class="form_group_details pl-5 pr-5 mt-3 text-left">
-                            <form action="">
+                            <form action="https://formspree.io/f/xqkggeag" method="POST">
                                 <div class="form-group">
                                 <label>Name</label>
-                                <input type="text" class="form-control" name="" id="" placeholder="Your Name">
+                                <input type="text" class="form-control" name="name" id="" placeholder="Your Name">
                                 </div>
                                 <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" name="" id="" placeholder="Your Email">
+                                <input type="email" class="form-control" name="email" id="" placeholder="Your Email">
                                 </div>
                                 <div class="form-group">
                                 <label>Phone Number</label>
-                                <input type="number" class="form-control" name="" id="" placeholder="Your phone number">
+                                <input type="number" class="form-control" name="phone" id="" placeholder="Your phone number">
                                 </div>
                                 <div class="form-group">
                                 <label>Message</label>
-                                <textarea name="" class="form-control" id="" cols="10" rows="4" placeholder="Give as many details as possible…"></textarea>
+                                <textarea name="message" class="form-control" id="" cols="10" rows="4" placeholder="Give as many details as possible…"></textarea>
                                 </div>
                                  <button type="submit" class="btn btn_submit mb-3">Submit</button>
                             </form>

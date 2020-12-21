@@ -1,16 +1,18 @@
 
 
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
 
+}
 @media screen and (max-width: 798px) {
     .navbar-collapse {
-        z-index: 9999999 !important;
+        z-index: 10000000000000002000 !important;
         width: 100% !important;
-        margin-top: 18px !important;
-        padding: 30px !important;
-        background: linear-gradient(
-            rgb(8, 129, 62, 0.95),
-            rgb(8, 129, 62, 0.95)
-          );
+        padding: 10px !important;
+        background: linear-gradient(rgba(8, 129, 62, 0.95), rgba(8, 129, 62, 0.95));
+        position: absolute;
+        top: 87px;
+        left: 0;
     }
     .nav_item {
         padding: 10px !important
@@ -27,10 +29,8 @@
     height: 70px;
     width: 100%;
     background: transparent;
-    
     .navbar {
-        margin-top: -14px;
-        margin: 0 auto;
+        
         .logo_wrapper {
             width: 15%;
         }
@@ -41,7 +41,6 @@
                 justify-content: center;
                 align-items: center;
                 display: flex;
-                margin-right: 25px;
                 &.last {
                    
                 }
@@ -49,7 +48,12 @@
         }
     }
 }
-
+.navbar {
+    width: 94%;
+    margin: 0 auto;
+    z-index: 11 !important;
+    height: 70px;
+}
 ul.navbar-nav.navbar-fixed-top.nav_items.ml-auto {
     margin-top: -26px;
 }
@@ -64,14 +68,25 @@ ul.navbar-nav.navbar-fixed-top.nav_items.ml-auto {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-right: 25px;
     &.last {
        
     }
 }
 .navbar {
-    width: 85% !important;
-    height: 70px !important;
-    margin: 0 auto;
     z-index: 11 !important;
+    height: 70px;
+}
+.nav-link {
+    color: rgb(255 255 255 / 92%) !important;
+    font-size: 11px !important;
+    font-weight: 800;
+    font-size: 12px !important;
+}
+.navbar-nav {
+    align-items: center !important;
+    justify-content: center !important;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255) !important;
+    border-color: rgb(255 255 255) !important;
 }

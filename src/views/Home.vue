@@ -439,8 +439,8 @@
                                 <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 50px"></i> 
                             </div> 
                         </div>
-                        <video controls  class="width-fifty-percent" v-if="showVideo" :class="[!vid.video ? 'hide' : null]">
-                            <source src="@/assets/videos/PACE Numbering System (1).mp4" type="video/mp4">
+                        <video controls autoplay  class="width-fifty-percent" v-if="showVideo" :class="[!vid.video ? 'hide' : null]">
+                            <source src="@/assets/videos/DVD-Sol Academy Testimonial.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <div class="ace_curriculum_item last" :class="[!vid.video ? 'width-hundred' : null]">
@@ -448,10 +448,12 @@
                                 <img src="@/assets/img/grade-24px (1).svg" v-for="(a, i) in 5" :key="i" class="mr-2 testimonaial_rate" width="30" />
                             </div>
                             <div class="testimonials__text_container">
-                                <p class="para testimonials__text">
+                                <p class="para testimonials__text text-center">
                                     {{vid.comment}}
                                 </p>
-                                <small class="">{{vid.author}}</small> 
+                                <div class="text-center">
+                                    <small class="">{{vid.author}}</small> 
+                                </div>
                             </div>
                         </div>  
                     </div>
